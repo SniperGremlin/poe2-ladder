@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoE2 Ladder Viewer</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #161616;
+    --surface2: #1e1e1e;
+    --border: #2a2a2a;
+    --gold: #c8a84b;
+    --gold-dim: #8a6f2e;
+    --text: #d4c5a0;
+    --text-dim: #7a6e5a;
+    --dead: #8b2020;
+    --retired: #4a4a6a;
+    --alive: #2a5c2a;
+    --red: #c0392b;
+    --green: #27ae60;
+    --blue: #2980b9;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 14px; }
+
+  header {
+    background: linear-gradient(180deg, #1a1208 0%, #0d0d0d 100%);
+    border-bottom: 1px solid var(--gold-dim);
+    padding: 16px 24px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  header h1 { color: var(--gold); font-size: 22px; font-weight: 600; letter-spacing: 0.05em; }
+  header .subtitle { color: var(--text-dim); font-size: 12px; }
+  .fetched-at { margin-left: auto; color: var(--text-dim); font-size: 11px; text-align: right; }
+
+  .controls {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  }
+  .league-tabs { display: flex; gap: 4px; }
+  .tab {
+    padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 13px;
+    background: var(--surface2); border: 1px solid var(--border); color: var(--text-dim);
+    transition: all 0.15s;
+  }
+  .tab:hover { border-color: var(--gold-dim); color: var(--text); }
+  .tab.active { background: #1e1808; border-color: var(--gold); color: var(--gold); }
+
+  .filter-group { display: flex; gap: 8px; align-items: center; margin-left: auto; }
+  select, input[type=text], input[type=number] {
+    background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+    padding: 5px 10px; border-radius: 4px; font-size: 13px; outline: none;
+  }
+  select:focus, input:focus { border-color: var(--gold-dim); }
+  label { color: var(--text-dim); font-size: 12px; }
+
+  .status-filters { display: flex; gap: 8px; }
+  .status-btn {
+    padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
+    transition: all 0.15s;
+  }
+  .status-btn.on-dead   { border-color: var(--dead);    color: #e05555; background: #1a0808; }
+  .status-btn.on-alive  { border-color: var(--green);   color: #55c555; background: #081a08; }
+  .status-btn.on-retired{ border-color: #6666aa;        color: #9999cc; background: #0a0a1a; }
+
+  .stats-bar {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 10px 24px; display: flex; flex-wrap: wrap; gap: 24px;
+  }
+  .stat { display: flex; flex-direction: column; gap: 2px; }
+  .stat-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+  .stat-value { font-size: 18px; color: var(--gold); font-weight: 600; }
+  .class-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-left: auto; }
+  .pill {
+    padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
+    transition: all 0.15s;
+  }
+  .pill:hover { border-color: var(--gold-dim); }
+  .pill.active { border-color: var(--gold); color: var(--gold); background: #1e1808; }
+
+  .table-wrap { overflow-x: auto; padding: 0 24px 24px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  thead th {
+    background: var(--surface); color: var(--text-dim); font-weight: 500;
+    padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 1; font-size: 12px; text-transform: uppercase;
+    letter-spacing: 0.06em; cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  thead th:hover { color: var(--gold); }
+  thead th.sorted { color: var(--gold); }
+  thead th .sort-arrow { opacity: 0.5; margin-left: 4px; }
+  thead th.sorted .sort-arrow { opacity: 1; }
+
+  tbody tr { border-bottom: 1px solid #1a1a1a; transition: background 0.1s; }
+  tbody tr:hover { background: var(--surface2); }
+  tbody td { padding: 7px 10px; }
+
+  .rank { color: var(--text-dim); font-size: 12px; min-width: 44px; }
+  .rank-top { color: var(--gold); font-weight: 600; }
+  .account { color: #7ab3d4; font-size: 12px; }
+  .char-name { font-weight: 500; }
+  .status-tag {
+    display: inline-block; font-size: 10px; padding: 1px 5px; border-radius: 3px;
+    margin-left: 6px; vertical-align: middle;
+  }
+  .tag-dead    { background: #3a0a0a; color: #e05555; border: 1px solid var(--dead); }
+  .tag-retired { background: #0a0a1a; color: #9999cc; border: 1px solid #444; }
+  .class-cell { color: #b8a070; font-size: 12px; }
+  .level { text-align: right; font-variant-numeric: tabular-nums; }
+  .level-100 { color: var(--gold); font-weight: 600; }
+  .xp { text-align: right; color: var(--text-dim); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+  .no-data {
+    text-align: center; padding: 60px 24px; color: var(--text-dim);
+  }
+  .no-data h2 { color: var(--gold); margin-bottom: 8px; }
+
+  .refresh-btn {
+    padding: 5px 12px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    background: #1a1808; border: 1px solid var(--gold-dim); color: var(--gold);
+    transition: all 0.15s;
+  }
+  .refresh-btn:hover { background: #2a2610; }
+  .refresh-btn:disabled { opacity: 0.4; cursor: default; }
+
+  .top-n-wrap { display: flex; align-items: center; gap: 6px; }
+
+  .chart-section {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 12px 24px 14px;
+  }
+  .chart-section canvas { display: block; cursor: pointer; }
+
+  @media (max-width: 700px) {
+    .controls { flex-direction: column; align-items: flex-start; }
+    .filter-group { margin-left: 0; }
+    .class-pills { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>PoE2 Ladder Viewer</h1>
+    <div class="subtitle">Path of Exile 2 &mdash; Ascendancy Filter</div>
+  </div>
+  <div class="fetched-at" id="fetchedAt">—</div>
+</header>
+
+<div class="controls">
+  <div class="league-tabs" id="leagueTabs">
+    <div class="tab active" data-league="">Loading...</div>
+  </div>
+
+  <div class="filter-group">
+    <label>Search</label>
+    <input type="text" id="searchInput" placeholder="Account or character…" style="width:180px">
+  </div>
+
+  <div class="filter-group">
+    <label>Status</label>
+    <div class="status-filters" id="statusFilters">
+      <div class="status-btn" data-status="alive" onclick="toggleStatus('alive')">Alive</div>
+      <div class="status-btn" data-status="dead"  onclick="toggleStatus('dead')">Dead</div>
+      <div class="status-btn" data-status="retired" onclick="toggleStatus('retired')">Retired</div>
+    </div>
+  </div>
+
+  <div class="filter-group top-n-wrap">
+    <label>Top</label>
+    <input type="number" id="topN" value="" min="1" max="1000" placeholder="all" style="width:64px">
+  </div>
+
+</div>
+
+<div class="stats-bar" id="statsBar">
+  <div class="stat"><div class="stat-label">Showing</div><div class="stat-value" id="statCount">—</div></div>
+  <div class="stat"><div class="stat-label">Avg Level</div><div class="stat-value" id="statAvgLevel">—</div></div>
+  <div class="stat"><div class="stat-label">Max Level</div><div class="stat-value" id="statMaxLevel">—</div></div>
+  <div class="stat"><div class="stat-label">Deaths</div><div class="stat-value" id="statDeaths">—</div></div>
+  <div class="class-pills" id="classPills"></div>
+</div>
+
+<div class="chart-section" id="chartSection">
+  <canvas id="chart" height="0"></canvas>
+</div>
+
+<div id="content">
+  <div class="no-data"><h2>Loading…</h2></div>
+</div>
+
+<script>
+let allData = [];
+let currentLeague = '';
+let sortCol = 'rank';
+let sortDir = 1;
+let activeClasses = new Set();
+let activeStatuses = new Set(['alive', 'dead', 'retired']);
+let leagueList = [];
+
+// ── boot ──────────────────────────────────────────────────────────────────────
+async function init() {
+  const res = await fetch('data/leagues.json');
+  leagueList = await res.json();
+  renderTabs();
+  if (leagueList.length) selectLeague(leagueList[0].id);
+}
+
+function renderTabs() {
+  const el = document.getElementById('leagueTabs');
+  if (!leagueList.length) {
+    el.innerHTML = '<div class="tab active">No data yet — run scraper.py</div>';
+    return;
+  }
+  el.innerHTML = leagueList.map(l =>
+    `<div class="tab ${l.id === currentLeague ? 'active' : ''}"
+          data-league="${l.id}" onclick="selectLeague('${l.id}')">${l.name}</div>`
+  ).join('');
+}
+
+async function selectLeague(id) {
+  currentLeague = id;
+  renderTabs();
+  activeClasses.clear();
+  document.getElementById('fetchedAt').textContent = 'Loading…';
+
+  const res = await fetch(`data/ladder_${id}.json`);
+  if (!res.ok) {
+    document.getElementById('content').innerHTML =
+      '<div class="no-data"><h2>No data</h2><p>Run: <code>python scraper.py</code></p></div>';
+    return;
+  }
+  const json = await res.json();
+  allData = json.entries;
+
+  const d = new Date(json.fetched_at);
+  document.getElementById('fetchedAt').innerHTML =
+    `Last fetched<br>${d.toLocaleString()}`;
+
+  buildClassPills();
+  render();
+}
+
+// ── class pills ───────────────────────────────────────────────────────────────
+function buildClassPills() {
+  const counts = {};
+  allData.forEach(e => { counts[e.class] = (counts[e.class] || 0) + 1; });
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+  const el = document.getElementById('classPills');
+  el.innerHTML = sorted.map(([cls, n]) =>
+    `<div class="pill ${activeClasses.has(cls) ? 'active' : ''}"
+          onclick="toggleClass('${cls}')">${cls} <span style="opacity:.6">${n}</span></div>`
+  ).join('');
+}
+
+function toggleClass(cls) {
+  if (activeClasses.has(cls)) activeClasses.delete(cls);
+  else activeClasses.add(cls);
+  buildClassPills();
+  render();
+}
+
+// ── status filters ────────────────────────────────────────────────────────────
+function toggleStatus(s) {
+  if (activeStatuses.has(s)) activeStatuses.delete(s);
+  else activeStatuses.add(s);
+
+  document.querySelectorAll('.status-btn').forEach(btn => {
+    const st = btn.dataset.status;
+    btn.className = 'status-btn' + (activeStatuses.has(st) ? ` on-${st}` : '');
+  });
+  render();
+}
+
+// ── sort ──────────────────────────────────────────────────────────────────────
+function setSort(col) {
+  if (sortCol === col) sortDir *= -1;
+  else { sortCol = col; sortDir = 1; }
+  render();
+}
+
+// ── render ────────────────────────────────────────────────────────────────────
+function filtered() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const topN = parseInt(document.getElementById('topN').value) || Infinity;
+
+  return allData.filter(e => {
+    if (activeClasses.size && !activeClasses.has(e.class)) return false;
+    if (!activeStatuses.has(e.dead ? 'dead' : e.retired ? 'retired' : 'alive')) return false;
+    if (search && !e.account.toLowerCase().includes(search) &&
+        !e.character.toLowerCase().includes(search)) return false;
+    if (e.rank > topN) return false;
+    return true;
+  });
+}
+
+function render() {
+  let rows = filtered();
+
+  // sort
+  rows.sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
+    return (av - bv) * sortDir;
+  });
+
+  updateStats(rows);
+  drawChart(rows);
+
+  const cols = [
+    { key: 'rank',       label: 'Rank' },
+    { key: 'account',    label: 'Account' },
+    { key: 'character',  label: 'Character' },
+    { key: 'class',      label: 'Class' },
+    { key: 'level',      label: 'Level' },
+    { key: 'experience', label: 'Experience' },
+  ];
+
+  const thead = cols.map(c => {
+    const active = sortCol === c.key;
+    const arrow = active ? (sortDir === 1 ? '▲' : '▼') : '▲';
+    return `<th class="${active ? 'sorted' : ''}" onclick="setSort('${c.key}')">
+      ${c.label}<span class="sort-arrow">${arrow}</span></th>`;
+  }).join('');
+
+  const tbody = rows.map(e => {
+    const statusTag = e.dead
+      ? '<span class="status-tag tag-dead">Dead</span>'
+      : e.retired ? '<span class="status-tag tag-retired">Retired</span>' : '';
+    const rankClass = e.rank <= 10 ? 'rank rank-top' : 'rank';
+    const lvlClass = e.level === 100 ? 'level level-100' : 'level';
+    return `<tr>
+      <td class="${rankClass}">#${e.rank}</td>
+      <td class="account">${esc(e.account)}</td>
+      <td class="char-name">${esc(e.character)}${statusTag}</td>
+      <td class="class-cell">${esc(e.class)}</td>
+      <td class="${lvlClass}">${e.level}</td>
+      <td class="xp">${e.experience.toLocaleString()}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('content').innerHTML =
+    rows.length
+      ? `<div class="table-wrap"><table><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table></div>`
+      : '<div class="no-data"><h2>No results</h2><p>Try adjusting your filters.</p></div>';
+}
+
+function updateStats(rows) {
+  document.getElementById('statCount').textContent = rows.length;
+  if (!rows.length) {
+    document.getElementById('statAvgLevel').textContent = '—';
+    document.getElementById('statMaxLevel').textContent = '—';
+    document.getElementById('statDeaths').textContent = '—';
+    return;
+  }
+  const avg = (rows.reduce((s, e) => s + e.level, 0) / rows.length).toFixed(1);
+  const max = Math.max(...rows.map(e => e.level));
+  const deaths = rows.filter(e => e.dead).length;
+  document.getElementById('statAvgLevel').textContent = avg;
+  document.getElementById('statMaxLevel').textContent = max;
+  document.getElementById('statDeaths').textContent = deaths;
+}
+
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+document.getElementById('searchInput').addEventListener('input', render);
+document.getElementById('topN').addEventListener('input', render);
+
+// ── chart ─────────────────────────────────────────────────────────────────────
+function drawChart(rows) {
+  const canvas = document.getElementById('chart');
+  const counts = {};
+  rows.forEach(e => { counts[e.class] = (counts[e.class] || 0) + 1; });
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+  if (!sorted.length) { canvas.height = 0; return; }
+
+  const ROW = 26, PAD = 8, LABEL = 148, GAP = 6;
+  const total = rows.length;
+  const maxCount = sorted[0][1];
+  const W = canvas.parentElement.clientWidth - 48;
+  canvas.width  = W;
+  canvas.height = sorted.length * ROW + PAD;
+
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, W, canvas.height);
+
+  const barW = W - LABEL - 80;
+
+  sorted.forEach(([cls, n], i) => {
+    const y = PAD / 2 + i * ROW;
+    const isActive = activeClasses.has(cls);
+    const pct = ((n / total) * 100).toFixed(1);
+    const fillW = Math.round((n / maxCount) * barW);
+
+    // bar background
+    ctx.fillStyle = isActive ? '#2a2010' : '#1a1a1a';
+    ctx.fillRect(LABEL, y + 3, barW, ROW - GAP);
+
+    // bar fill
+    ctx.fillStyle = isActive ? '#c8a84b' : '#5a4a20';
+    ctx.fillRect(LABEL, y + 3, fillW, ROW - GAP);
+
+    // class label
+    ctx.fillStyle = isActive ? '#c8a84b' : '#9a8a6a';
+    ctx.font = `${isActive ? 600 : 400} 12px "Segoe UI", sans-serif`;
+    ctx.textAlign = 'right';
+    ctx.fillText(cls, LABEL - 8, y + ROW - GAP - 5);
+
+    // count + pct
+    ctx.fillStyle = '#7a6e5a';
+    ctx.font = '11px "Segoe UI", sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(`${n}  (${pct}%)`, LABEL + fillW + 8, y + ROW - GAP - 5);
+  });
+
+  // click to filter
+  canvas.onclick = function(e) {
+    const rect = canvas.getBoundingClientRect();
+    const my = e.clientY - rect.top - PAD / 2;
+    const idx = Math.floor(my / ROW);
+    if (idx >= 0 && idx < sorted.length) {
+      toggleClass(sorted[idx][0]);
+    }
+  };
+}
+
+init();
+</script>
+</body>
+</html>
