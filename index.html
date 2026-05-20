@@ -122,15 +122,16 @@
     letter-spacing: 0.08em; margin-right: 2px; white-space: nowrap;
   }
   .base-btn {
-    padding: 5px 14px; border-radius: 4px; cursor: pointer; font-size: 12px;
-    border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
-    transition: all 0.15s; font-weight: 500; letter-spacing: 0.03em;
+    padding: 7px 18px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    border: 1px solid rgba(255,255,255,0.12); background: var(--surface2); color: var(--text-dim);
+    transition: all 0.18s; font-weight: 600; letter-spacing: 0.04em; white-space: nowrap;
   }
   .base-btn:hover { border-color: var(--gold-dim); color: var(--text); }
-  .base-btn.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); }
+  .base-btn.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); box-shadow: 0 0 0 1px var(--gold-dim); }
   .base-btn.partial { border-color: var(--gold-dim); color: var(--gold-dim); background: #181410; }
-  .base-btn.clear { margin-left: auto; font-size: 11px; }
   .class-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .pill { transition: opacity 0.2s, border-color 0.2s, background 0.2s, color 0.2s; }
+  .pill.dimmed { opacity: 0.28; }
   .pill {
     padding: 4px 10px 4px 4px; border-radius: 16px; font-size: 12px; cursor: pointer;
     border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
@@ -254,8 +255,8 @@
   <div class="inner">
     <div class="base-class-row">
       <span class="base-class-label">Class</span>
+      <div class="base-btn" id="btnAll" onclick="clearFilters()">All</div>
       <div id="baseClassButtons"></div>
-      <div class="base-btn clear" onclick="clearFilters()">Clear filters</div>
     </div>
     <div class="class-pills" id="classPills"></div>
   </div>
@@ -436,9 +437,12 @@ function buildClassPills() {
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
   const el = document.getElementById('classPills');
+  const anyActive = activeClasses.size > 0;
   el.innerHTML = sorted.map(([cls, n]) => {
+    const isActive = activeClasses.has(cls);
+    const isDimmed = anyActive && !isActive;
     const icon = CLASS_ICONS[cls] ? `<img src="${CLASS_ICONS[cls]}" alt="">` : '';
-    return `<div class="pill ${activeClasses.has(cls) ? 'active' : ''}"
+    return `<div class="pill ${isActive ? 'active' : ''} ${isDimmed ? 'dimmed' : ''}"
           onclick="toggleClass('${cls}')">${icon}${cls} <span style="opacity:.6">${n}</span></div>`;
   }).join('');
 }
@@ -472,6 +476,10 @@ function clearFilters() {
 }
 
 function buildBaseClassButtons() {
+  // "All" button — active when nothing is filtered
+  const btnAll = document.getElementById('btnAll');
+  btnAll.className = 'base-btn' + (activeClasses.size === 0 ? ' active' : '');
+
   const container = document.getElementById('baseClassButtons');
   container.style.display = 'contents';
   container.innerHTML = Object.entries(BASE_CLASSES).map(([base, ascendancies]) => {
