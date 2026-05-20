@@ -106,7 +106,31 @@
   .stat { display: flex; flex-direction: column; gap: 2px; }
   .stat-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
   .stat-value { font-size: 18px; color: var(--gold); font-weight: 600; }
-  .class-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-left: auto; }
+  /* ── class filter section ── */
+  .class-filter-section {
+    background: var(--surface); border-bottom: 1px solid var(--border); padding: 0;
+  }
+  .class-filter-section .inner {
+    display: flex; flex-direction: column; gap: 10px;
+    padding-top: 10px; padding-bottom: 12px;
+  }
+  .base-class-row {
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+  }
+  .base-class-label {
+    font-size: 10px; color: var(--text-dim); text-transform: uppercase;
+    letter-spacing: 0.08em; margin-right: 2px; white-space: nowrap;
+  }
+  .base-btn {
+    padding: 5px 14px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
+    transition: all 0.15s; font-weight: 500; letter-spacing: 0.03em;
+  }
+  .base-btn:hover { border-color: var(--gold-dim); color: var(--text); }
+  .base-btn.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); }
+  .base-btn.partial { border-color: var(--gold-dim); color: var(--gold-dim); background: #181410; }
+  .base-btn.clear { margin-left: auto; font-size: 11px; }
+  .class-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .pill {
     padding: 4px 10px 4px 4px; border-radius: 16px; font-size: 12px; cursor: pointer;
     border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
@@ -223,6 +247,16 @@
     <div class="stat"><div class="stat-label">Max Level</div><div class="stat-value" id="statMaxLevel">—</div></div>
     <div class="stat"><div class="stat-label">Deaths</div><div class="stat-value" id="statDeaths">—</div></div>
     <div class="stat"><div class="stat-label">Exiles Served</div><div class="stat-value" id="statExiles" style="color:var(--gold-mid)">—</div></div>
+  </div>
+</div>
+
+<div class="class-filter-section">
+  <div class="inner">
+    <div class="base-class-row">
+      <span class="base-class-label">Class</span>
+      <div id="baseClassButtons"></div>
+      <div class="base-btn clear" onclick="clearFilters()">Clear filters</div>
+    </div>
     <div class="class-pills" id="classPills"></div>
   </div>
 </div>
@@ -264,6 +298,18 @@ const CLASS_ICONS = {
 };
 
 // per-class identity colours (muted but distinct)
+// base class groups
+const BASE_CLASSES = {
+  'Warrior':   ['Titan', 'Warbringer', 'Smith of Kitava'],
+  'Ranger':    ['Deadeye', 'Pathfinder'],
+  'Witch':     ['Infernalist', 'Blood Mage', 'Lich', 'Abyssal Lich'],
+  'Monk':      ['Invoker', 'Acolyte of Chayula'],
+  'Mercenary': ['Witchhunter', 'Gemling Legionnaire', 'Tactician'],
+  'Sorceress': ['Stormweaver', 'Chronomancer', 'Disciple of Varashta'],
+  'Druid':     ['Shaman', 'Oracle'],
+  'Huntress':  ['Amazon', 'Ritualist'],
+};
+
 // base class -> ascendancies (for search)
 const CLASS_BASE = {
   'Titan':               'Warrior',
@@ -379,6 +425,7 @@ async function selectLeague(id) {
     `Last fetched<br>${d.toLocaleString()}`;
 
   buildClassPills();
+  buildBaseClassButtons();
   render();
 }
 
@@ -400,7 +447,39 @@ function toggleClass(cls) {
   if (activeClasses.has(cls)) activeClasses.delete(cls);
   else activeClasses.add(cls);
   buildClassPills();
+  buildBaseClassButtons();
   render();
+}
+
+function toggleBaseClass(base) {
+  const ascendancies = BASE_CLASSES[base];
+  const allActive = ascendancies.every(a => activeClasses.has(a));
+  if (allActive) {
+    ascendancies.forEach(a => activeClasses.delete(a));
+  } else {
+    ascendancies.forEach(a => activeClasses.add(a));
+  }
+  buildClassPills();
+  buildBaseClassButtons();
+  render();
+}
+
+function clearFilters() {
+  activeClasses.clear();
+  buildClassPills();
+  buildBaseClassButtons();
+  render();
+}
+
+function buildBaseClassButtons() {
+  const container = document.getElementById('baseClassButtons');
+  container.style.display = 'contents';
+  container.innerHTML = Object.entries(BASE_CLASSES).map(([base, ascendancies]) => {
+    const allActive  = ascendancies.every(a => activeClasses.has(a));
+    const someActive = ascendancies.some(a => activeClasses.has(a));
+    const cls = allActive ? 'active' : someActive ? 'partial' : '';
+    return `<div class="base-btn ${cls}" onclick="toggleBaseClass('${base}')">${base}</div>`;
+  }).join('');
 }
 
 // ── status filters ────────────────────────────────────────────────────────────
