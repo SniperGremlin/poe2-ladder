@@ -6,14 +6,16 @@
 <title>PoE2 Ladder Viewer</title>
 <style>
   :root {
-    --bg: #0d0d0d;
-    --surface: #161616;
-    --surface2: #1e1e1e;
-    --border: #2a2a2a;
-    --gold: #c8a84b;
+    --bg: #111111;
+    --surface: #15171a;
+    --surface2: #1a1d21;
+    --border: #2c2c2c;
+    --gold: #e0bc5a;
+    --gold-mid: #c9a646;
     --gold-dim: #8a6f2e;
-    --text: #d4c5a0;
-    --text-dim: #7a6e5a;
+    --gold-dark: #b08d2f;
+    --text: #d8d8d8;
+    --text-dim: #8a8a8a;
     --dead: #8b2020;
     --retired: #4a4a6a;
     --alive: #2a5c2a;
@@ -25,21 +27,27 @@
   body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 14px; }
 
   header {
-    background: url('banner.png') center/cover no-repeat, linear-gradient(180deg, #1a1208 0%, #0d0d0d 100%);
-    border-bottom: 2px solid var(--gold-dim);
-    padding: 32px 24px;
-    display: flex; align-items: flex-end; gap: 16px;
-    min-height: 160px; position: relative;
+    position: relative; border-bottom: 2px solid var(--gold-dim); overflow: hidden;
+    min-height: 80px;
   }
-  header::after {
-    content: ''; position: absolute; inset: 0;
-    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.6) 100%);
-    pointer-events: none;
+  .banner-img {
+    width: 100%; display: block;
+    max-height: 200px; min-height: 80px;
+    object-fit: cover; object-position: center 38%;
   }
-  header > * { position: relative; z-index: 1; }
-  header h1 { color: var(--gold); font-size: 26px; font-weight: 700; letter-spacing: 0.06em; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
-  header .subtitle { color: var(--text-dim); font-size: 12px; text-shadow: 0 1px 4px rgba(0,0,0,0.9); }
-  .fetched-at { margin-left: auto; color: var(--text-dim); font-size: 11px; text-align: right; text-shadow: 0 1px 4px rgba(0,0,0,0.9); }
+  .banner-overlay {
+    position: absolute; inset: 0; pointer-events: none;
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.65) 100%),
+      linear-gradient(to right,  rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.05) 65%, rgba(0,0,0,0.70) 100%);
+  }
+  .banner-content {
+    position: absolute; inset: 0; display: flex; align-items: flex-end;
+    padding: 14px 24px; gap: 16px;
+  }
+  header h1 { color: var(--gold); font-size: 26px; font-weight: 700; letter-spacing: 0.06em; text-shadow: 0 2px 12px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8); }
+  header .subtitle { color: var(--text-dim); font-size: 12px; text-shadow: 0 1px 6px rgba(0,0,0,1); }
+  .fetched-at { margin-left: auto; color: var(--text-dim); font-size: 11px; text-align: right; text-shadow: 0 1px 6px rgba(0,0,0,1); }
 
   .controls {
     background: var(--surface);
@@ -54,7 +62,7 @@
     transition: all 0.15s;
   }
   .tab:hover { border-color: var(--gold-dim); color: var(--text); }
-  .tab.active { background: #1e1808; border-color: var(--gold); color: var(--gold); }
+  .tab.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); }
 
   .filter-group { display: flex; gap: 8px; align-items: center; margin-left: auto; }
   select, input[type=text], input[type=number] {
@@ -88,7 +96,7 @@
     transition: all 0.15s; display: flex; align-items: center; gap: 5px;
   }
   .pill:hover { border-color: var(--gold-dim); }
-  .pill.active { border-color: var(--gold); color: var(--gold); background: #1e1808; }
+  .pill.active { border-color: var(--gold-mid); color: var(--gold); background: #1c160a; }
   .pill img {
     width: 24px; height: 24px; border-radius: 50%; object-fit: cover; object-position: top;
     border: 1px solid var(--border); flex-shrink: 0;
@@ -151,11 +159,15 @@
 <body>
 
 <header>
-  <div>
-    <h1>PoE2 Ladder Viewer</h1>
-    <div class="subtitle">Path of Exile 2 &mdash; Ascendancy Filter</div>
+  <img src="banner.png" class="banner-img" alt="">
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <div>
+      <h1>PoE2 Ladder Viewer</h1>
+      <div class="subtitle">Path of Exile 2 &mdash; Ascendancy Filter</div>
+    </div>
+    <div class="fetched-at" id="fetchedAt">—</div>
   </div>
-  <div class="fetched-at" id="fetchedAt">—</div>
 </header>
 
 <div class="controls">
@@ -222,7 +234,7 @@ const CLASS_ICONS = {
   'Tactician':            BASE + 'the_tactician_portrait_path_of_exile2_wiki_guide116px.jpg',
   'Amazon':               BASE + 'amazon_portrait_path_of_exile2_wiki_guide116px.jpg',
   'Acolyte of Chayula':   BASE + 'acolyte_of_chayula_monk_ascendancy_class_poe2_wiki_guide_216px.jpg',
-  'Smith of Kitava':      'https://static1.fextralifeimages.com/wordpress/wp-content/uploads/images/smith_of_kitava_guide_path_of_exile_2_wiki.jpg',
+  'Smith of Kitava':      BASE + 'smith_of_kitava_guide_path_of_exile_2_wiki.jpg',
   'Disciple of Varashta': BASE + 'disciple-of-varashta-ascendancy-poe2-wiki-guide.png',
 };
 
@@ -456,21 +468,41 @@ function drawChart(rows) {
     }
 
     // bar background
-    ctx.fillStyle = isActive ? '#2a2010' : '#1a1a1a';
+    ctx.fillStyle = isActive ? '#221b0d' : '#1a1d21';
     ctx.fillRect(LABEL, y + 3, barW, ROW - GAP);
 
-    // bar fill
-    ctx.fillStyle = isActive ? '#c8a84b' : '#5a4a20';
-    ctx.fillRect(LABEL, y + 3, fillW, ROW - GAP);
+    // subtle grid line at every 25%
+    ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+    ctx.lineWidth = 1;
+    [0.25, 0.5, 0.75, 1.0].forEach(frac => {
+      const gx = LABEL + Math.round(frac * barW);
+      ctx.beginPath(); ctx.moveTo(gx, y + 3); ctx.lineTo(gx, y + ROW - GAP); ctx.stroke();
+    });
+
+    // bar fill — gradient from dark gold to bright gold
+    if (fillW > 0) {
+      const grad = ctx.createLinearGradient(LABEL, 0, LABEL + fillW, 0);
+      if (isActive) {
+        grad.addColorStop(0, '#b08d2f');
+        grad.addColorStop(0.5, '#c9a646');
+        grad.addColorStop(1, '#e0bc5a');
+      } else {
+        grad.addColorStop(0, '#4a3a14');
+        grad.addColorStop(0.5, '#5c4a1e');
+        grad.addColorStop(1, '#6e5a28');
+      }
+      ctx.fillStyle = grad;
+      ctx.fillRect(LABEL, y + 3, fillW, ROW - GAP);
+    }
 
     // class label
-    ctx.fillStyle = isActive ? '#c8a84b' : '#9a8a6a';
+    ctx.fillStyle = isActive ? '#e0bc5a' : '#8a8a8a';
     ctx.font = `${isActive ? 600 : 400} 12px "Segoe UI", sans-serif`;
     ctx.textAlign = 'right';
     ctx.fillText(cls, LABEL - 8, y + ROW - GAP - 5);
 
     // count + pct
-    ctx.fillStyle = '#7a6e5a';
+    ctx.fillStyle = isActive ? '#c9a646' : '#6a6a6a';
     ctx.font = '11px "Segoe UI", sans-serif';
     ctx.textAlign = 'left';
     ctx.fillText(`${n}  (${pct}%)`, LABEL + fillW + 8, y + ROW - GAP - 5);
