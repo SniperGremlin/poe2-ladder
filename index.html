@@ -39,8 +39,8 @@
   }
   .banner-img {
     width: 100%; display: block;
-    height: clamp(120px, 22vw, 260px);
-    object-fit: cover; object-position: center center;
+    height: clamp(420px, 32vw, 560px);
+    object-fit: cover; object-position: center 35%;
   }
   .banner-overlay {
     position: absolute; inset: 0; pointer-events: none;
@@ -107,14 +107,14 @@
   .stat-value { font-size: 18px; color: var(--gold); font-weight: 600; }
   .class-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-left: auto; }
   .pill {
-    padding: 3px 8px 3px 4px; border-radius: 12px; font-size: 11px; cursor: pointer;
+    padding: 4px 10px 4px 4px; border-radius: 16px; font-size: 12px; cursor: pointer;
     border: 1px solid var(--border); background: var(--surface2); color: var(--text-dim);
-    transition: all 0.15s; display: flex; align-items: center; gap: 5px;
+    transition: all 0.15s; display: flex; align-items: center; gap: 6px;
   }
   .pill:hover { border-color: var(--gold-dim); }
   .pill.active { border-color: var(--gold-mid); color: var(--gold); background: #1c160a; }
   .pill img {
-    width: 24px; height: 24px; border-radius: 50%; object-fit: cover; object-position: top;
+    width: 30px; height: 30px; border-radius: 50%; object-fit: cover; object-position: top;
     border: 1px solid var(--border); flex-shrink: 0;
   }
   .pill.active img { border-color: var(--gold-dim); }
@@ -486,7 +486,7 @@ function drawChart(rows) {
 
   if (!sorted.length) { canvas.height = 0; return; }
 
-  const ICON = 22, ROW = 28, PAD = 8, LABEL = 172, GAP = 6;
+  const ICON = 26, ROW = 34, PAD = 8, LABEL = 180, GAP = 6;
   const total = rows.length;
   const maxCount = sorted[0][1];
   const W = canvas.parentElement.clientWidth - 48;
