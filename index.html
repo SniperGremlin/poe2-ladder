@@ -197,7 +197,7 @@
 
     <div class="filter-group">
       <label>Search</label>
-      <input type="text" id="searchInput" placeholder="Account or character…" style="width:180px">
+      <input type="text" id="searchInput" placeholder="Account, character or class…" style="width:200px">
     </div>
 
     <div class="filter-group">
@@ -264,6 +264,31 @@ const CLASS_ICONS = {
 };
 
 // per-class identity colours (muted but distinct)
+// base class -> ascendancies (for search)
+const CLASS_BASE = {
+  'Titan':               'Warrior',
+  'Warbringer':          'Warrior',
+  'Smith of Kitava':     'Warrior',
+  'Deadeye':             'Ranger',
+  'Pathfinder':          'Ranger',
+  'Amazon':              'Ranger',
+  'Infernalist':         'Witch',
+  'Blood Mage':          'Witch',
+  'Lich':                'Witch',
+  'Abyssal Lich':        'Witch',
+  'Invoker':             'Monk',
+  'Acolyte of Chayula':  'Monk',
+  'Disciple of Varashta':'Monk',
+  'Witchhunter':         'Mercenary',
+  'Gemling Legionnaire': 'Mercenary',
+  'Tactician':           'Mercenary',
+  'Stormweaver':         'Sorceress',
+  'Chronomancer':        'Sorceress',
+  'Oracle':              'Sorceress',
+  'Shaman':              'Druid',
+  'Ritualist':           'Druid',
+};
+
 const CLASS_COLORS = {
   'Invoker':              '#4a7eb8',
   'Infernalist':          '#c04030',
@@ -405,8 +430,14 @@ function filtered() {
   return allData.filter(e => {
     if (activeClasses.size && !activeClasses.has(e.class)) return false;
     if (!activeStatuses.has(e.dead ? 'dead' : e.retired ? 'retired' : 'alive')) return false;
-    if (search && !e.account.toLowerCase().includes(search) &&
-        !e.character.toLowerCase().includes(search)) return false;
+    if (search) {
+      const base = (CLASS_BASE[e.class] || '').toLowerCase();
+      const cls  = e.class.toLowerCase();
+      if (!e.account.toLowerCase().includes(search) &&
+          !e.character.toLowerCase().includes(search) &&
+          !cls.includes(search) &&
+          !base.includes(search)) return false;
+    }
     if (e.rank > topN) return false;
     return true;
   });
