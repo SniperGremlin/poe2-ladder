@@ -238,6 +238,31 @@ const CLASS_ICONS = {
   'Disciple of Varashta': BASE + 'disciple-of-varashta-ascendancy-poe2-wiki-guide.png',
 };
 
+// per-class identity colours (muted but distinct)
+const CLASS_COLORS = {
+  'Invoker':              '#4a7eb8',
+  'Infernalist':          '#c04030',
+  'Witchhunter':          '#9e7040',
+  'Deadeye':              '#4a9040',
+  'Ritualist':            '#b05080',
+  'Lich':                 '#5855a0',
+  'Abyssal Lich':         '#7040a0',
+  'Blood Mage':           '#b83838',
+  'Pathfinder':           '#4a9e6e',
+  'Gemling Legionnaire':  '#b09030',
+  'Stormweaver':          '#4060c0',
+  'Titan':                '#c47820',
+  'Warbringer':           '#a03030',
+  'Oracle':               '#c4882a',
+  'Shaman':               '#7a9e40',
+  'Chronomancer':         '#4090b0',
+  'Tactician':            '#7a8060',
+  'Amazon':               '#4a8e8e',
+  'Acolyte of Chayula':   '#8840b0',
+  'Smith of Kitava':      '#c06030',
+  'Disciple of Varashta': '#7c5cbf',
+};
+
 // preload all icons so canvas can draw them; redraw chart when each loads
 const iconImages = {};
 Object.entries(CLASS_ICONS).forEach(([cls, url]) => {
@@ -467,11 +492,16 @@ function drawChart(rows) {
       ctx.restore();
     }
 
+    // determine dimming: if any class is selected, non-selected bars go dim
+    const anyActive = activeClasses.size > 0;
+    const dim = anyActive && !isActive;
+    const baseColor = CLASS_COLORS[cls] || '#7a7a7a';
+
     // bar background
-    ctx.fillStyle = isActive ? '#221b0d' : '#1a1d21';
+    ctx.fillStyle = '#1a1d21';
     ctx.fillRect(LABEL, y + 3, barW, ROW - GAP);
 
-    // subtle grid line at every 25%
+    // subtle grid lines at 25% intervals
     ctx.strokeStyle = 'rgba(255,255,255,0.04)';
     ctx.lineWidth = 1;
     [0.25, 0.5, 0.75, 1.0].forEach(frac => {
@@ -479,31 +509,32 @@ function drawChart(rows) {
       ctx.beginPath(); ctx.moveTo(gx, y + 3); ctx.lineTo(gx, y + ROW - GAP); ctx.stroke();
     });
 
-    // bar fill — gradient from dark gold to bright gold
+    // bar fill — class colour, dimmed if filtered out
     if (fillW > 0) {
+      ctx.globalAlpha = dim ? 0.25 : 1.0;
       const grad = ctx.createLinearGradient(LABEL, 0, LABEL + fillW, 0);
-      if (isActive) {
-        grad.addColorStop(0, '#b08d2f');
-        grad.addColorStop(0.5, '#c9a646');
-        grad.addColorStop(1, '#e0bc5a');
-      } else {
-        grad.addColorStop(0, '#4a3a14');
-        grad.addColorStop(0.5, '#5c4a1e');
-        grad.addColorStop(1, '#6e5a28');
-      }
+      grad.addColorStop(0, baseColor + '99'); // slightly transparent start
+      grad.addColorStop(1, baseColor);
       ctx.fillStyle = grad;
       ctx.fillRect(LABEL, y + 3, fillW, ROW - GAP);
+
+      // subtle top highlight line for active
+      if (!dim) {
+        ctx.fillStyle = 'rgba(255,255,255,0.12)';
+        ctx.fillRect(LABEL, y + 3, fillW, 2);
+      }
+      ctx.globalAlpha = 1.0;
     }
 
     // class label
-    ctx.fillStyle = isActive ? '#e0bc5a' : '#8a8a8a';
+    ctx.fillStyle = dim ? '#4a4a4a' : (isActive ? '#e0e0e0' : '#c0c0c0');
     ctx.font = `${isActive ? 600 : 400} 12px "Segoe UI", sans-serif`;
     ctx.textAlign = 'right';
     ctx.fillText(cls, LABEL - 8, y + ROW - GAP - 5);
 
-    // count + pct
-    ctx.fillStyle = isActive ? '#c9a646' : '#6a6a6a';
-    ctx.font = '11px "Segoe UI", sans-serif';
+    // count + pct — use class colour when active
+    ctx.fillStyle = dim ? '#3a3a3a' : (isActive ? baseColor : '#6a6a6a');
+    ctx.font = `${isActive ? 600 : 400} 11px "Segoe UI", sans-serif`;
     ctx.textAlign = 'left';
     ctx.fillText(`${n}  (${pct}%)`, LABEL + fillW + 8, y + ROW - GAP - 5);
   });
