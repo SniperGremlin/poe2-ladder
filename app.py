@@ -31,6 +31,11 @@ def serve_data(filename):
     return send_from_directory(DATA_DIR, filename)
 
 
+@app.route("/banner.png")
+def serve_banner():
+    return send_from_directory(Path(__file__).parent, "banner.png")
+
+
 @app.route("/api/leagues")
 def leagues():
     from scraper import LEAGUES, slug
