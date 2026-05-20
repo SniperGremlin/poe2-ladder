@@ -222,6 +222,7 @@
     <div class="stat"><div class="stat-label">Avg Level</div><div class="stat-value" id="statAvgLevel">—</div></div>
     <div class="stat"><div class="stat-label">Max Level</div><div class="stat-value" id="statMaxLevel">—</div></div>
     <div class="stat"><div class="stat-label">Deaths</div><div class="stat-value" id="statDeaths">—</div></div>
+    <div class="stat"><div class="stat-label">Exiles Served</div><div class="stat-value" id="statExiles" style="color:var(--gold-mid)">—</div></div>
     <div class="class-pills" id="classPills"></div>
   </div>
 </div>
@@ -307,6 +308,14 @@ let leagueList = [];
 
 // ── boot ──────────────────────────────────────────────────────────────────────
 async function init() {
+  // hit counter — fire and forget
+  fetch('https://api.counterapi.dev/v1/snipergremlin-poe2-ladder/visits/up')
+    .then(r => r.json())
+    .then(d => {
+      document.getElementById('statExiles').textContent = (d.count || 0).toLocaleString();
+    })
+    .catch(() => {}); // silently fail if API is down
+
   const res = await fetch('data/leagues.json');
   leagueList = await res.json();
   renderTabs();
