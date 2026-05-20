@@ -26,6 +26,13 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 14px; }
 
+  /* full-bleed sections get inner wrappers capped at max-width */
+  .inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
   header {
     position: relative; border-bottom: 2px solid var(--gold-dim); overflow: hidden;
     min-height: 80px;
@@ -43,7 +50,9 @@
   }
   .banner-content {
     position: absolute; inset: 0; display: flex; align-items: flex-end;
-    padding: 14px 24px; gap: 16px;
+    padding: 14px 0; gap: 16px;
+    max-width: 1600px; margin: 0 auto; left: 0; right: 0;
+    padding-left: 24px; padding-right: 24px;
   }
   header h1 { color: var(--gold); font-size: 26px; font-weight: 700; letter-spacing: 0.06em; text-shadow: 0 2px 12px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8); }
   header .subtitle { color: var(--text-dim); font-size: 12px; text-shadow: 0 1px 6px rgba(0,0,0,1); }
@@ -52,8 +61,11 @@
   .controls {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 12px 24px;
+    padding: 0;
+  }
+  .controls .inner {
     display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    padding-top: 12px; padding-bottom: 12px;
   }
   .league-tabs { display: flex; gap: 4px; }
   .tab {
@@ -84,7 +96,11 @@
 
   .stats-bar {
     background: var(--surface); border-bottom: 1px solid var(--border);
-    padding: 10px 24px; display: flex; flex-wrap: wrap; gap: 24px;
+    padding: 0;
+  }
+  .stats-bar .inner {
+    display: flex; flex-wrap: wrap; gap: 24px;
+    padding-top: 10px; padding-bottom: 10px;
   }
   .stat { display: flex; flex-direction: column; gap: 2px; }
   .stat-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
@@ -104,7 +120,8 @@
   .pill.active img { border-color: var(--gold-dim); }
   .class-icon { width: 20px; height: 20px; border-radius: 3px; object-fit: cover; object-position: top; vertical-align: middle; margin-right: 4px; }
 
-  .table-wrap { overflow-x: auto; padding: 0 24px 24px; }
+  .table-wrap { overflow-x: auto; padding: 0; }
+  #content .inner { padding-bottom: 24px; }
   table { width: 100%; border-collapse: collapse; margin-top: 12px; }
   thead th {
     background: var(--surface); color: var(--text-dim); font-weight: 500;
@@ -145,8 +162,9 @@
 
   .chart-section {
     background: var(--surface); border-bottom: 1px solid var(--border);
-    padding: 12px 24px 14px;
+    padding: 0;
   }
+  .chart-section .inner { padding-top: 12px; padding-bottom: 14px; }
   .chart-section canvas { display: block; cursor: pointer; }
 
   @media (max-width: 700px) {
@@ -171,41 +189,46 @@
 </header>
 
 <div class="controls">
-  <div class="league-tabs" id="leagueTabs">
-    <div class="tab active" data-league="">Loading...</div>
-  </div>
+  <div class="inner">
+    <div class="league-tabs" id="leagueTabs">
+      <div class="tab active" data-league="">Loading...</div>
+    </div>
 
-  <div class="filter-group">
-    <label>Search</label>
-    <input type="text" id="searchInput" placeholder="Account or character…" style="width:180px">
-  </div>
+    <div class="filter-group">
+      <label>Search</label>
+      <input type="text" id="searchInput" placeholder="Account or character…" style="width:180px">
+    </div>
 
-  <div class="filter-group">
-    <label>Status</label>
-    <div class="status-filters" id="statusFilters">
-      <div class="status-btn" data-status="alive" onclick="toggleStatus('alive')">Alive</div>
-      <div class="status-btn" data-status="dead"  onclick="toggleStatus('dead')">Dead</div>
-      <div class="status-btn" data-status="retired" onclick="toggleStatus('retired')">Retired</div>
+    <div class="filter-group">
+      <label>Status</label>
+      <div class="status-filters" id="statusFilters">
+        <div class="status-btn" data-status="alive" onclick="toggleStatus('alive')">Alive</div>
+        <div class="status-btn" data-status="dead"  onclick="toggleStatus('dead')">Dead</div>
+        <div class="status-btn" data-status="retired" onclick="toggleStatus('retired')">Retired</div>
+      </div>
+    </div>
+
+    <div class="filter-group top-n-wrap">
+      <label>Top</label>
+      <input type="number" id="topN" value="" min="1" max="1000" placeholder="all" style="width:64px">
     </div>
   </div>
-
-  <div class="filter-group top-n-wrap">
-    <label>Top</label>
-    <input type="number" id="topN" value="" min="1" max="1000" placeholder="all" style="width:64px">
-  </div>
-
 </div>
 
 <div class="stats-bar" id="statsBar">
-  <div class="stat"><div class="stat-label">Showing</div><div class="stat-value" id="statCount">—</div></div>
-  <div class="stat"><div class="stat-label">Avg Level</div><div class="stat-value" id="statAvgLevel">—</div></div>
-  <div class="stat"><div class="stat-label">Max Level</div><div class="stat-value" id="statMaxLevel">—</div></div>
-  <div class="stat"><div class="stat-label">Deaths</div><div class="stat-value" id="statDeaths">—</div></div>
-  <div class="class-pills" id="classPills"></div>
+  <div class="inner">
+    <div class="stat"><div class="stat-label">Showing</div><div class="stat-value" id="statCount">—</div></div>
+    <div class="stat"><div class="stat-label">Avg Level</div><div class="stat-value" id="statAvgLevel">—</div></div>
+    <div class="stat"><div class="stat-label">Max Level</div><div class="stat-value" id="statMaxLevel">—</div></div>
+    <div class="stat"><div class="stat-label">Deaths</div><div class="stat-value" id="statDeaths">—</div></div>
+    <div class="class-pills" id="classPills"></div>
+  </div>
 </div>
 
 <div class="chart-section" id="chartSection">
-  <canvas id="chart" height="0"></canvas>
+  <div class="inner">
+    <canvas id="chart" height="0"></canvas>
+  </div>
 </div>
 
 <div id="content">
@@ -426,7 +449,7 @@ function render() {
 
   document.getElementById('content').innerHTML =
     rows.length
-      ? `<div class="table-wrap"><table><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table></div>`
+      ? `<div class="inner"><div class="table-wrap"><table><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table></div></div>`
       : '<div class="no-data"><h2>No results</h2><p>Try adjusting your filters.</p></div>';
 }
 
