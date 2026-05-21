@@ -5,13 +5,26 @@ Flask app — serves cached ladder JSON to the frontend.
 import json
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory
 
 DATA_DIR = Path(__file__).parent / "data"
 STATIC_DIR = Path(__file__).parent / "static"
 
 app = Flask(__name__, static_folder=str(STATIC_DIR))
+
+VALID_LEAGUES = {"Standard", "Hardcore", "Solo Self-Found", "Hardcore SSF"}
+VALID_ASCENDANCIES = {
+    "Titan", "Warbringer", "Smith of Kitava",
+    "Deadeye", "Pathfinder",
+    "Infernalist", "Blood Mage",
+    "Invoker", "Acolyte of Chayula", "Martial Artist",
+    "Witchhunter", "Gemling Legionnaire", "Tactician",
+    "Stormweaver", "Chronomancer", "Disciple of Varashta",
+    "Shaman", "Oracle",
+    "Amazon", "Ritualist", "Spirit Walker",
+}
 
 
 def load_ladder(filename: str) -> dict | None:
@@ -24,6 +37,16 @@ def load_ladder(filename: str) -> dict | None:
 @app.route("/")
 def index():
     return send_from_directory(STATIC_DIR, "index.html")
+
+
+@app.route("/survey")
+def survey():
+    return send_from_directory(STATIC_DIR, "survey.html")
+
+
+@app.route("/results")
+def results_page():
+    return send_from_directory(STATIC_DIR, "results.html")
 
 
 @app.route("/data/<path:filename>")
@@ -75,6 +98,44 @@ def refresh(league_id: str):
     subprocess.Popen([sys.executable, "scraper.py", league_name],
                      cwd=Path(__file__).parent)
     return jsonify({"status": "refresh started", "league": league_name})
+
+
+@app.route("/api/survey", methods=["POST"])
+def submit_survey():
+    data = request.get_json(silent=True) or {}
+    ascendancy = data.get("ascendancy", "").strip()
+    league = data.get("league", "").strip()
+
+    if ascendancy not in VALID_ASCENDANCIES or league not in VALID_LEAGUES:
+        return jsonify({"error": "Invalid submission"}), 400
+
+    survey_file = DATA_DIR / "survey_responses.json"
+    responses = json.loads(survey_file.read_text(encoding="utf-8")) if survey_file.exists() else []
+    responses.append({
+        "ascendancy": ascendancy,
+        "league": league,
+        "submitted_at": datetime.now(timezone.utc).isoformat(),
+    })
+    survey_file.write_text(json.dumps(responses, indent=2), encoding="utf-8")
+    return jsonify({"status": "ok", "total": len(responses)})
+
+
+@app.route("/api/survey/results")
+def survey_results():
+    survey_file = DATA_DIR / "survey_responses.json"
+    if not survey_file.exists():
+        return jsonify({"total": 0, "by_league": {}})
+
+    responses = json.loads(survey_file.read_text(encoding="utf-8"))
+    by_league = {}
+    for r in responses:
+        league = r["league"]
+        asc = r["ascendancy"]
+        if league not in by_league:
+            by_league[league] = {}
+        by_league[league][asc] = by_league[league].get(asc, 0) + 1
+
+    return jsonify({"total": len(responses), "by_league": by_league})
 
 
 if __name__ == "__main__":

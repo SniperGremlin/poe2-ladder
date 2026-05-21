@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoE2 League Start Survey</title>
+<style>
+  :root {
+    --bg: #111111;
+    --surface: #15171a;
+    --surface2: #1a1d21;
+    --border: #2c2c2c;
+    --gold: #e0bc5a;
+    --gold-mid: #c9a646;
+    --gold-dim: #8a6f2e;
+    --text: #d8d8d8;
+    --text-dim: #8a8a8a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 14px; }
+  .inner { max-width: 1600px; margin: 0 auto; padding: 0 24px; }
+
+  header { position: relative; border-bottom: 1px solid rgba(201,166,70,0.35); overflow: hidden; }
+  .banner-img { width: 100%; display: block; height: 180px; object-fit: cover; object-position: center center; }
+  .banner-overlay {
+    position: absolute; inset: 0; pointer-events: none;
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,0.10) 0%, rgba(0,0,0,0.45) 100%),
+      linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.0) 30%, rgba(0,0,0,0.0) 70%, rgba(0,0,0,0.55) 100%);
+  }
+  .banner-content {
+    position: absolute; inset: 0; display: flex; align-items: flex-end;
+    padding: 0 24px 14px; max-width: 1600px; margin: 0 auto; left: 0; right: 0;
+  }
+  header h1 { color: var(--gold); font-size: 24px; font-weight: 700; letter-spacing: 0.06em; text-shadow: 0 2px 10px rgba(0,0,0,1); }
+  header .subtitle { color: var(--text-dim); font-size: 11px; text-shadow: 0 1px 6px rgba(0,0,0,1); }
+
+  .site-nav { background: var(--surface); border-bottom: 1px solid var(--border); }
+  .site-nav .inner { display: flex; gap: 4px; padding-top: 8px; padding-bottom: 8px; }
+  .nav-link {
+    padding: 6px 16px; border-radius: 4px; font-size: 13px;
+    color: var(--text-dim); text-decoration: none;
+    border: 1px solid transparent; transition: all 0.15s;
+  }
+  .nav-link:hover { border-color: var(--gold-dim); color: var(--text); }
+  .nav-link.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); }
+
+  .survey-wrap { padding: 32px 0 48px; }
+
+  .question-section { margin-bottom: 40px; }
+  .question-label {
+    font-size: 15px; color: var(--gold); font-weight: 600;
+    letter-spacing: 0.03em; margin-bottom: 20px;
+  }
+
+  .class-groups { display: flex; flex-direction: column; gap: 12px; }
+  .class-group { display: flex; align-items: flex-start; gap: 12px; }
+  .class-group-label {
+    width: 82px; font-size: 10px; color: var(--text-dim);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    padding-top: 10px; flex-shrink: 0; text-align: right;
+  }
+  .asc-cards { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .asc-card {
+    display: flex; align-items: center; gap: 8px;
+    padding: 7px 14px 7px 8px; border-radius: 6px;
+    border: 1px solid var(--border); background: var(--surface2);
+    cursor: pointer; transition: all 0.15s;
+    color: var(--text-dim); font-size: 13px; user-select: none;
+  }
+  .asc-card:hover { border-color: var(--gold-dim); color: var(--text); }
+  .asc-card.selected { border-color: var(--gold-mid); background: #1c160a; color: var(--gold); }
+  .asc-card img {
+    width: 32px; height: 32px; border-radius: 50%;
+    object-fit: cover; object-position: top;
+    border: 1px solid var(--border); flex-shrink: 0;
+  }
+  .asc-card.selected img { border-color: var(--gold-dim); }
+  .new-badge {
+    font-size: 9px; color: var(--gold);
+    background: rgba(224,188,90,0.12); border: 1px solid var(--gold-dim);
+    border-radius: 3px; padding: 1px 5px;
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+
+  .league-cards { display: flex; gap: 12px; flex-wrap: wrap; }
+  .league-card {
+    padding: 16px 32px; border-radius: 6px;
+    border: 1px solid var(--border); background: var(--surface2);
+    cursor: pointer; transition: all 0.15s;
+    color: var(--text-dim); font-size: 15px; font-weight: 500;
+    user-select: none; min-width: 160px; text-align: center;
+  }
+  .league-card:hover { border-color: var(--gold-dim); color: var(--text); }
+  .league-card.selected { border-color: var(--gold-mid); background: #1c160a; color: var(--gold); }
+  .league-sub { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
+  .league-card.selected .league-sub { color: var(--gold-dim); }
+
+  .submit-section { display: flex; align-items: center; gap: 16px; padding-top: 8px; }
+  .submit-btn {
+    padding: 12px 48px; background: #1c160a;
+    border: 1px solid var(--gold-mid); color: var(--gold);
+    border-radius: 6px; font-size: 15px; font-weight: 600;
+    cursor: pointer; letter-spacing: 0.06em; transition: all 0.15s;
+  }
+  .submit-btn:hover:not(:disabled) { background: #2a1f0d; border-color: var(--gold); }
+  .submit-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  .submit-hint { color: var(--text-dim); font-size: 12px; }
+
+  .success-screen { text-align: center; padding: 80px 24px; display: none; }
+  .success-screen h2 { color: var(--gold); font-size: 22px; margin-bottom: 12px; }
+  .success-screen p { color: var(--text-dim); margin-bottom: 28px; line-height: 1.6; }
+  .results-link {
+    display: inline-block; padding: 10px 28px;
+    border: 1px solid var(--gold-mid); color: var(--gold);
+    background: #1c160a; border-radius: 6px; text-decoration: none;
+    font-size: 14px; font-weight: 500; transition: all 0.15s;
+  }
+  .results-link:hover { background: #2a1f0d; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="/banner.png" class="banner-img" alt="">
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <div>
+      <h1>League Start Survey</h1>
+      <div class="subtitle">Path of Exile 2 &mdash; Return of the Ancients</div>
+    </div>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <div class="inner">
+    <a class="nav-link" href="/">Ladder</a>
+    <a class="nav-link active" href="/survey">Survey</a>
+    <a class="nav-link" href="/results">Results</a>
+  </div>
+</nav>
+
+<div class="survey-wrap" id="surveyWrap">
+  <div class="inner">
+
+    <div class="question-section">
+      <div class="question-label">Which ascendancy are you planning to start the league with?</div>
+      <div class="class-groups" id="ascGroups"></div>
+    </div>
+
+    <div class="question-section">
+      <div class="question-label">Which league variant will you be playing?</div>
+      <div class="league-cards" id="leagueCards"></div>
+    </div>
+
+    <div class="submit-section">
+      <button class="submit-btn" id="submitBtn" disabled onclick="submitSurvey()">Submit</button>
+      <div class="submit-hint" id="submitHint">Select an ascendancy and league variant to continue</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="success-screen" id="successScreen">
+  <h2>Response recorded</h2>
+  <p id="successMsg"></p>
+  <a class="results-link" href="/results">View Results</a>
+</div>
+
+<script>
+const BASE_ICON = 'https://pathofexile2.wiki.fextralife.com/file/Path-of-Exile-2/';
+const CLASS_ICONS = {
+  'Invoker':              BASE_ICON + 'invoker_monk_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Infernalist':          BASE_ICON + 'blood_mage_witch_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Witchhunter':          BASE_ICON + 'witchhunter_mercenary_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Deadeye':              BASE_ICON + 'deadeye_ranger_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Ritualist':            BASE_ICON + 'ritualist_portrait_path_of_exile2_wiki_guide115px.jpg',
+  'Blood Mage':           BASE_ICON + 'infernalist_witch_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Pathfinder':           BASE_ICON + 'pathfinder_ranger_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Gemling Legionnaire':  BASE_ICON + 'gemling_legionnaire_mercenary_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Stormweaver':          BASE_ICON + 'stormweaver_sorceress_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Titan':                BASE_ICON + 'titan_warrior_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Warbringer':           BASE_ICON + 'warbringer_warrior_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Oracle':               BASE_ICON + 'oracle-ascendancy-poe-2-wiki-guide.jpg',
+  'Shaman':               BASE_ICON + 'shaman-ascendancy-poe-2-wiki-guide.jpg',
+  'Chronomancer':         BASE_ICON + 'chronomancer_sorceress_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Tactician':            BASE_ICON + 'the_tactician_portrait_path_of_exile2_wiki_guide116px.jpg',
+  'Amazon':               BASE_ICON + 'amazon_portrait_path_of_exile2_wiki_guide116px.jpg',
+  'Acolyte of Chayula':   BASE_ICON + 'acolyte_of_chayula_monk_ascendancy_class_poe2_wiki_guide_216px.jpg',
+  'Smith of Kitava':      BASE_ICON + 'smith_of_kitava_guide_path_of_exile_2_wiki.jpg',
+  'Disciple of Varashta': BASE_ICON + 'disciple-of-varashta-ascendancy-poe2-wiki-guide.png',
+};
+
+const ASCENDANCIES = [
+  { base: 'Warrior',   list: ['Titan', 'Warbringer', 'Smith of Kitava'] },
+  { base: 'Ranger',    list: ['Deadeye', 'Pathfinder'] },
+  { base: 'Witch',     list: ['Infernalist', 'Blood Mage'] },
+  { base: 'Monk',      list: ['Invoker', 'Acolyte of Chayula', 'Martial Artist'] },
+  { base: 'Mercenary', list: ['Witchhunter', 'Gemling Legionnaire', 'Tactician'] },
+  { base: 'Sorceress', list: ['Stormweaver', 'Chronomancer', 'Disciple of Varashta'] },
+  { base: 'Druid',     list: ['Shaman', 'Oracle'] },
+  { base: 'Huntress',  list: ['Amazon', 'Ritualist', 'Spirit Walker'] },
+];
+
+const NEW_ASCENDANCIES = new Set(['Martial Artist', 'Spirit Walker']);
+
+const LEAGUES = [
+  { id: 'Standard',        label: 'Standard',        sub: 'Challenge League' },
+  { id: 'Hardcore',        label: 'Hardcore',         sub: 'Challenge League' },
+  { id: 'Solo Self-Found', label: 'Solo Self-Found',  sub: 'SSF' },
+  { id: 'Hardcore SSF',    label: 'Hardcore SSF',     sub: 'HC + SSF' },
+];
+
+let selectedAscendancy = null;
+let selectedLeague = null;
+
+function buildAscGroups() {
+  const el = document.getElementById('ascGroups');
+  el.innerHTML = ASCENDANCIES.map(({ base, list }) => {
+    const cards = list.map(asc => {
+      const icon = CLASS_ICONS[asc]
+        ? `<img src="${CLASS_ICONS[asc]}" alt="" onerror="this.style.display='none'">`
+        : '';
+      const badge = NEW_ASCENDANCIES.has(asc) ? ' <span class="new-badge">New</span>' : '';
+      return `<div class="asc-card" data-asc="${asc}" onclick="selectAsc('${asc}')">${icon}${esc(asc)}${badge}</div>`;
+    }).join('');
+    return `<div class="class-group">
+      <div class="class-group-label">${base}</div>
+      <div class="asc-cards">${cards}</div>
+    </div>`;
+  }).join('');
+}
+
+function buildLeagueCards() {
+  const el = document.getElementById('leagueCards');
+  el.innerHTML = LEAGUES.map(l =>
+    `<div class="league-card" data-league="${l.id}" onclick="selectLeague('${l.id}')">
+      ${esc(l.label)}<div class="league-sub">${l.sub}</div>
+    </div>`
+  ).join('');
+}
+
+function selectAsc(asc) {
+  selectedAscendancy = asc;
+  document.querySelectorAll('.asc-card').forEach(el => {
+    el.classList.toggle('selected', el.dataset.asc === asc);
+  });
+  updateSubmit();
+}
+
+function selectLeague(league) {
+  selectedLeague = league;
+  document.querySelectorAll('.league-card').forEach(el => {
+    el.classList.toggle('selected', el.dataset.league === league);
+  });
+  updateSubmit();
+}
+
+function updateSubmit() {
+  const btn = document.getElementById('submitBtn');
+  const hint = document.getElementById('submitHint');
+  btn.disabled = !(selectedAscendancy && selectedLeague);
+  if (!selectedAscendancy && !selectedLeague) {
+    hint.textContent = 'Select an ascendancy and league variant to continue';
+  } else if (!selectedAscendancy) {
+    hint.textContent = 'Select an ascendancy to continue';
+  } else if (!selectedLeague) {
+    hint.textContent = 'Select a league variant to continue';
+  } else {
+    hint.textContent = `${selectedAscendancy} · ${selectedLeague}`;
+  }
+}
+
+async function submitSurvey() {
+  const btn = document.getElementById('submitBtn');
+  btn.disabled = true;
+  btn.textContent = 'Submitting…';
+
+  try {
+    const res = await fetch('/api/survey', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ascendancy: selectedAscendancy, league: selectedLeague }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Failed');
+
+    localStorage.setItem('poe2_survey_league', selectedLeague);
+
+    document.getElementById('surveyWrap').style.display = 'none';
+    const success = document.getElementById('successScreen');
+    success.style.display = 'block';
+    document.getElementById('successMsg').textContent =
+      `You picked ${selectedAscendancy} in ${selectedLeague}. ${data.total.toLocaleString()} total ${data.total === 1 ? 'response' : 'responses'} so far.`;
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = 'Submit';
+    alert('Something went wrong. Please try again.');
+  }
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+buildAscGroups();
+buildLeagueCards();
+</script>
+</body>
+</html>
