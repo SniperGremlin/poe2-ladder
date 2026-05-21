@@ -108,6 +108,11 @@
   .submit-btn:disabled { opacity: 0.35; cursor: not-allowed; }
   .submit-hint { color: var(--text-dim); font-size: 12px; }
 
+  .already-voted { text-align: center; padding: 80px 24px; display: none; }
+  .already-voted h2 { color: var(--gold); font-size: 22px; margin-bottom: 12px; }
+  .already-voted p { color: var(--text-dim); margin-bottom: 28px; line-height: 1.6; }
+  .already-voted strong { color: var(--text); }
+
   .success-screen { text-align: center; padding: 80px 24px; display: none; }
   .success-screen h2 { color: var(--gold); font-size: 22px; margin-bottom: 12px; }
   .success-screen p { color: var(--text-dim); margin-bottom: 28px; line-height: 1.6; }
@@ -140,6 +145,12 @@
     <a class="nav-link" href="results.html">Results</a>
   </div>
 </nav>
+
+<div class="already-voted" id="alreadyVoted">
+  <h2>You've already voted</h2>
+  <p>You picked <strong id="votedAsc"></strong> in <strong id="votedLeague"></strong>.</p>
+  <a class="results-link" href="results.html">View Results</a>
+</div>
 
 <div class="survey-wrap" id="surveyWrap">
   <div class="inner">
@@ -213,8 +224,6 @@ const LEAGUES = [
   { id: 'Solo Self-Found', label: 'Solo Self-Found',  sub: 'SSF' },
   { id: 'Hardcore SSF',    label: 'Hardcore SSF',     sub: 'HC + SSF' },
 ];
-
-if (localStorage.getItem('poe2_survey_league')) { window.location.replace('results.html'); }
 
 let selectedAscendancy = null;
 let selectedLeague = null;
@@ -296,6 +305,7 @@ async function submitSurvey() {
     });
 
     localStorage.setItem('poe2_survey_league', selectedLeague);
+    localStorage.setItem('poe2_survey_ascendancy', selectedAscendancy);
     document.getElementById('surveyWrap').style.display = 'none';
     const success = document.getElementById('successScreen');
     success.style.display = 'block';
@@ -312,8 +322,18 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-buildAscGroups();
-buildLeagueCards();
+const votedLeague = localStorage.getItem('poe2_survey_league');
+const votedAsc = localStorage.getItem('poe2_survey_ascendancy');
+
+if (votedLeague) {
+  document.getElementById('surveyWrap').style.display = 'none';
+  document.getElementById('votedAsc').textContent = votedAsc || 'your ascendancy';
+  document.getElementById('votedLeague').textContent = votedLeague;
+  document.getElementById('alreadyVoted').style.display = 'block';
+} else {
+  buildAscGroups();
+  buildLeagueCards();
+}
 </script>
 </body>
 </html>
