@@ -188,9 +188,27 @@ Object.entries(CLASS_ICONS).forEach(([cls, url]) => {
   iconImages[cls] = img;
 });
 
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRtUzVDt4pNTLhBqeh7h_SKxZ9SLwYU4BT4jwaCD5OtU-wYt0cjM2a9VaU5h1P2qtte8EEq6SO1ykNQ/pub?output=csv';
+
 let surveyData = null;
 let totalResponses = 0;
 let currentLeague = 'All';
+
+function parseCSV(text) {
+  const rows = text.trim().split('\n').slice(1);
+  const by_league = {};
+  let total = 0;
+  rows.forEach(row => {
+    const cols = row.match(/(".*?"|[^,]+)(?=\s*,|\s*$)/g) || [];
+    const asc    = (cols[1] || '').replace(/^"|"$/g, '').trim();
+    const league = (cols[2] || '').replace(/^"|"$/g, '').trim();
+    if (!asc || !league) return;
+    if (!by_league[league]) by_league[league] = {};
+    by_league[league][asc] = (by_league[league][asc] || 0) + 1;
+    total++;
+  });
+  return { total, by_league };
+}
 
 async function init() {
   const saved = localStorage.getItem('poe2_survey_league');
@@ -198,10 +216,16 @@ async function init() {
 
   buildTabs();
 
-  const res = await fetch('/api/survey/results');
-  const data = await res.json();
-  totalResponses = data.total;
-  surveyData = data.by_league;
+  try {
+    const res = await fetch(CSV_URL);
+    const text = await res.text();
+    const data = parseCSV(text);
+    totalResponses = data.total;
+    surveyData = data.by_league;
+  } catch (e) {
+    surveyData = {};
+    totalResponses = 0;
+  }
 
   document.getElementById('statTotal').textContent = totalResponses.toLocaleString();
   render();

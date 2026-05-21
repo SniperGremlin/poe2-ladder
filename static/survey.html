@@ -279,22 +279,26 @@ async function submitSurvey() {
   btn.disabled = true;
   btn.textContent = 'Submitting…';
 
+  const FORM_ACTION = 'https://docs.google.com/forms/d/e/1FAIpQLScNWNzkyM-WUcrKiPArKZPwywvK5n5XqgrnvvvD7oBxg9aUuw/formResponse';
+  const body = new URLSearchParams({
+    'entry.1233983822': selectedAscendancy,
+    'entry.834693152': selectedLeague,
+  });
+
   try {
-    const res = await fetch('/api/survey', {
+    await fetch(FORM_ACTION, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ascendancy: selectedAscendancy, league: selectedLeague }),
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString(),
     });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || 'Failed');
 
     localStorage.setItem('poe2_survey_league', selectedLeague);
-
     document.getElementById('surveyWrap').style.display = 'none';
     const success = document.getElementById('successScreen');
     success.style.display = 'block';
     document.getElementById('successMsg').textContent =
-      `You picked ${selectedAscendancy} in ${selectedLeague}. ${data.total.toLocaleString()} total ${data.total === 1 ? 'response' : 'responses'} so far.`;
+      `You picked ${selectedAscendancy} in ${selectedLeague}. Thanks for voting!`;
   } catch (e) {
     btn.disabled = false;
     btn.textContent = 'Submit';
