@@ -214,6 +214,8 @@ const LEAGUES = [
   { id: 'Hardcore SSF',    label: 'Hardcore SSF',     sub: 'HC + SSF' },
 ];
 
+if (localStorage.getItem('poe2_survey_league')) { window.location.replace('results.html'); }
+
 let selectedAscendancy = null;
 let selectedLeague = null;
 
