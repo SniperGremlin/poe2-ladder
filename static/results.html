@@ -188,6 +188,8 @@ Object.entries(CLASS_ICONS).forEach(([cls, url]) => {
   iconImages[cls] = img;
 });
 
+if (!localStorage.getItem('poe2_survey_league')) { window.location.replace('survey.html'); }
+
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRtUzVDt4pNTLhBqeh7h_SKxZ9SLwYU4BT4jwaCD5OtU-wYt0cjM2a9VaU5h1P2qtte8EEq6SO1ykNQ/pub?output=csv';
 
 let surveyData = null;
