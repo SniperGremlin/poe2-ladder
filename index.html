@@ -193,6 +193,16 @@
   .chart-section .inner { padding-top: 12px; padding-bottom: 14px; }
   .chart-section canvas { display: block; cursor: pointer; }
 
+  .site-nav { background: var(--surface); border-bottom: 1px solid var(--border); }
+  .site-nav .inner { display: flex; gap: 4px; padding-top: 8px; padding-bottom: 8px; }
+  .nav-link {
+    padding: 6px 16px; border-radius: 4px; font-size: 13px;
+    color: var(--text-dim); text-decoration: none;
+    border: 1px solid transparent; transition: all 0.15s;
+  }
+  .nav-link:hover { border-color: var(--gold-dim); color: var(--text); }
+  .nav-link.active { background: #1c160a; border-color: var(--gold-mid); color: var(--gold); }
+
   @media (max-width: 700px) {
     .controls { flex-direction: column; align-items: flex-start; }
     .filter-group { margin-left: 0; }
@@ -213,6 +223,14 @@
     <div class="fetched-at" id="fetchedAt">—</div>
   </div>
 </header>
+
+<nav class="site-nav">
+  <div class="inner">
+    <a class="nav-link active" href="/">Ladder</a>
+    <a class="nav-link" href="/survey">Survey</a>
+    <a class="nav-link" href="/results">Results</a>
+  </div>
+</nav>
 
 <div class="controls">
   <div class="inner">
@@ -304,11 +322,11 @@ const BASE_CLASSES = {
   'Warrior':   ['Titan', 'Warbringer', 'Smith of Kitava'],
   'Ranger':    ['Deadeye', 'Pathfinder'],
   'Witch':     ['Infernalist', 'Blood Mage', 'Lich', 'Abyssal Lich'],
-  'Monk':      ['Invoker', 'Acolyte of Chayula'],
+  'Monk':      ['Invoker', 'Acolyte of Chayula', 'Martial Artist'],
   'Mercenary': ['Witchhunter', 'Gemling Legionnaire', 'Tactician'],
   'Sorceress': ['Stormweaver', 'Chronomancer', 'Disciple of Varashta'],
   'Druid':     ['Shaman', 'Oracle'],
-  'Huntress':  ['Amazon', 'Ritualist'],
+  'Huntress':  ['Amazon', 'Ritualist', 'Spirit Walker'],
 };
 
 // base class -> ascendancies (for search)
@@ -334,6 +352,8 @@ const CLASS_BASE = {
   'Oracle':              'Druid',
   'Amazon':              'Huntress',
   'Ritualist':           'Huntress',
+  'Martial Artist':      'Monk',
+  'Spirit Walker':       'Huntress',
 };
 
 const CLASS_COLORS = {
@@ -358,6 +378,8 @@ const CLASS_COLORS = {
   'Acolyte of Chayula':   '#8840b0',
   'Smith of Kitava':      '#c06030',
   'Disciple of Varashta': '#7c5cbf',
+  'Martial Artist':       '#40a070',
+  'Spirit Walker':        '#70a060',
 };
 
 // preload all icons so canvas can draw them; redraw chart when each loads
