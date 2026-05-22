@@ -254,9 +254,6 @@ function parseCSV(text) {
 }
 
 async function init() {
-  const saved = localStorage.getItem('poe2_survey_league');
-  if (saved && LEAGUE_TABS.includes(saved)) currentLeague = saved;
-
   buildTabs();
 
   try {
