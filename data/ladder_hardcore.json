@@ -1,6 +1,6 @@
 {
   "league": "Hardcore",
-  "fetched_at": "2026-05-26T09:59:57.397129+00:00",
+  "fetched_at": "2026-05-27T09:53:50.341066+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2060,7 +2060,7 @@
       "class": "Tactician",
       "level": 100,
       "experience": 4250334444,
-      "dead": false,
+      "dead": true,
       "retired": false
     },
     {
@@ -2390,7 +2390,7 @@
       "class": "Ritualist",
       "level": 100,
       "experience": 4250334444,
-      "dead": false,
+      "dead": true,
       "retired": false
     },
     {
@@ -4219,7 +4219,7 @@
       "character": "MalaGarava",
       "class": "Infernalist",
       "level": 99,
-      "experience": 4118182472,
+      "experience": 4118312131,
       "dead": false,
       "retired": false
     },
@@ -4735,6 +4735,16 @@
     },
     {
       "rank": 474,
+      "account": "magicHCM#3878",
+      "character": "HCM_SongCham",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 4012133199,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 475,
       "account": "781648111#3015",
       "character": "\u8bf8\u845b\u5c0f\u5154\u8840\u6cd5\u4e00\u5468\u76ee",
       "class": "Blood Mage",
@@ -4744,22 +4754,12 @@
       "retired": false
     },
     {
-      "rank": 475,
+      "rank": 476,
       "account": "Bossjr#4397",
       "character": "\u0e44\u0e21\u0e48\u0e15\u0e34\u0e4b\u0e21\u0e19\u0e30\u0e04\u0e23\u0e31\u0e1a",
       "class": "Blood Mage",
       "level": 99,
       "experience": 4009337989,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 476,
-      "account": "magicHCM#3878",
-      "character": "HCM_SongCham",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 4008898343,
       "dead": false,
       "retired": false
     },
@@ -4869,7 +4869,7 @@
       "character": "\u963f\u521d\u516b\u516b\u516b\u516b",
       "class": "Deadeye",
       "level": 99,
-      "experience": 3993350802,
+      "experience": 3993649532,
       "dead": false,
       "retired": false
     },
@@ -4945,6 +4945,16 @@
     },
     {
       "rank": 495,
+      "account": "BigglerLittler#1795",
+      "character": "CYPIWILLNOTICEME",
+      "class": "Pathfinder",
+      "level": 99,
+      "experience": 3983430167,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 496,
       "account": "Kuronied#4080",
       "character": "\u6df7\u6c8c\u5c0f\u5361\u724c\u4e8c\u4e16",
       "class": "Ritualist",
@@ -4954,7 +4964,7 @@
       "retired": false
     },
     {
-      "rank": 496,
+      "rank": 497,
       "account": "\ub9c8\uc655\ub8e8\uc57c#1757",
       "character": "\ub9c8\uc655\uc624\ud638\uc6b0\uae30",
       "class": "Invoker",
@@ -4964,7 +4974,7 @@
       "retired": false
     },
     {
-      "rank": 497,
+      "rank": 498,
       "account": "xiaoyaoflow#8203",
       "character": "\u9ebb\u8c46\u50b3\u5a92\u651d\u5f71\u5e2b",
       "class": "Invoker",
@@ -4974,22 +4984,12 @@
       "retired": false
     },
     {
-      "rank": 498,
+      "rank": 499,
       "account": "lhmwho#1518",
       "character": "\ub3c4\ub808\ubbf8\ud30c\ub798\uae40",
       "class": "Disciple of Varashta",
       "level": 99,
       "experience": 3981199283,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 499,
-      "account": "BigglerLittler#1795",
-      "character": "CYPIWILLNOTICEME",
-      "class": "Pathfinder",
-      "level": 99,
-      "experience": 3981134838,
       "dead": false,
       "retired": false
     },
@@ -5179,7 +5179,7 @@
       "character": "jieyanzhong",
       "class": "Invoker",
       "level": 99,
-      "experience": 3969676533,
+      "experience": 3969680930,
       "dead": false,
       "retired": false
     },
@@ -5829,7 +5829,7 @@
       "character": "\u3059\u304b\u3044\u3089\u3076__",
       "class": "Oracle",
       "level": 99,
-      "experience": 3934933144,
+      "experience": 3934950860,
       "dead": false,
       "retired": false
     },
@@ -6479,7 +6479,7 @@
       "character": "MyWifeSaidNoo",
       "class": "Chronomancer",
       "level": 98,
-      "experience": 3873937617,
+      "experience": 3874003613,
       "dead": false,
       "retired": false
     },
@@ -8145,11 +8145,11 @@
     },
     {
       "rank": 815,
-      "account": "\uad11\uc8fc\uc740\ud589#1941",
-      "character": "\uaf2c\uce58\uc774\uc13c\uce58",
-      "class": "Blood Mage",
+      "account": "Apxapa0#7967",
+      "character": "Abyssal_pusher",
+      "class": "Abyssal Lich",
       "level": 98,
-      "experience": 3753494331,
+      "experience": 3752480072,
       "dead": false,
       "retired": false
     },
@@ -8275,21 +8275,21 @@
     },
     {
       "rank": 828,
-      "account": "Lynx888844#9684",
-      "character": "SacrificialLynx",
-      "class": "Blood Mage",
+      "account": "vladem1999#5860",
+      "character": "eVa_Vaal",
+      "class": "Disciple of Varashta",
       "level": 98,
-      "experience": 3746680873,
+      "experience": 3746849810,
       "dead": false,
       "retired": false
     },
     {
       "rank": 829,
-      "account": "vladem1999#5860",
-      "character": "eVa_Vaal",
-      "class": "Disciple of Varashta",
+      "account": "Lynx888844#9684",
+      "character": "SacrificialLynx",
+      "class": "Blood Mage",
       "level": 98,
-      "experience": 3746628873,
+      "experience": 3746680873,
       "dead": false,
       "retired": false
     },
@@ -8385,6 +8385,16 @@
     },
     {
       "rank": 839,
+      "account": "Captain#4160",
+      "character": "CHAOS_EFFIGY",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3742906556,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 840,
       "account": "BlackGnom#3451",
       "character": "\u0423\u043c\u0435\u0440_\u0441\u0435\u043c\u044c_\u0440\u0430\u0437",
       "class": "Invoker",
@@ -8394,7 +8404,7 @@
       "retired": false
     },
     {
-      "rank": 840,
+      "rank": 841,
       "account": "laozhuzai#7016",
       "character": "\u5c0f\u732a\u5d3d",
       "class": "Blood Mage",
@@ -8404,7 +8414,7 @@
       "retired": false
     },
     {
-      "rank": 841,
+      "rank": 842,
       "account": "zloyNafanya#3614",
       "character": "SDFghkHGJ",
       "class": "Blood Mage",
@@ -8414,7 +8424,7 @@
       "retired": false
     },
     {
-      "rank": 842,
+      "rank": 843,
       "account": "a424457728#4131",
       "character": "\u5973\u5deb\u6b7b\u4e86\u4e00\u4e07\u6b21",
       "class": "Lich",
@@ -8424,7 +8434,7 @@
       "retired": false
     },
     {
-      "rank": 843,
+      "rank": 844,
       "account": "I_will_Block_Hagglers#2703",
       "character": "\u30de\u30b8\u30e4\u30d0\u30a4",
       "class": "Lich",
@@ -8434,22 +8444,12 @@
       "retired": false
     },
     {
-      "rank": 844,
+      "rank": 845,
       "account": "Trstone#8503",
       "character": "\u706b\u82b1\u55ac\u51e6\u5168\u5bb6",
       "class": "Lich",
       "level": 98,
       "experience": 3740204422,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 845,
-      "account": "Captain#4160",
-      "character": "CHAOS_EFFIGY",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3740193679,
       "dead": false,
       "retired": false
     },
@@ -9405,21 +9405,21 @@
     },
     {
       "rank": 941,
-      "account": "Fenriss1994#3619",
-      "character": "Shkonkana",
-      "class": "Lich",
+      "account": "CynaxKing#6484",
+      "character": "PoEOhneChrisIstSchrott",
+      "class": "Pathfinder",
       "level": 98,
-      "experience": 3702357285,
+      "experience": 3702557098,
       "dead": false,
       "retired": false
     },
     {
       "rank": 942,
-      "account": "CynaxKing#6484",
-      "character": "PoEOhneChrisIstSchrott",
-      "class": "Pathfinder",
+      "account": "Fenriss1994#3619",
+      "character": "Shkonkana",
+      "class": "Lich",
       "level": 98,
-      "experience": 3702251953,
+      "experience": 3702357285,
       "dead": false,
       "retired": false
     },
@@ -9579,7 +9579,7 @@
       "character": "VoprisiPoSkilly",
       "class": "Blood Mage",
       "level": 98,
-      "experience": 3696925059,
+      "experience": 3697116064,
       "dead": false,
       "retired": false
     },
@@ -9919,7 +9919,7 @@
       "character": "\u4e0d\u8d2a\u5200\u4e0d\u4f1a\u6b7b",
       "class": "Blood Mage",
       "level": 98,
-      "experience": 3685938853,
+      "experience": 3686150034,
       "dead": false,
       "retired": false
     },
