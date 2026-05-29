@@ -226,9 +226,9 @@
 
 <nav class="site-nav">
   <div class="inner">
-    <a class="nav-link active" href="./">Ladder</a>
-    <a class="nav-link" href="static/survey.html">Survey</a>
-    <a class="nav-link" href="static/results.html">Results</a>
+    <a class="nav-link active" href="/">Ladder</a>
+    <a class="nav-link" href="/survey">Survey</a>
+    <a class="nav-link" href="/results">Results</a>
   </div>
 </nav>
 
@@ -236,6 +236,16 @@
   <div class="inner">
     <div class="league-tabs" id="leagueTabs">
       <div class="tab active" data-league="">Loading...</div>
+    </div>
+
+    <div id="adminRefresh" style="display:none; margin-left:8px;">
+      <button onclick="refreshLeague()" style="
+        padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 13px;
+        background: #1a1200; border: 1px solid var(--gold-dim); color: var(--gold);
+        transition: all 0.15s; font-family: inherit;
+      " onmouseover="this.style.borderColor='var(--gold-mid)'" onmouseout="this.style.borderColor='var(--gold-dim)'">
+        ⟳ Refresh
+      </button>
     </div>
 
     <div class="filter-group">
@@ -399,6 +409,30 @@ let sortDir = 1;
 let activeClasses = new Set();
 let activeStatuses = new Set(['alive', 'dead', 'retired']);
 let leagueList = [];
+
+// ── admin (localhost only) ─────────────────────────────────────────────────────
+if (['localhost', '127.0.0.1'].includes(window.location.hostname)) {
+  document.getElementById('adminRefresh').style.display = 'block';
+}
+
+async function refreshLeague() {
+  if (!currentLeague) return;
+  const btn = document.querySelector('#adminRefresh button');
+  btn.textContent = '⟳ Scraping…';
+  btn.disabled = true;
+  try {
+    await fetch(`/api/refresh/${currentLeague}`, { method: 'POST' });
+    btn.textContent = '⟳ Running…';
+    setTimeout(async () => {
+      await selectLeague(currentLeague);
+      btn.textContent = '⟳ Refresh';
+      btn.disabled = false;
+    }, 15000);
+  } catch (e) {
+    btn.textContent = '⟳ Refresh';
+    btn.disabled = false;
+  }
+}
 
 // ── boot ──────────────────────────────────────────────────────────────────────
 async function init() {
