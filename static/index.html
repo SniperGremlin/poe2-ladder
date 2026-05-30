@@ -611,10 +611,10 @@ function render() {
 
   const cols = [
     { key: 'rank',       label: 'Overall Rank' },
+    { key: 'classRank',  label: 'Ascendancy Rank' },
     { key: 'account',    label: 'Account' },
     { key: 'character',  label: 'Character' },
     { key: 'class',      label: 'Class' },
-    { key: 'classRank',  label: 'Ascendancy Rank' },
     { key: 'level',      label: 'Level' },
     { key: 'experience', label: 'Experience' },
   ];
@@ -634,10 +634,10 @@ function render() {
     const lvlClass = e.level === 100 ? 'level level-100' : 'level';
     return `<tr>
       <td class="${rankClass}">#${e.rank}</td>
+      <td class="rank" style="color:var(--text-dim);font-size:12px">#${classRankMap[e.character] || '—'}</td>
       <td class="account">${esc(e.account)}</td>
       <td class="char-name">${esc(e.character)}${statusTag}</td>
       <td class="class-cell">${CLASS_ICONS[e.class] ? `<img class="class-icon" src="${CLASS_ICONS[e.class]}" alt="">` : ''}${esc(e.class)}</td>
-      <td class="rank" style="color:var(--text-dim);font-size:12px">#${classRankMap[e.character] || '—'}</td>
       <td class="${lvlClass}">${e.level}</td>
       <td class="xp">${e.experience.toLocaleString()}</td>
     </tr>`;
