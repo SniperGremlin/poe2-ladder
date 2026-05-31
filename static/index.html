@@ -238,13 +238,13 @@
       <div class="tab active" data-league="">Loading...</div>
     </div>
 
-    <div id="adminRefresh" style="display:none; margin-left:8px;">
-      <button onclick="refreshLeague()" style="
-        padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 13px;
-        background: #1a1200; border: 1px solid var(--gold-dim); color: var(--gold);
+    <div style="margin-left:8px;">
+      <button id="scrapeBtn" onclick="refreshLeague()" title=" " style="
+        padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 13px;
+        background: transparent; border: 1px solid transparent; color: var(--text-dim);
         transition: all 0.15s; font-family: inherit;
-      " onmouseover="this.style.borderColor='var(--gold-mid)'" onmouseout="this.style.borderColor='var(--gold-dim)'">
-        ⟳ Refresh
+      " onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text-dim)'">
+        S
       </button>
     </div>
 
@@ -412,25 +412,22 @@ let activeStatuses = new Set(['alive', 'dead', 'retired']);
 let leagueList = [];
 
 // ── admin (localhost only) ─────────────────────────────────────────────────────
-if (['localhost', '127.0.0.1'].includes(window.location.hostname)) {
-  document.getElementById('adminRefresh').style.display = 'block';
-}
 
 async function refreshLeague() {
   if (!currentLeague) return;
-  const btn = document.querySelector('#adminRefresh button');
-  btn.textContent = '⟳ Scraping…';
+  const btn = document.getElementById('scrapeBtn');
+  btn.textContent = '…';
   btn.disabled = true;
   try {
     await fetch(`/api/refresh/${currentLeague}`, { method: 'POST' });
-    btn.textContent = '⟳ Running…';
+    btn.textContent = '⟳';
     setTimeout(async () => {
       await selectLeague(currentLeague);
-      btn.textContent = '⟳ Refresh';
+      btn.textContent = 'S';
       btn.disabled = false;
     }, 15000);
   } catch (e) {
-    btn.textContent = '⟳ Refresh';
+    btn.textContent = 'S';
     btn.disabled = false;
   }
 }
