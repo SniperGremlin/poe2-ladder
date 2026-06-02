@@ -1,6 +1,6 @@
 {
   "league": "Hardcore SSF",
-  "fetched_at": "2026-06-01T11:37:34.280343+00:00",
+  "fetched_at": "2026-06-02T10:26:27.653337+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3979,7 +3979,7 @@
       "character": "Crauwnch",
       "class": "Shaman",
       "level": 97,
-      "experience": 3391851053,
+      "experience": 3393265754,
       "dead": false,
       "retired": false
     },
@@ -7511,7 +7511,7 @@
       "level": 96,
       "experience": 3112460526,
       "dead": false,
-      "retired": false
+      "retired": true
     },
     {
       "rank": 752,
@@ -9985,22 +9985,22 @@
     },
     {
       "rank": 999,
-      "account": "fakeSuppy#0490",
-      "character": "weirdball",
-      "class": "Chronomancer",
-      "level": 95,
-      "experience": 2905348227,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 1000,
       "account": "PapaSt#7426",
       "character": "PapaGoesHCII",
       "class": "Stormweaver",
       "level": 95,
       "experience": 2905321277,
       "dead": true,
+      "retired": false
+    },
+    {
+      "rank": 1000,
+      "account": "Kholnik#0150",
+      "character": "GOTH_MOMMY__MILKERS",
+      "class": "Abyssal Lich",
+      "level": 95,
+      "experience": 2905226101,
+      "dead": false,
       "retired": false
     }
   ]
