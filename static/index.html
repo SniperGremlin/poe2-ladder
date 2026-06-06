@@ -238,16 +238,6 @@
       <div class="tab active" data-league="">Loading...</div>
     </div>
 
-    <div style="margin-left:8px;">
-      <button id="scrapeBtn" onclick="refreshLeague()" title=" " style="
-        padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 13px;
-        background: transparent; border: 1px solid transparent; color: var(--text-dim);
-        transition: all 0.15s; font-family: inherit;
-      " onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text-dim)'">
-        S
-      </button>
-    </div>
-
     <div class="filter-group">
       <label>Search</label>
       <input type="text" id="searchInput" placeholder="Account, character or class…" style="width:200px">
@@ -411,25 +401,13 @@ let activeClasses = new Set();
 let activeStatuses = new Set(['alive', 'dead', 'retired']);
 let leagueList = [];
 
-// ── admin (localhost only) ─────────────────────────────────────────────────────
+// ── auto-refresh (removed manual scrape button) ────────────────────────────────
 
-async function refreshLeague() {
+async function autoRefresh() {
   if (!currentLeague) return;
-  const btn = document.getElementById('scrapeBtn');
-  btn.textContent = '…';
-  btn.disabled = true;
   try {
-    await fetch(`/api/refresh/${currentLeague}`, { method: 'POST' });
-    btn.textContent = '⟳';
-    setTimeout(async () => {
-      await selectLeague(currentLeague);
-      btn.textContent = 'S';
-      btn.disabled = false;
-    }, 15000);
-  } catch (e) {
-    btn.textContent = 'S';
-    btn.disabled = false;
-  }
+    await selectLeague(currentLeague);
+  } catch (e) { /* silently ignore */ }
 }
 
 // ── boot ──────────────────────────────────────────────────────────────────────
@@ -446,6 +424,9 @@ async function init() {
   leagueList = await res.json();
   renderTabs();
   if (leagueList.length) selectLeague(leagueList[0].id);
+
+  // Auto-refresh data every hour to match GitHub Actions scrape schedule
+  setInterval(autoRefresh, 60 * 60 * 1000);
 }
 
 function renderTabs() {
