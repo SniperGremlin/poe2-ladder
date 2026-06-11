@@ -51,7 +51,10 @@ def scrape_league(league_name: str, url: str) -> list[dict]:
             cells = row.query_selector_all("td")
             if len(cells) < 6:
                 continue
-            rank = int(cells[0].inner_text().strip())
+            try:
+                rank = int(cells[0].inner_text().strip())
+            except ValueError:
+                continue
             account = cells[1].inner_text().strip()
             char_text = cells[2].inner_text().strip()
             char_name, dead, retired = parse_character_cell(char_text)
