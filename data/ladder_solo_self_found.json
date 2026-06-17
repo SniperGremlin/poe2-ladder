@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-06-17T14:56:51.509803+00:00",
+  "fetched_at": "2026-06-17T17:48:38.998871+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1355,21 +1355,21 @@
     },
     {
       "rank": 136,
-      "account": "mezz876#7260",
-      "character": "MezzSparkySSF",
-      "class": "Stormweaver",
+      "account": "nigh1mare#5999",
+      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
+      "class": "Deadeye",
       "level": 99,
-      "experience": 4083431523,
+      "experience": 4084826288,
       "dead": false,
       "retired": false
     },
     {
       "rank": 137,
-      "account": "nigh1mare#5999",
-      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
-      "class": "Deadeye",
+      "account": "mezz876#7260",
+      "character": "MezzSparkySSF",
+      "class": "Stormweaver",
       "level": 99,
-      "experience": 4081228847,
+      "experience": 4083431523,
       "dead": false,
       "retired": false
     },
@@ -2495,16 +2495,6 @@
     },
     {
       "rank": 250,
-      "account": "honghanhua#1153",
-      "character": "Cirror",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3872949880,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 251,
       "account": "Dakart#2039",
       "character": "EskimoDaisy",
       "class": "Blood Mage",
@@ -2514,12 +2504,22 @@
       "retired": false
     },
     {
-      "rank": 252,
+      "rank": 251,
       "account": "42maus#2761",
       "character": "SixthTimesACharm",
       "class": "Disciple of Varashta",
       "level": 98,
       "experience": 3869757825,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 252,
+      "account": "honghanhua#1153",
+      "character": "Cirror",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3866846597,
       "dead": false,
       "retired": false
     },
@@ -5315,6 +5315,16 @@
     },
     {
       "rank": 532,
+      "account": "Skulltula114#5611",
+      "character": "Skulltula",
+      "class": "Abyssal Lich",
+      "level": 97,
+      "experience": 3623144152,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 533,
       "account": "Lasershark6#1319",
       "character": "Sixth_Gate",
       "class": "Lich",
@@ -5324,7 +5334,7 @@
       "retired": false
     },
     {
-      "rank": 533,
+      "rank": 534,
       "account": "Exfury#6995",
       "character": "Vokameilala",
       "class": "Ritualist",
@@ -5334,7 +5344,7 @@
       "retired": false
     },
     {
-      "rank": 534,
+      "rank": 535,
       "account": "axelrud#9381",
       "character": "Frost_Maya",
       "class": "Disciple of Varashta",
@@ -5344,7 +5354,7 @@
       "retired": false
     },
     {
-      "rank": 535,
+      "rank": 536,
       "account": "GingaMalice#6336",
       "character": "SSFHoldW",
       "class": "Pathfinder",
@@ -5354,7 +5364,7 @@
       "retired": false
     },
     {
-      "rank": 536,
+      "rank": 537,
       "account": "everseen#0826",
       "character": "everseenArainja",
       "class": "Deadeye",
@@ -5364,7 +5374,7 @@
       "retired": true
     },
     {
-      "rank": 537,
+      "rank": 538,
       "account": "merovech1986#6590",
       "character": "FrostQueen___",
       "class": "Disciple of Varashta",
@@ -5374,7 +5384,7 @@
       "retired": false
     },
     {
-      "rank": 538,
+      "rank": 539,
       "account": "Korilbonk#7581",
       "character": "Karrrl",
       "class": "Abyssal Lich",
@@ -5384,7 +5394,7 @@
       "retired": true
     },
     {
-      "rank": 539,
+      "rank": 540,
       "account": "Liutkemenas#2618",
       "character": "Liutkemenas",
       "class": "Deadeye",
@@ -5394,7 +5404,7 @@
       "retired": false
     },
     {
-      "rank": 540,
+      "rank": 541,
       "account": "\uac1c\ub3d9#8938",
       "character": "\uac13\uac9c\uc744\ub9dd\uce58\ub294\uc6b4\uc601",
       "class": "Disciple of Varashta",
@@ -5404,22 +5414,12 @@
       "retired": false
     },
     {
-      "rank": 541,
+      "rank": 542,
       "account": "Astarsan#4925",
       "character": "ChaoticSpririt",
       "class": "Lich",
       "level": 97,
       "experience": 3604075928,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 542,
-      "account": "Skulltula114#5611",
-      "character": "Skulltula",
-      "class": "Abyssal Lich",
-      "level": 97,
-      "experience": 3600664473,
       "dead": false,
       "retired": false
     },
@@ -7735,6 +7735,16 @@
     },
     {
       "rank": 774,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3437626133,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 775,
       "account": "DxstG#7444",
       "character": "Dxstgem",
       "class": "Gemling Legionnaire",
@@ -7744,7 +7754,7 @@
       "retired": true
     },
     {
-      "rank": 775,
+      "rank": 776,
       "account": "\uac1c\ub3d9#8938",
       "character": "\uac13\uac9c\uc778\ub370\uc6b4\uc601\uc744\uac1c\ubabb\ud568",
       "class": "Oracle",
@@ -7754,7 +7764,7 @@
       "retired": false
     },
     {
-      "rank": 776,
+      "rank": 777,
       "account": "Penguneer#7646",
       "character": "PenguneerCynthia",
       "class": "Infernalist",
@@ -7764,7 +7774,7 @@
       "retired": true
     },
     {
-      "rank": 777,
+      "rank": 778,
       "account": "burba23#4228",
       "character": "PALADINLOGIN",
       "class": "Titan",
@@ -7774,7 +7784,7 @@
       "retired": false
     },
     {
-      "rank": 778,
+      "rank": 779,
       "account": "LuciusKaine#0093",
       "character": "TLotDStandoTsukai",
       "class": "Disciple of Varashta",
@@ -7784,7 +7794,7 @@
       "retired": false
     },
     {
-      "rank": 779,
+      "rank": 780,
       "account": "habibgradinarul#2858",
       "character": "minus_zero_",
       "class": "Disciple of Varashta",
@@ -7794,7 +7804,7 @@
       "retired": false
     },
     {
-      "rank": 780,
+      "rank": 781,
       "account": "Arirmind#4333",
       "character": "SSF_Alpha",
       "class": "Martial Artist",
@@ -7804,22 +7814,12 @@
       "retired": false
     },
     {
-      "rank": 781,
+      "rank": 782,
       "account": "GRAFIT228#3655",
       "character": "RisaQ",
       "class": "Deadeye",
       "level": 97,
       "experience": 3432513469,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 782,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3432387481,
       "dead": false,
       "retired": false
     },
