@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-06-25T17:06:51.704086+00:00",
+  "fetched_at": "2026-06-25T19:49:18.199752+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2935,6 +2935,16 @@
     },
     {
       "rank": 294,
+      "account": "Arirmind#4333",
+      "character": "SSF_Alpha",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3760319649,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 295,
       "account": "Shadowxxy#6475",
       "character": "ShivorLife",
       "class": "Titan",
@@ -2944,7 +2954,7 @@
       "retired": false
     },
     {
-      "rank": 295,
+      "rank": 296,
       "account": "FredLongshanks#3136",
       "character": "Paneloux",
       "class": "Oracle",
@@ -2954,7 +2964,7 @@
       "retired": false
     },
     {
-      "rank": 296,
+      "rank": 297,
       "account": "smsam123#1741",
       "character": "spearsuckass",
       "class": "Ritualist",
@@ -2964,7 +2974,7 @@
       "retired": true
     },
     {
-      "rank": 297,
+      "rank": 298,
       "account": "clep2210#7720",
       "character": "Clep",
       "class": "Disciple of Varashta",
@@ -2974,7 +2984,7 @@
       "retired": false
     },
     {
-      "rank": 298,
+      "rank": 299,
       "account": "gcstc007#0805",
       "character": "\u53ec\u5524\u8f6c\u8840\u6cd5",
       "class": "Blood Mage",
@@ -2984,22 +2994,12 @@
       "retired": false
     },
     {
-      "rank": 299,
+      "rank": 300,
       "account": "konipu_3#6341",
       "character": "KONIPU______HCSSF",
       "class": "Blood Mage",
       "level": 98,
       "experience": 3754957364,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 300,
-      "account": "Arirmind#4333",
-      "character": "SSF_Alpha",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3748688044,
       "dead": false,
       "retired": false
     },
@@ -6465,21 +6465,21 @@
     },
     {
       "rank": 647,
-      "account": "Tinji#4010",
-      "character": "Shfeek_Baba",
-      "class": "Witchhunter",
+      "account": "Ayonik#2700",
+      "character": "Kaetsu",
+      "class": "Martial Artist",
       "level": 97,
-      "experience": 3499070517,
+      "experience": 3500211328,
       "dead": false,
       "retired": false
     },
     {
       "rank": 648,
-      "account": "Ayonik#2700",
-      "character": "Kaetsu",
-      "class": "Martial Artist",
+      "account": "Tinji#4010",
+      "character": "Shfeek_Baba",
+      "class": "Witchhunter",
       "level": 97,
-      "experience": 3498834973,
+      "experience": 3499070517,
       "dead": false,
       "retired": false
     },
@@ -7775,21 +7775,21 @@
     },
     {
       "rank": 778,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3438426589,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 779,
       "account": "CaptressTina#7893",
       "character": "Dehlun_SSF",
       "class": "Pathfinder",
       "level": 97,
       "experience": 3437729596,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 779,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3437643347,
       "dead": false,
       "retired": false
     },
@@ -9795,16 +9795,6 @@
     },
     {
       "rank": 980,
-      "account": "iXthAt#7739",
-      "character": "Yzulh",
-      "class": "Acolyte of Chayula",
-      "level": 97,
-      "experience": 3382262684,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 981,
       "account": "cutonhuphich#0754",
       "character": "HCSSF_Grubby",
       "class": "Amazon",
@@ -9814,7 +9804,7 @@
       "retired": true
     },
     {
-      "rank": 982,
+      "rank": 981,
       "account": "GrindinRyan#4764",
       "character": "GrindinDeadeyeSSFAbyss",
       "class": "Deadeye",
@@ -9824,7 +9814,7 @@
       "retired": true
     },
     {
-      "rank": 983,
+      "rank": 982,
       "account": "PinocchioTheBrave#3400",
       "character": "boxcatsorc",
       "class": "Stormweaver",
@@ -9834,7 +9824,7 @@
       "retired": false
     },
     {
-      "rank": 984,
+      "rank": 983,
       "account": "Darkri#5323",
       "character": "TranquilityNox_EA",
       "class": "Invoker",
@@ -9844,7 +9834,7 @@
       "retired": false
     },
     {
-      "rank": 985,
+      "rank": 984,
       "account": "TheMindless#3836",
       "character": "LarianDuvat",
       "class": "Invoker",
@@ -9854,7 +9844,7 @@
       "retired": false
     },
     {
-      "rank": 986,
+      "rank": 985,
       "account": "akuryo#0061",
       "character": "AKURYO_LEGACY_TEMPLE",
       "class": "Pathfinder",
@@ -9864,7 +9854,7 @@
       "retired": false
     },
     {
-      "rank": 987,
+      "rank": 986,
       "account": "Comieco#2761",
       "character": "Monkydbey",
       "class": "Invoker",
@@ -9874,7 +9864,7 @@
       "retired": false
     },
     {
-      "rank": 988,
+      "rank": 987,
       "account": "iKnifeThings#4035",
       "character": "iKnifeThingss",
       "class": "Smith of Kitava",
@@ -9884,7 +9874,7 @@
       "retired": false
     },
     {
-      "rank": 989,
+      "rank": 988,
       "account": "Nigromante#2632",
       "character": "cantclicktoomuch",
       "class": "Deadeye",
@@ -9894,7 +9884,7 @@
       "retired": false
     },
     {
-      "rank": 990,
+      "rank": 989,
       "account": "ki_a#0974",
       "character": "III_kia_sw_h",
       "class": "Stormweaver",
@@ -9904,7 +9894,7 @@
       "retired": false
     },
     {
-      "rank": 991,
+      "rank": 990,
       "account": "repidemic#3731",
       "character": "Synnaia",
       "class": "Stormweaver",
@@ -9914,7 +9904,7 @@
       "retired": false
     },
     {
-      "rank": 992,
+      "rank": 991,
       "account": "\uc2dc\uac04\uc2dc\uac04#3216",
       "character": "\ubb34\ub7ed\ubabd",
       "class": "Invoker",
@@ -9924,7 +9914,7 @@
       "retired": false
     },
     {
-      "rank": 993,
+      "rank": 992,
       "account": "Eharbad#6063",
       "character": "Thyraxis",
       "class": "Smith of Kitava",
@@ -9934,7 +9924,7 @@
       "retired": false
     },
     {
-      "rank": 994,
+      "rank": 993,
       "account": "StarSheriff1511#3675",
       "character": "Sheriff_Slams_Abysses",
       "class": "Titan",
@@ -9944,7 +9934,7 @@
       "retired": false
     },
     {
-      "rank": 995,
+      "rank": 994,
       "account": "Likewize#0965",
       "character": "Zaphazza",
       "class": "Gemling Legionnaire",
@@ -9954,7 +9944,7 @@
       "retired": false
     },
     {
-      "rank": 996,
+      "rank": 995,
       "account": "DimaKunica#2556",
       "character": "\u0411\u0435\u0437\u0410\u043c\u0431\u0438\u0446\u0438\u0439",
       "class": "Pathfinder",
@@ -9964,7 +9954,7 @@
       "retired": false
     },
     {
-      "rank": 997,
+      "rank": 996,
       "account": "Vamyra#0948",
       "character": "DriftBear",
       "class": "Smith of Kitava",
@@ -9974,7 +9964,7 @@
       "retired": false
     },
     {
-      "rank": 998,
+      "rank": 997,
       "account": "negusmaster#0233",
       "character": "QuickyK",
       "class": "Deadeye",
@@ -9984,7 +9974,7 @@
       "retired": false
     },
     {
-      "rank": 999,
+      "rank": 998,
       "account": "19dany92#8342",
       "character": "GambaSSF",
       "class": "Gemling Legionnaire",
@@ -9994,12 +9984,22 @@
       "retired": false
     },
     {
-      "rank": 1000,
+      "rank": 999,
       "account": "\ube59\ub85c\ub85c#7618",
       "character": "\ud63c\uc790\uc11c\ub3c4\ud574\ud53c\ubaa8\uce74",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3380024456,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 1000,
+      "account": "smallpungency#1598",
+      "character": "zhamconsilpae",
+      "class": "Invoker",
+      "level": 97,
+      "experience": 3379977797,
       "dead": false,
       "retired": false
     }
