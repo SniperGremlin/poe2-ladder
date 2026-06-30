@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-06-30T13:07:03.859504+00:00",
+  "fetched_at": "2026-06-30T16:20:01.390569+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1365,6 +1365,16 @@
     },
     {
       "rank": 137,
+      "account": "honghanhua#1153",
+      "character": "Cirror",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 4083715275,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 138,
       "account": "mezz876#7260",
       "character": "MezzSparkySSF",
       "class": "Stormweaver",
@@ -1374,7 +1384,7 @@
       "retired": false
     },
     {
-      "rank": 138,
+      "rank": 139,
       "account": "pirering#2473",
       "character": "\ub180\ub4dc\ub78f\uc2e4",
       "class": "Shaman",
@@ -1384,22 +1394,12 @@
       "retired": false
     },
     {
-      "rank": 139,
+      "rank": 140,
       "account": "wzmilk#8627",
       "character": "\u8840\u6cd5\u624d\u662f\u6d41\u653e\u5e95\u5c42\u903b\u8f91",
       "class": "Blood Mage",
       "level": 99,
       "experience": 4073279917,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 140,
-      "account": "honghanhua#1153",
-      "character": "Cirror",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 4072487820,
       "dead": false,
       "retired": false
     },
@@ -2375,6 +2375,16 @@
     },
     {
       "rank": 238,
+      "account": "Arirmind#4333",
+      "character": "SSF_Alpha",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3912686213,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 239,
       "account": "Nya-ki-onn#9548",
       "character": "\u30b8\u30e7\u30ca\u306e\u5947\u5999\u306a\u30c0\u30f3\u30b8\u30e7\u30f3",
       "class": "Smith of Kitava",
@@ -2384,7 +2394,7 @@
       "retired": true
     },
     {
-      "rank": 239,
+      "rank": 240,
       "account": "Karamon10#7295",
       "character": "KaraJonaton",
       "class": "Witchhunter",
@@ -2392,16 +2402,6 @@
       "experience": 3899279456,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 240,
-      "account": "Arirmind#4333",
-      "character": "SSF_Alpha",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3894660330,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 241,
