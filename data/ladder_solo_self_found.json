@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-01T23:06:37.026238+00:00",
+  "fetched_at": "2026-07-02T02:33:26.897541+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1285,6 +1285,16 @@
     },
     {
       "rank": 129,
+      "account": "nigh1mare#5999",
+      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 4111318806,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 130,
       "account": "Last#6573",
       "character": "FotVCincoBM",
       "class": "Blood Mage",
@@ -1294,22 +1304,12 @@
       "retired": false
     },
     {
-      "rank": 130,
+      "rank": 131,
       "account": "Crookie#5727",
       "character": "ImagineNotSprinting",
       "class": "Pathfinder",
       "level": 99,
       "experience": 4109665927,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 131,
-      "account": "nigh1mare#5999",
-      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 4109054235,
       "dead": false,
       "retired": false
     },
@@ -3195,21 +3195,21 @@
     },
     {
       "rank": 320,
-      "account": "Alice07#6460",
-      "character": "MalisZE",
-      "class": "Blood Mage",
+      "account": "MoreJun#4862",
+      "character": "Methylomis",
+      "class": "Ritualist",
       "level": 98,
-      "experience": 3719713555,
+      "experience": 3720933410,
       "dead": false,
       "retired": false
     },
     {
       "rank": 321,
-      "account": "MoreJun#4862",
-      "character": "Methylomis",
-      "class": "Ritualist",
+      "account": "Alice07#6460",
+      "character": "MalisZE",
+      "class": "Blood Mage",
       "level": 98,
-      "experience": 3719171151,
+      "experience": 3719713555,
       "dead": false,
       "retired": false
     },
@@ -4815,6 +4815,16 @@
     },
     {
       "rank": 482,
+      "account": "MoreJun#4862",
+      "character": "Aeonastra",
+      "class": "Chronomancer",
+      "level": 98,
+      "experience": 3639670319,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 483,
       "account": "valkucio#3602",
       "character": "NeckShots",
       "class": "Deadeye",
@@ -4822,16 +4832,6 @@
       "experience": 3639588005,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 483,
-      "account": "MoreJun#4862",
-      "character": "Aeonastra",
-      "class": "Chronomancer",
-      "level": 98,
-      "experience": 3639406064,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 484,
@@ -6579,7 +6579,7 @@
       "character": "\u30a6\u30a3\u30c3\u30c1\u30ad\u30e9\u30fc",
       "class": "Witchhunter",
       "level": 97,
-      "experience": 3487231120,
+      "experience": 3488569461,
       "dead": false,
       "retired": false
     },
@@ -8829,7 +8829,7 @@
       "character": "straightfromtheHeart",
       "class": "Lich",
       "level": 97,
-      "experience": 3399705967,
+      "experience": 3399858844,
       "dead": false,
       "retired": false
     },
