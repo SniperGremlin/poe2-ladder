@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-04T15:01:15.677823+00:00",
+  "fetched_at": "2026-07-04T16:05:46.589702+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1655,21 +1655,21 @@
     },
     {
       "rank": 166,
-      "account": "\u304f\u3058\u3089\uff17#2502",
-      "character": "\u304f\u3058\u3089\u4e03\u53f7",
-      "class": "Smith of Kitava",
+      "account": "honghanhua#1153",
+      "character": "Cirror",
+      "class": "Deadeye",
       "level": 99,
-      "experience": 3979008497,
+      "experience": 3980893917,
       "dead": false,
       "retired": false
     },
     {
       "rank": 167,
-      "account": "honghanhua#1153",
-      "character": "Cirror",
-      "class": "Deadeye",
+      "account": "\u304f\u3058\u3089\uff17#2502",
+      "character": "\u304f\u3058\u3089\u4e03\u53f7",
+      "class": "Smith of Kitava",
       "level": 99,
-      "experience": 3978475670,
+      "experience": 3979008497,
       "dead": false,
       "retired": false
     },
@@ -6585,6 +6585,16 @@
     },
     {
       "rank": 659,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3485756127,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 660,
       "account": "senie#3841",
       "character": "seniee",
       "class": "Deadeye",
@@ -6594,7 +6604,7 @@
       "retired": false
     },
     {
-      "rank": 660,
+      "rank": 661,
       "account": "xonike#5639",
       "character": "Erisivory",
       "class": "Lich",
@@ -6604,7 +6614,7 @@
       "retired": true
     },
     {
-      "rank": 661,
+      "rank": 662,
       "account": "North#0126",
       "character": "Cetha",
       "class": "Lich",
@@ -6614,7 +6624,7 @@
       "retired": false
     },
     {
-      "rank": 662,
+      "rank": 663,
       "account": "BMergen#4858",
       "character": "HuntressRitualistMer",
       "class": "Ritualist",
@@ -6622,16 +6632,6 @@
       "experience": 3484371275,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 663,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3484140571,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 664,
@@ -9975,16 +9975,6 @@
     },
     {
       "rank": 998,
-      "account": "Pioro1980#3652",
-      "character": "PioroWarior",
-      "class": "Smith of Kitava",
-      "level": 97,
-      "experience": 3380836636,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 999,
       "account": "Vamyra#0948",
       "character": "DriftBear",
       "class": "Smith of Kitava",
@@ -9994,12 +9984,22 @@
       "retired": false
     },
     {
-      "rank": 1000,
+      "rank": 999,
       "account": "negusmaster#0233",
       "character": "QuickyK",
       "class": "Deadeye",
       "level": 97,
       "experience": 3380437605,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 1000,
+      "account": "19dany92#8342",
+      "character": "GambaSSF",
+      "class": "Gemling Legionnaire",
+      "level": 97,
+      "experience": 3380388833,
       "dead": false,
       "retired": false
     }
