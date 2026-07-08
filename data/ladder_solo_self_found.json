@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-08T10:57:28.937450+00:00",
+  "fetched_at": "2026-07-08T12:17:18.678878+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1289,7 +1289,7 @@
       "character": "\u5c31\u662f\u8981\u62c9\u77e2",
       "class": "Deadeye",
       "level": 99,
-      "experience": 4111496843,
+      "experience": 4112439219,
       "dead": false,
       "retired": false
     },
@@ -1625,6 +1625,16 @@
     },
     {
       "rank": 163,
+      "account": "honghanhua#1153",
+      "character": "Cirror",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 3993967587,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 164,
       "account": "zp1980#7433",
       "character": "\u602a\u53d4\u53d4\u7231\u73a9\u6d41\u653e\u4e8c",
       "class": "Invoker",
@@ -1632,16 +1642,6 @@
       "experience": 3993168747,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 164,
-      "account": "honghanhua#1153",
-      "character": "Cirror",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 3992388336,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 165,
@@ -3805,6 +3805,16 @@
     },
     {
       "rank": 381,
+      "account": "GRAFIT228#3655",
+      "character": "RisaQ",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3669676169,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 382,
       "account": "okamoto89#3530",
       "character": "SSFFFUN",
       "class": "Pathfinder",
@@ -3814,7 +3824,7 @@
       "retired": false
     },
     {
-      "rank": 382,
+      "rank": 383,
       "account": "SYA09#6673",
       "character": "SYA_WARRIORBUFFEDxD",
       "class": "Titan",
@@ -3824,7 +3834,7 @@
       "retired": false
     },
     {
-      "rank": 383,
+      "rank": 384,
       "account": "yemao#3712",
       "character": "\u76ae\u76ae\u867e\u5c0f\u82b1\u732b",
       "class": "Infernalist",
@@ -3832,16 +3842,6 @@
       "experience": 3666073857,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 384,
-      "account": "GRAFIT228#3655",
-      "character": "RisaQ",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3665878816,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 385,
@@ -5745,21 +5745,21 @@
     },
     {
       "rank": 575,
-      "account": "MrRipski#2232",
-      "character": "NuffSalami",
-      "class": "Smith of Kitava",
+      "account": "jyamapotato#8000",
+      "character": "\u30a6\u30a3\u30c3\u30c1\u30ad\u30e9\u30fc",
+      "class": "Witchhunter",
       "level": 97,
-      "experience": 3555825054,
+      "experience": 3557027475,
       "dead": false,
       "retired": false
     },
     {
       "rank": 576,
-      "account": "jyamapotato#8000",
-      "character": "\u30a6\u30a3\u30c3\u30c1\u30ad\u30e9\u30fc",
-      "class": "Witchhunter",
+      "account": "MrRipski#2232",
+      "character": "NuffSalami",
+      "class": "Smith of Kitava",
       "level": 97,
-      "experience": 3555197165,
+      "experience": 3555825054,
       "dead": false,
       "retired": false
     },
