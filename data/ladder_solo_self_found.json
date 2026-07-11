@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-11T07:11:43.684469+00:00",
+  "fetched_at": "2026-07-11T09:20:04.564519+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1365,21 +1365,21 @@
     },
     {
       "rank": 137,
-      "account": "pirering#2473",
-      "character": "\ub180\ub4dc\ub78f\uc2e4",
-      "class": "Shaman",
+      "account": "nigh1mare#5999",
+      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
+      "class": "Deadeye",
       "level": 99,
-      "experience": 4078034473,
+      "experience": 4079258397,
       "dead": false,
       "retired": false
     },
     {
       "rank": 138,
-      "account": "nigh1mare#5999",
-      "character": "\u5c31\u662f\u8981\u62c9\u77e2",
-      "class": "Deadeye",
+      "account": "pirering#2473",
+      "character": "\ub180\ub4dc\ub78f\uc2e4",
+      "class": "Shaman",
       "level": 99,
-      "experience": 4076132504,
+      "experience": 4078034473,
       "dead": false,
       "retired": false
     },
@@ -1415,21 +1415,21 @@
     },
     {
       "rank": 142,
-      "account": "honghanhua#1153",
-      "character": "Cirror",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 4046527822,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 143,
       "account": "plutohiyo#8169",
       "character": "FastRangerII",
       "class": "Pathfinder",
       "level": 99,
       "experience": 4041039298,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 143,
+      "account": "honghanhua#1153",
+      "character": "Cirror",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 4037188845,
       "dead": false,
       "retired": false
     },
@@ -3219,7 +3219,7 @@
       "character": "SionaFateofTheVaal",
       "class": "Pathfinder",
       "level": 98,
-      "experience": 3713686879,
+      "experience": 3713687708,
       "dead": false,
       "retired": false
     },
@@ -3539,7 +3539,7 @@
       "character": "RisaQ",
       "class": "Deadeye",
       "level": 98,
-      "experience": 3686073870,
+      "experience": 3686611278,
       "dead": false,
       "retired": false
     },
@@ -5405,6 +5405,16 @@
     },
     {
       "rank": 541,
+      "account": "Ayonik#2700",
+      "character": "Kaetsu",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3599720461,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 542,
       "account": "Erlyderly#0730",
       "character": "BrainDimple",
       "class": "Deadeye",
@@ -5414,7 +5424,7 @@
       "retired": false
     },
     {
-      "rank": 542,
+      "rank": 543,
       "account": "Spacedu5t#3512",
       "character": "Thalexis",
       "class": "Amazon",
@@ -5424,7 +5434,7 @@
       "retired": false
     },
     {
-      "rank": 543,
+      "rank": 544,
       "account": "ramgthunder#8201",
       "character": "SuperSexyFood_Nice",
       "class": "Abyssal Lich",
@@ -5434,22 +5444,12 @@
       "retired": false
     },
     {
-      "rank": 544,
+      "rank": 545,
       "account": "Mushi_Oyasumi#9130",
       "character": "Mushi_Vaal_Fate",
       "class": "Amazon",
       "level": 97,
       "experience": 3595908505,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 545,
-      "account": "Ayonik#2700",
-      "character": "Kaetsu",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3594160767,
       "dead": false,
       "retired": false
     },
@@ -6045,6 +6045,16 @@
     },
     {
       "rank": 605,
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
+      "level": 97,
+      "experience": 3525504203,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 606,
       "account": "maeaeae#5879",
       "character": "SpookyMae",
       "class": "Acolyte of Chayula",
@@ -6054,7 +6064,7 @@
       "retired": false
     },
     {
-      "rank": 606,
+      "rank": 607,
       "account": "HarryGoode#2212",
       "character": "ChungoBuggins",
       "class": "Stormweaver",
@@ -6064,22 +6074,12 @@
       "retired": false
     },
     {
-      "rank": 607,
+      "rank": 608,
       "account": "D3ADLY#8725",
       "character": "SpeedGreed",
       "class": "Deadeye",
       "level": 97,
       "experience": 3524133153,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 608,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
-      "level": 97,
-      "experience": 3522861152,
       "dead": false,
       "retired": false
     },
@@ -7795,6 +7795,16 @@
     },
     {
       "rank": 780,
+      "account": "P4rt1san#3387",
+      "character": "straightfromtheHeart",
+      "class": "Lich",
+      "level": 97,
+      "experience": 3436837070,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 781,
       "account": "Penguneer#7646",
       "character": "PenguneerCynthia",
       "class": "Infernalist",
@@ -7804,22 +7814,12 @@
       "retired": true
     },
     {
-      "rank": 781,
+      "rank": 782,
       "account": "burba23#4228",
       "character": "PALADINLOGIN",
       "class": "Titan",
       "level": 97,
       "experience": 3436305591,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 782,
-      "account": "P4rt1san#3387",
-      "character": "straightfromtheHeart",
-      "class": "Lich",
-      "level": 97,
-      "experience": 3435863969,
       "dead": false,
       "retired": false
     },
