@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-21T08:12:15.790098+00:00",
+  "fetched_at": "2026-07-21T11:00:03.580946+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3799,7 +3799,7 @@
       "character": "Alpang",
       "class": "Deadeye",
       "level": 98,
-      "experience": 3669889896,
+      "experience": 3670328524,
       "dead": false,
       "retired": false
     },
@@ -3965,6 +3965,16 @@
     },
     {
       "rank": 397,
+      "account": "Otissimo#4233",
+      "character": "Jeari",
+      "class": "Abyssal Lich",
+      "level": 98,
+      "experience": 3659577248,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 398,
       "account": "Satkan#4150",
       "character": "Satkan_f",
       "class": "Gemling Legionnaire",
@@ -3974,7 +3984,7 @@
       "retired": false
     },
     {
-      "rank": 398,
+      "rank": 399,
       "account": "Endorushx#0650",
       "character": "FlamingLich",
       "class": "Blood Mage",
@@ -3984,7 +3994,7 @@
       "retired": false
     },
     {
-      "rank": 399,
+      "rank": 400,
       "account": "niklas22#7579",
       "character": "nvz_MetaAsAlways",
       "class": "Deadeye",
@@ -3994,7 +4004,7 @@
       "retired": false
     },
     {
-      "rank": 400,
+      "rank": 401,
       "account": "deadd0g#5529",
       "character": "geoff_treeform",
       "class": "Oracle",
@@ -4004,7 +4014,7 @@
       "retired": false
     },
     {
-      "rank": 401,
+      "rank": 402,
       "account": "Yvelkneevel#9255",
       "character": "Boinggoinggloing",
       "class": "Titan",
@@ -4014,22 +4024,12 @@
       "retired": true
     },
     {
-      "rank": 402,
+      "rank": 403,
       "account": "long123mm#3375",
       "character": "KySSF",
       "class": "Ritualist",
       "level": 98,
       "experience": 3658601667,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 403,
-      "account": "Otissimo#4233",
-      "character": "Jeari",
-      "class": "Abyssal Lich",
-      "level": 98,
-      "experience": 3658262265,
       "dead": false,
       "retired": false
     },
@@ -7085,16 +7085,6 @@
     },
     {
       "rank": 709,
-      "account": "P4rt1san#3387",
-      "character": "straightfromtheHeart",
-      "class": "Lich",
-      "level": 97,
-      "experience": 3465348623,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 710,
       "account": "lordducc#0129",
       "character": "BOLONSTRO_FotV",
       "class": "Titan",
@@ -7104,7 +7094,7 @@
       "retired": false
     },
     {
-      "rank": 711,
+      "rank": 710,
       "account": "HepariLord#5763",
       "character": "HCSSF_FV_Hepari",
       "class": "Disciple of Varashta",
@@ -7114,7 +7104,7 @@
       "retired": false
     },
     {
-      "rank": 712,
+      "rank": 711,
       "account": "Zaffadaris#6509",
       "character": "Jallidara",
       "class": "Infernalist",
@@ -7124,7 +7114,7 @@
       "retired": false
     },
     {
-      "rank": 713,
+      "rank": 712,
       "account": "Onisaki#2984",
       "character": "BrandonIngram",
       "class": "Invoker",
@@ -7134,7 +7124,7 @@
       "retired": false
     },
     {
-      "rank": 714,
+      "rank": 713,
       "account": "ThePathOfExileTM#2833",
       "character": "FotVaal_Huntress",
       "class": "Ritualist",
@@ -7144,12 +7134,22 @@
       "retired": false
     },
     {
-      "rank": 715,
+      "rank": 714,
       "account": "ffs2021#2752",
       "character": "EA_FurryFlurry",
       "class": "Gemling Legionnaire",
       "level": 97,
       "experience": 3461627912,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 715,
+      "account": "P4rt1san#3387",
+      "character": "straightfromtheHeart",
+      "class": "Lich",
+      "level": 97,
+      "experience": 3461402644,
       "dead": false,
       "retired": false
     },
