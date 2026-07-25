@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-25T16:00:29.225642+00:00",
+  "fetched_at": "2026-07-25T16:59:20.581986+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2425,6 +2425,16 @@
     },
     {
       "rank": 243,
+      "account": "honghanhua#1153",
+      "character": "Alpang",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3886036501,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 244,
       "account": "00Honeybadger00#3486",
       "character": "AtsCoc",
       "class": "Blood Mage",
@@ -2434,7 +2444,7 @@
       "retired": false
     },
     {
-      "rank": 244,
+      "rank": 245,
       "account": "fan_sun#0949",
       "character": "DoH_xxFan",
       "class": "Oracle",
@@ -2444,22 +2454,12 @@
       "retired": false
     },
     {
-      "rank": 245,
+      "rank": 246,
       "account": "goblinooze#0870",
       "character": "Vaalicher",
       "class": "Lich",
       "level": 98,
       "experience": 3881278329,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 246,
-      "account": "honghanhua#1153",
-      "character": "Alpang",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3878699179,
       "dead": false,
       "retired": false
     },
@@ -5069,7 +5069,7 @@
       "character": "LarianDuvat",
       "class": "Invoker",
       "level": 98,
-      "experience": 3638279189,
+      "experience": 3638295519,
       "dead": false,
       "retired": false
     },
@@ -5429,7 +5429,7 @@
       "character": "Castressf",
       "class": "Spirit Walker",
       "level": 97,
-      "experience": 3601683914,
+      "experience": 3603920845,
       "dead": false,
       "retired": false
     },
