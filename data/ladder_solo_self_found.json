@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-26T19:00:46.886777+00:00",
+  "fetched_at": "2026-07-26T20:11:28.762105+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2135,6 +2135,16 @@
     },
     {
       "rank": 214,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3934668325,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 215,
       "account": "coyd#6278",
       "character": "Bow_AZonn",
       "class": "Deadeye",
@@ -2144,7 +2154,7 @@
       "retired": false
     },
     {
-      "rank": 215,
+      "rank": 216,
       "account": "ryanrtjh#6263",
       "character": "popolwow",
       "class": "Blood Mage",
@@ -2154,7 +2164,7 @@
       "retired": false
     },
     {
-      "rank": 216,
+      "rank": 217,
       "account": "p1xel#2711",
       "character": "pixel_SSF",
       "class": "Disciple of Varashta",
@@ -2164,7 +2174,7 @@
       "retired": false
     },
     {
-      "rank": 217,
+      "rank": 218,
       "account": "Iruga#9164",
       "character": "Iruga_SSF_FOTV",
       "class": "Titan",
@@ -2174,7 +2184,7 @@
       "retired": false
     },
     {
-      "rank": 218,
+      "rank": 219,
       "account": "AmaLame#7538",
       "character": "BaguetteNcheese",
       "class": "Pathfinder",
@@ -2184,7 +2194,7 @@
       "retired": false
     },
     {
-      "rank": 219,
+      "rank": 220,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2194,22 +2204,12 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 221,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
       "level": 99,
       "experience": 3933608317,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 221,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3933514394,
       "dead": false,
       "retired": false
     },
@@ -4485,6 +4485,16 @@
     },
     {
       "rank": 449,
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3643488517,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 450,
       "account": "Ash#4435",
       "character": "YukinaMinato",
       "class": "Ritualist",
@@ -4494,7 +4504,7 @@
       "retired": false
     },
     {
-      "rank": 450,
+      "rank": 451,
       "account": "jdrawmer#4982",
       "character": "InfiniteSparks",
       "class": "Stormweaver",
@@ -4504,7 +4514,7 @@
       "retired": false
     },
     {
-      "rank": 451,
+      "rank": 452,
       "account": "steissi#3112",
       "character": "XanderSchauffele",
       "class": "Tactician",
@@ -4514,22 +4524,12 @@
       "retired": false
     },
     {
-      "rank": 452,
+      "rank": 453,
       "account": "MrDarkos#4560",
       "character": "DarkosSSFDruid",
       "class": "Oracle",
       "level": 98,
       "experience": 3642754177,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 453,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3642744809,
       "dead": false,
       "retired": false
     },
@@ -7535,6 +7535,16 @@
     },
     {
       "rank": 754,
+      "account": "petecreio#2445",
+      "character": "PeteSorceress",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3450226025,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 755,
       "account": "Controlvolume#3489",
       "character": "DeadeyeWinningAgain",
       "class": "Deadeye",
@@ -7544,7 +7554,7 @@
       "retired": false
     },
     {
-      "rank": 755,
+      "rank": 756,
       "account": "ntRtainment#2770",
       "character": "TylersCreation",
       "class": "Stormweaver",
@@ -7554,7 +7564,7 @@
       "retired": false
     },
     {
-      "rank": 756,
+      "rank": 757,
       "account": "tombiao119#9952",
       "character": "\u84dd\u8272\u98de\u58f6",
       "class": "Amazon",
@@ -7564,7 +7574,7 @@
       "retired": true
     },
     {
-      "rank": 757,
+      "rank": 758,
       "account": "scy7410#1583",
       "character": "\u771f\u5c0f\u602a",
       "class": "Stormweaver",
@@ -7574,7 +7584,7 @@
       "retired": false
     },
     {
-      "rank": 758,
+      "rank": 759,
       "account": "BimodalInk7#2481",
       "character": "CirKaomcised",
       "class": "Titan",
@@ -7584,7 +7594,7 @@
       "retired": false
     },
     {
-      "rank": 759,
+      "rank": 760,
       "account": "13957321807#4902",
       "character": "Gwildflower",
       "class": "Amazon",
@@ -7594,7 +7604,7 @@
       "retired": false
     },
     {
-      "rank": 760,
+      "rank": 761,
       "account": "iamwuwuwu10#5413",
       "character": "WuWuuu",
       "class": "Tactician",
@@ -7604,7 +7614,7 @@
       "retired": false
     },
     {
-      "rank": 761,
+      "rank": 762,
       "account": "Mupoxod#5184",
       "character": "\u0411\u043b\u044d\u043a\u0414\u0436\u0435\u043a\u0441\u043a\u043e\u043d\u044f\u043c\u0438",
       "class": "Shaman",
@@ -7614,7 +7624,7 @@
       "retired": false
     },
     {
-      "rank": 762,
+      "rank": 763,
       "account": "Kanakrom#5363",
       "character": "scrtstcs",
       "class": "Titan",
@@ -7624,7 +7634,7 @@
       "retired": true
     },
     {
-      "rank": 763,
+      "rank": 764,
       "account": "humi888#3914",
       "character": "humitaro",
       "class": "Oracle",
@@ -7634,7 +7644,7 @@
       "retired": false
     },
     {
-      "rank": 764,
+      "rank": 765,
       "account": "JimmysJonka#5259",
       "character": "Bambisbackonhc",
       "class": "Lich",
@@ -7644,7 +7654,7 @@
       "retired": true
     },
     {
-      "rank": 765,
+      "rank": 766,
       "account": "Cyph#9174",
       "character": "Cyph_Flickering",
       "class": "Invoker",
@@ -7654,7 +7664,7 @@
       "retired": false
     },
     {
-      "rank": 766,
+      "rank": 767,
       "account": "ThalesMoustache#9191",
       "character": "ThalesMoustache_Gem",
       "class": "Gemling Legionnaire",
@@ -7664,7 +7674,7 @@
       "retired": false
     },
     {
-      "rank": 767,
+      "rank": 768,
       "account": "Barjanus666#6989",
       "character": "FCKOFFChaosWitches",
       "class": "Blood Mage",
@@ -7674,7 +7684,7 @@
       "retired": true
     },
     {
-      "rank": 768,
+      "rank": 769,
       "account": "Miaoula#3730",
       "character": "CharlemagneVSNinjas",
       "class": "Infernalist",
@@ -7684,7 +7694,7 @@
       "retired": false
     },
     {
-      "rank": 769,
+      "rank": 770,
       "account": "Ninku90#5011",
       "character": "NinqSorq",
       "class": "Stormweaver",
@@ -7694,7 +7704,7 @@
       "retired": false
     },
     {
-      "rank": 770,
+      "rank": 771,
       "account": "Tarwon#2045",
       "character": "Latorl",
       "class": "Shaman",
@@ -7704,7 +7714,7 @@
       "retired": false
     },
     {
-      "rank": 771,
+      "rank": 772,
       "account": "lndiaCharlie#1705",
       "character": "SoulCharlie",
       "class": "Pathfinder",
@@ -7714,7 +7724,7 @@
       "retired": false
     },
     {
-      "rank": 772,
+      "rank": 773,
       "account": "refiew998#1581",
       "character": "TSTrash",
       "class": "Infernalist",
@@ -7724,7 +7734,7 @@
       "retired": false
     },
     {
-      "rank": 773,
+      "rank": 774,
       "account": "Arccueid#1259",
       "character": "FotVArccueid",
       "class": "Stormweaver",
@@ -7734,7 +7744,7 @@
       "retired": false
     },
     {
-      "rank": 774,
+      "rank": 775,
       "account": "Tapatio69#5444",
       "character": "Tapatio_SSFII",
       "class": "Stormweaver",
@@ -7744,7 +7754,7 @@
       "retired": false
     },
     {
-      "rank": 775,
+      "rank": 776,
       "account": "Alpakaka#4421",
       "character": "Arcquianna",
       "class": "Stormweaver",
@@ -7754,7 +7764,7 @@
       "retired": false
     },
     {
-      "rank": 776,
+      "rank": 777,
       "account": "btres#5569",
       "character": "\u7368\u72fc\u4e4b\u5922\u56de\u6697\u9ed1\u53c1",
       "class": "Invoker",
@@ -7764,7 +7774,7 @@
       "retired": false
     },
     {
-      "rank": 777,
+      "rank": 778,
       "account": "bazzinga__#5066",
       "character": "bazzinga_huntress",
       "class": "Amazon",
@@ -7774,7 +7784,7 @@
       "retired": true
     },
     {
-      "rank": 778,
+      "rank": 779,
       "account": "GKster23#5797",
       "character": "Ryconley",
       "class": "Titan",
@@ -7784,7 +7794,7 @@
       "retired": false
     },
     {
-      "rank": 779,
+      "rank": 780,
       "account": "Rot_Gut#4822",
       "character": "Pleasure_zzz",
       "class": "Lich",
@@ -7794,7 +7804,7 @@
       "retired": false
     },
     {
-      "rank": 780,
+      "rank": 781,
       "account": "CaptressTina#7893",
       "character": "Dehlun_SSF",
       "class": "Pathfinder",
@@ -7804,7 +7814,7 @@
       "retired": false
     },
     {
-      "rank": 781,
+      "rank": 782,
       "account": "DxstG#7444",
       "character": "Dxstgem",
       "class": "Gemling Legionnaire",
@@ -7814,7 +7824,7 @@
       "retired": true
     },
     {
-      "rank": 782,
+      "rank": 783,
       "account": "\uac1c\ub3d9#8938",
       "character": "\uac13\uac9c\uc778\ub370\uc6b4\uc601\uc744\uac1c\ubabb\ud568",
       "class": "Oracle",
@@ -7824,7 +7834,7 @@
       "retired": false
     },
     {
-      "rank": 783,
+      "rank": 784,
       "account": "Penguneer#7646",
       "character": "PenguneerCynthia",
       "class": "Infernalist",
@@ -7834,22 +7844,12 @@
       "retired": true
     },
     {
-      "rank": 784,
+      "rank": 785,
       "account": "burba23#4228",
       "character": "PALADINLOGIN",
       "class": "Titan",
       "level": 97,
       "experience": 3436305591,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 785,
-      "account": "petecreio#2445",
-      "character": "PeteSorceress",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3435558599,
       "dead": false,
       "retired": false
     },
@@ -8855,21 +8855,21 @@
     },
     {
       "rank": 886,
-      "account": "Rama#9454",
-      "character": "_Rama_",
-      "class": "Titan",
+      "account": "IIElekII#1727",
+      "character": "GLACIAL_GIRL",
+      "class": "Deadeye",
       "level": 97,
-      "experience": 3399383290,
+      "experience": 3399546353,
       "dead": false,
       "retired": false
     },
     {
       "rank": 887,
-      "account": "IIElekII#1727",
-      "character": "GLACIAL_GIRL",
-      "class": "Deadeye",
+      "account": "Rama#9454",
+      "character": "_Rama_",
+      "class": "Titan",
       "level": 97,
-      "experience": 3398702044,
+      "experience": 3399383290,
       "dead": false,
       "retired": false
     },
