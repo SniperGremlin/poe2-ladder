@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-27T10:35:48.476599+00:00",
+  "fetched_at": "2026-07-27T13:35:10.348030+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1815,6 +1815,16 @@
     },
     {
       "rank": 182,
+      "account": "honghanhua#1153",
+      "character": "Alpang",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 3948896220,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 183,
       "account": "wesleywai1993#4417",
       "character": "\u56de\u9996\u4e00\u5207\u8fd9\u4e2a\u4e16\u754c\u4f1a\u597d\u5417\u4f1a\u597d\u5417",
       "class": "Tactician",
@@ -1824,7 +1834,7 @@
       "retired": false
     },
     {
-      "rank": 183,
+      "rank": 184,
       "account": "Theorist16#7489",
       "character": "Zoomass",
       "class": "Pathfinder",
@@ -1834,7 +1844,7 @@
       "retired": false
     },
     {
-      "rank": 184,
+      "rank": 185,
       "account": "Kerex#2684",
       "character": "Kerex",
       "class": "Titan",
@@ -1844,7 +1854,7 @@
       "retired": false
     },
     {
-      "rank": 185,
+      "rank": 186,
       "account": "nadeshiko_kato#9636",
       "character": "\u306a\u3067\u3057\u3053\u308f\u3044\u3068",
       "class": "Abyssal Lich",
@@ -1854,22 +1864,12 @@
       "retired": false
     },
     {
-      "rank": 186,
+      "rank": 187,
       "account": "woodman_guitar#4236",
       "character": "Evan_Lester",
       "class": "Shaman",
       "level": 99,
       "experience": 3947986141,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 187,
-      "account": "honghanhua#1153",
-      "character": "Alpang",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 3946787001,
       "dead": false,
       "retired": false
     },
@@ -5325,21 +5325,21 @@
     },
     {
       "rank": 533,
-      "account": "GoodCos#3370",
-      "character": "W_HC_SSF",
-      "class": "Infernalist",
+      "account": "enigmyth#1149",
+      "character": "Castressf",
+      "class": "Spirit Walker",
       "level": 97,
-      "experience": 3626911476,
+      "experience": 3627257390,
       "dead": false,
       "retired": false
     },
     {
       "rank": 534,
-      "account": "enigmyth#1149",
-      "character": "Castressf",
-      "class": "Spirit Walker",
+      "account": "GoodCos#3370",
+      "character": "W_HC_SSF",
+      "class": "Infernalist",
       "level": 97,
-      "experience": 3623217553,
+      "experience": 3626911476,
       "dead": false,
       "retired": false
     },
@@ -6535,6 +6535,16 @@
     },
     {
       "rank": 654,
+      "account": "HoneyPretzel#7092",
+      "character": "Call_of_the_Pretzels",
+      "class": "Spirit Walker",
+      "level": 97,
+      "experience": 3491399677,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 655,
       "account": "HwaniNarae#7668",
       "character": "DeepBlue_Amazon_Single",
       "class": "Amazon",
@@ -6542,16 +6552,6 @@
       "experience": 3491119109,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 655,
-      "account": "HoneyPretzel#7092",
-      "character": "Call_of_the_Pretzels",
-      "class": "Spirit Walker",
-      "level": 97,
-      "experience": 3491032870,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 656,
