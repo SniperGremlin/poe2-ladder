@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-28T16:00:59.810512+00:00",
+  "fetched_at": "2026-07-28T17:38:52.600166+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1745,6 +1745,16 @@
     },
     {
       "rank": 175,
+      "account": "honghanhua#1153",
+      "character": "Alpang",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 3965966065,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 176,
       "account": "tom333#4063",
       "character": "Fuma_NuzzleMyMuzzle",
       "class": "Oracle",
@@ -1754,22 +1764,12 @@
       "retired": false
     },
     {
-      "rank": 176,
+      "rank": 177,
       "account": "Devlin399#0466",
       "character": "DevlinRunningItBack",
       "class": "Titan",
       "level": 99,
       "experience": 3963232688,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 177,
-      "account": "honghanhua#1153",
-      "character": "Alpang",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 3961825246,
       "dead": false,
       "retired": false
     },
@@ -7329,7 +7329,7 @@
       "character": "MalkoKostenurcheNinja",
       "class": "Acolyte of Chayula",
       "level": 97,
-      "experience": 3456265540,
+      "experience": 3456394345,
       "dead": false,
       "retired": false
     },
