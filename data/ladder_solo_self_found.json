@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-07-29T01:51:34.158048+00:00",
+  "fetched_at": "2026-07-29T05:15:37.023599+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2225,16 +2225,6 @@
     },
     {
       "rank": 223,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3933137837,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 224,
       "account": "DoritoMayhem#7668",
       "character": "DruidDoritoSSF",
       "class": "Oracle",
@@ -2244,7 +2234,7 @@
       "retired": false
     },
     {
-      "rank": 225,
+      "rank": 224,
       "account": "Agnarr#2183",
       "character": "rozennjj",
       "class": "Pathfinder",
@@ -2254,7 +2244,7 @@
       "retired": false
     },
     {
-      "rank": 226,
+      "rank": 225,
       "account": "Alieg#5009",
       "character": "Monknashiyappaaru",
       "class": "Invoker",
@@ -2264,7 +2254,7 @@
       "retired": false
     },
     {
-      "rank": 227,
+      "rank": 226,
       "account": "ylpoe#3866",
       "character": "\u7368\u81ea\u6d41\u653e",
       "class": "Smith of Kitava",
@@ -2274,7 +2264,7 @@
       "retired": false
     },
     {
-      "rank": 228,
+      "rank": 227,
       "account": "Gutse#7586",
       "character": "GutseSSFNRF",
       "class": "Ritualist",
@@ -2284,7 +2274,7 @@
       "retired": false
     },
     {
-      "rank": 229,
+      "rank": 228,
       "account": "epicyarn0#8888",
       "character": "\ub108\ubd80\ud130\uc8fd\uc5ec\uc8fc\ub9c8",
       "class": "Invoker",
@@ -2294,7 +2284,7 @@
       "retired": false
     },
     {
-      "rank": 230,
+      "rank": 229,
       "account": "Oskarmln#1292",
       "character": "waitingforedbuff",
       "class": "Blood Mage",
@@ -2304,12 +2294,22 @@
       "retired": false
     },
     {
-      "rank": 231,
+      "rank": 230,
       "account": "Rastapapi#2772",
       "character": "AlgadngMasama",
       "class": "Lich",
       "level": 99,
       "experience": 3932838245,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 231,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3932836825,
       "dead": false,
       "retired": false
     },
@@ -4849,7 +4849,7 @@
       "character": "Castressf",
       "class": "Spirit Walker",
       "level": 98,
-      "experience": 3639197517,
+      "experience": 3639197539,
       "dead": false,
       "retired": false
     },
