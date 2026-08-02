@@ -1,6 +1,6 @@
 {
   "league": "SSF Runes of Aldur",
-  "fetched_at": "2026-08-02T18:59:11.708823+00:00",
+  "fetched_at": "2026-08-02T20:10:35.958478+00:00",
   "count": 1000,
   "entries": [
     {
@@ -389,7 +389,7 @@
       "character": "First_Breath_After_Coma",
       "class": "Martial Artist",
       "level": 99,
-      "experience": 4229763153,
+      "experience": 4229955544,
       "dead": false,
       "retired": false
     },
@@ -435,6 +435,16 @@
     },
     {
       "rank": 44,
+      "account": "chesschamp#1889",
+      "character": "Staround",
+      "class": "Infernalist",
+      "level": 99,
+      "experience": 4180620203,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 45,
       "account": "DawNemo#5511",
       "character": "dawnemoo",
       "class": "Martial Artist",
@@ -442,16 +452,6 @@
       "experience": 4175205658,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 45,
-      "account": "chesschamp#1889",
-      "character": "Staround",
-      "class": "Infernalist",
-      "level": 99,
-      "experience": 4173450995,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 46,
@@ -715,21 +715,21 @@
     },
     {
       "rank": 72,
-      "account": "hanskai#3530",
-      "character": "KaiWitchPlant",
-      "class": "Abyssal Lich",
+      "account": "MAPPY2024#8288",
+      "character": "oracle_mappy",
+      "class": "Oracle",
       "level": 99,
-      "experience": 4006943410,
+      "experience": 4007961774,
       "dead": false,
       "retired": false
     },
     {
       "rank": 73,
-      "account": "MAPPY2024#8288",
-      "character": "oracle_mappy",
-      "class": "Oracle",
+      "account": "hanskai#3530",
+      "character": "KaiWitchPlant",
+      "class": "Abyssal Lich",
       "level": 99,
-      "experience": 4006422951,
+      "experience": 4006943410,
       "dead": false,
       "retired": false
     },
@@ -1075,21 +1075,21 @@
     },
     {
       "rank": 108,
-      "account": "Epimethea#2863",
-      "character": "Catherine",
-      "class": "Disciple of Varashta",
+      "account": "b3astz#4899",
+      "character": "Talanaidh",
+      "class": "Spirit Walker",
       "level": 99,
-      "experience": 3957098655,
+      "experience": 3958173399,
       "dead": false,
       "retired": false
     },
     {
       "rank": 109,
-      "account": "b3astz#4899",
-      "character": "Talanaidh",
-      "class": "Spirit Walker",
+      "account": "Epimethea#2863",
+      "character": "Catherine",
+      "class": "Disciple of Varashta",
       "level": 99,
-      "experience": 3957093779,
+      "experience": 3957098655,
       "dead": false,
       "retired": false
     },
@@ -1149,7 +1149,7 @@
       "character": "TheRobotDevil",
       "class": "Abyssal Lich",
       "level": 99,
-      "experience": 3950675308,
+      "experience": 3951053074,
       "dead": false,
       "retired": false
     },
@@ -1265,6 +1265,16 @@
     },
     {
       "rank": 127,
+      "account": "Zeki#7115",
+      "character": "Zeki_Amazon",
+      "class": "Amazon",
+      "level": 99,
+      "experience": 3945583207,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 128,
       "account": "Zoide123#5590",
       "character": "TwisterZoid",
       "class": "Spirit Walker",
@@ -1274,22 +1284,12 @@
       "retired": false
     },
     {
-      "rank": 128,
+      "rank": 129,
       "account": "coyd#6278",
       "character": "Harambe_Big_Bonk",
       "class": "Spirit Walker",
       "level": 99,
       "experience": 3943720942,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 129,
-      "account": "Zeki#7115",
-      "character": "Zeki_Amazon",
-      "class": "Amazon",
-      "level": 99,
-      "experience": 3943157388,
       "dead": false,
       "retired": false
     },
@@ -1435,11 +1435,11 @@
     },
     {
       "rank": 144,
-      "account": "Notmayman#3220",
-      "character": "\ub3d9\ubb3c\uc6d0\uc5b4\ub51c\uac00",
-      "class": "Spirit Walker",
+      "account": "Astagoth#5747",
+      "character": "RolTheWall",
+      "class": "Smith of Kitava",
       "level": 99,
-      "experience": 3938980777,
+      "experience": 3939174042,
       "dead": false,
       "retired": false
     },
@@ -1449,27 +1449,27 @@
       "character": "julien__",
       "class": "Deadeye",
       "level": 99,
-      "experience": 3938912167,
+      "experience": 3939139386,
       "dead": false,
       "retired": false
     },
     {
       "rank": 146,
-      "account": "5aren#4408",
-      "character": "saren_rune",
-      "class": "Stormweaver",
+      "account": "Notmayman#3220",
+      "character": "\ub3d9\ubb3c\uc6d0\uc5b4\ub51c\uac00",
+      "class": "Spirit Walker",
       "level": 99,
-      "experience": 3938118560,
+      "experience": 3938980777,
       "dead": false,
       "retired": false
     },
     {
       "rank": 147,
-      "account": "Astagoth#5747",
-      "character": "RolTheWall",
-      "class": "Smith of Kitava",
+      "account": "5aren#4408",
+      "character": "saren_rune",
+      "class": "Stormweaver",
       "level": 99,
-      "experience": 3938014344,
+      "experience": 3938118560,
       "dead": false,
       "retired": false
     },
@@ -1515,6 +1515,16 @@
     },
     {
       "rank": 152,
+      "account": "dgrayd#6226",
+      "character": "dgraydHu",
+      "class": "Spirit Walker",
+      "level": 99,
+      "experience": 3933600210,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 153,
       "account": "Kaarna#4369",
       "character": "KAARRRNNNNAAAAA",
       "class": "Martial Artist",
@@ -1524,7 +1534,7 @@
       "retired": false
     },
     {
-      "rank": 153,
+      "rank": 154,
       "account": "ONANOYA#5047",
       "character": "JucagooglasWordlen",
       "class": "Spirit Walker",
@@ -1534,7 +1544,7 @@
       "retired": false
     },
     {
-      "rank": 154,
+      "rank": 155,
       "account": "FireToSky#7832",
       "character": "FireToSky",
       "class": "Titan",
@@ -1544,7 +1554,7 @@
       "retired": true
     },
     {
-      "rank": 155,
+      "rank": 156,
       "account": "IcyRespawn#5598",
       "character": "IcyFightMyClone",
       "class": "Martial Artist",
@@ -1554,7 +1564,7 @@
       "retired": false
     },
     {
-      "rank": 156,
+      "rank": 157,
       "account": "Shadowcc#6424",
       "character": "Gster_Ninja",
       "class": "Martial Artist",
@@ -1564,7 +1574,7 @@
       "retired": false
     },
     {
-      "rank": 157,
+      "rank": 158,
       "account": "Gobseckk#1450",
       "character": "Gobaldur",
       "class": "Titan",
@@ -1574,7 +1584,7 @@
       "retired": false
     },
     {
-      "rank": 158,
+      "rank": 159,
       "account": "1KeRRy1#0959",
       "character": "_K_E_R_R_Y",
       "class": "Lich",
@@ -1582,16 +1592,6 @@
       "experience": 3932818530,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 159,
-      "account": "dgrayd#6226",
-      "character": "dgraydHu",
-      "class": "Spirit Walker",
-      "level": 98,
-      "experience": 3931053405,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 160,
@@ -1615,6 +1615,16 @@
     },
     {
       "rank": 162,
+      "account": "joinez#5471",
+      "character": "joinezz",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3908860826,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 163,
       "account": "Mushi_Oyasumi#9130",
       "character": "Aldurs_Bussy",
       "class": "Martial Artist",
@@ -1624,7 +1634,7 @@
       "retired": false
     },
     {
-      "rank": 163,
+      "rank": 164,
       "account": "Krippers#4771",
       "character": "KrippersTwisters",
       "class": "Spirit Walker",
@@ -1634,7 +1644,7 @@
       "retired": false
     },
     {
-      "rank": 164,
+      "rank": 165,
       "account": "Orion#9568",
       "character": "perv",
       "class": "Martial Artist",
@@ -1644,22 +1654,12 @@
       "retired": false
     },
     {
-      "rank": 165,
+      "rank": 166,
       "account": "jbizzlemayne#7798",
       "character": "ShuRavenFrost",
       "class": "Martial Artist",
       "level": 98,
       "experience": 3906712756,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 166,
-      "account": "joinez#5471",
-      "character": "joinezz",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3905563685,
       "dead": false,
       "retired": false
     },
@@ -1775,21 +1775,21 @@
     },
     {
       "rank": 178,
-      "account": "Peahat#1424",
-      "character": "Borgrunk",
-      "class": "Oracle",
+      "account": "Reynold545#2039",
+      "character": "Reynoldmartialartist",
+      "class": "Martial Artist",
       "level": 98,
-      "experience": 3876394963,
+      "experience": 3878239107,
       "dead": false,
       "retired": false
     },
     {
       "rank": 179,
-      "account": "Reynold545#2039",
-      "character": "Reynoldmartialartist",
-      "class": "Martial Artist",
+      "account": "Peahat#1424",
+      "character": "Borgrunk",
+      "class": "Oracle",
       "level": 98,
-      "experience": 3876282041,
+      "experience": 3877421232,
       "dead": false,
       "retired": false
     },
@@ -2159,7 +2159,7 @@
       "character": "LadyIzuna",
       "class": "Pathfinder",
       "level": 98,
-      "experience": 3817247487,
+      "experience": 3817847415,
       "dead": false,
       "retired": false
     },
@@ -2175,6 +2175,16 @@
     },
     {
       "rank": 218,
+      "account": "Sztahet#0741",
+      "character": "Zygusia",
+      "class": "Lich",
+      "level": 98,
+      "experience": 3815138020,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 219,
       "account": "\ud504\ud48b\uc774#1808",
       "character": "\ubca0\ub974\ub8e8",
       "class": "Disciple of Varashta",
@@ -2184,22 +2194,12 @@
       "retired": false
     },
     {
-      "rank": 219,
+      "rank": 220,
       "account": "GarryOnMain#3659",
       "character": "TotemsOracle",
       "class": "Oracle",
       "level": 98,
       "experience": 3812877517,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 220,
-      "account": "Sztahet#0741",
-      "character": "Zygusia",
-      "class": "Lich",
-      "level": 98,
-      "experience": 3812471171,
       "dead": false,
       "retired": false
     },
@@ -2325,6 +2325,26 @@
     },
     {
       "rank": 233,
+      "account": "avneretrazaraza#6558",
+      "character": "ohpointfiveoh",
+      "class": "Smith of Kitava",
+      "level": 98,
+      "experience": 3791882038,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 234,
+      "account": "Pid59#5333",
+      "character": "MultiPidette",
+      "class": "Disciple of Varashta",
+      "level": 98,
+      "experience": 3790841091,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 235,
       "account": "Superabbit#0538",
       "character": "Guytou_Pokemon",
       "class": "Spirit Walker",
@@ -2334,7 +2354,7 @@
       "retired": false
     },
     {
-      "rank": 234,
+      "rank": 236,
       "account": "Zigamata#1093",
       "character": "JonSSFOracle",
       "class": "Oracle",
@@ -2344,7 +2364,7 @@
       "retired": false
     },
     {
-      "rank": 235,
+      "rank": 237,
       "account": "digrisen#3068",
       "character": "nerfshieldwalll",
       "class": "Deadeye",
@@ -2354,32 +2374,12 @@
       "retired": false
     },
     {
-      "rank": 236,
-      "account": "Pid59#5333",
-      "character": "MultiPidette",
-      "class": "Disciple of Varashta",
-      "level": 98,
-      "experience": 3787539937,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 237,
-      "account": "avneretrazaraza#6558",
-      "character": "ohpointfiveoh",
-      "class": "Smith of Kitava",
-      "level": 98,
-      "experience": 3786455503,
-      "dead": false,
-      "retired": false
-    },
-    {
       "rank": 238,
       "account": "DudeousDude#6650",
       "character": "Danteon",
       "class": "Martial Artist",
       "level": 98,
-      "experience": 3786196979,
+      "experience": 3787307184,
       "dead": false,
       "retired": false
     },
@@ -2505,6 +2505,16 @@
     },
     {
       "rank": 251,
+      "account": "LukaszKesicki#0515",
+      "character": "KesikTheMistrz",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3773796145,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 252,
       "account": "Artluxd#5219",
       "character": "BringBackDjinnSlavery",
       "class": "Disciple of Varashta",
@@ -2514,7 +2524,7 @@
       "retired": false
     },
     {
-      "rank": 252,
+      "rank": 253,
       "account": "DieKalkleiste#5162",
       "character": "KungFuKalk",
       "class": "Martial Artist",
@@ -2524,7 +2534,7 @@
       "retired": false
     },
     {
-      "rank": 253,
+      "rank": 254,
       "account": "Gorefel#3731",
       "character": "MEGA_SSF_BIG_BONKE",
       "class": "Spirit Walker",
@@ -2534,7 +2544,7 @@
       "retired": false
     },
     {
-      "rank": 254,
+      "rank": 255,
       "account": "Birdy#4301",
       "character": "Buff_Stormy",
       "class": "Stormweaver",
@@ -2542,16 +2552,6 @@
       "experience": 3772332865,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 255,
-      "account": "LukaszKesicki#0515",
-      "character": "KesikTheMistrz",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3769180818,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 256,
@@ -2585,6 +2585,16 @@
     },
     {
       "rank": 259,
+      "account": "LubosKiller#6531",
+      "character": "Lu_HHHuu",
+      "class": "Spirit Walker",
+      "level": 98,
+      "experience": 3762001765,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 260,
       "account": "BAANG#3548",
       "character": "AdobeAcrobat",
       "class": "Spirit Walker",
@@ -2594,7 +2604,7 @@
       "retired": false
     },
     {
-      "rank": 260,
+      "rank": 261,
       "account": "grindninja#4311",
       "character": "\u0410\u0431\u044b\u0440\u0410\u0431\u044b\u0440\u044b\u0432\u0430\u043b",
       "class": "Spirit Walker",
@@ -2604,22 +2614,12 @@
       "retired": false
     },
     {
-      "rank": 261,
+      "rank": 262,
       "account": "babloization#0536",
       "character": "siis_apua",
       "class": "Disciple of Varashta",
       "level": 98,
       "experience": 3760652616,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 262,
-      "account": "LubosKiller#6531",
-      "character": "Lu_HHHuu",
-      "class": "Spirit Walker",
-      "level": 98,
-      "experience": 3759533037,
       "dead": false,
       "retired": false
     },
@@ -2719,7 +2719,7 @@
       "character": "Phantasmic_ash",
       "class": "Disciple of Varashta",
       "level": 98,
-      "experience": 3750155256,
+      "experience": 3752267509,
       "dead": false,
       "retired": false
     },
@@ -2885,6 +2885,16 @@
     },
     {
       "rank": 289,
+      "account": "Savage_Scream#4910",
+      "character": "Neikoyne",
+      "class": "Spirit Walker",
+      "level": 98,
+      "experience": 3737344113,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 290,
       "account": "happy_noob2112#7411",
       "character": "HCNeverDieRoadsToIOOlvl",
       "class": "Martial Artist",
@@ -2894,7 +2904,17 @@
       "retired": false
     },
     {
-      "rank": 290,
+      "rank": 291,
+      "account": "noobplsnoflame#5082",
+      "character": "ethicalcharactersonly",
+      "class": "Gemling Legionnaire",
+      "level": 98,
+      "experience": 3735034300,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 292,
       "account": "cptnwave#3574",
       "character": "WANNASHOW",
       "class": "Deadeye",
@@ -2904,7 +2924,7 @@
       "retired": false
     },
     {
-      "rank": 291,
+      "rank": 293,
       "account": "Noemj#1336",
       "character": "munarotta",
       "class": "Deadeye",
@@ -2914,7 +2934,7 @@
       "retired": false
     },
     {
-      "rank": 292,
+      "rank": 294,
       "account": "LegendofKage#7963",
       "character": "RuneseekerKage",
       "class": "Oracle",
@@ -2924,17 +2944,7 @@
       "retired": false
     },
     {
-      "rank": 293,
-      "account": "Savage_Scream#4910",
-      "character": "Neikoyne",
-      "class": "Spirit Walker",
-      "level": 98,
-      "experience": 3733890336,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 294,
+      "rank": 295,
       "account": "PinocchioTheBrave#3400",
       "character": "BoxcatAncients",
       "class": "Chronomancer",
@@ -2944,7 +2954,7 @@
       "retired": false
     },
     {
-      "rank": 295,
+      "rank": 296,
       "account": "Xaero#8565",
       "character": "Xaero",
       "class": "Spirit Walker",
@@ -2954,7 +2964,7 @@
       "retired": false
     },
     {
-      "rank": 296,
+      "rank": 297,
       "account": "Vindictae#6151",
       "character": "Nex_Beyblade",
       "class": "Martial Artist",
@@ -2964,7 +2974,7 @@
       "retired": false
     },
     {
-      "rank": 297,
+      "rank": 298,
       "account": "XeL#4417",
       "character": "XeLinaBottle",
       "class": "Disciple of Varashta",
@@ -2974,7 +2984,7 @@
       "retired": false
     },
     {
-      "rank": 298,
+      "rank": 299,
       "account": "cmurray16#1756",
       "character": "StinkybearRoA",
       "class": "Spirit Walker",
@@ -2984,7 +2994,7 @@
       "retired": false
     },
     {
-      "rank": 299,
+      "rank": 300,
       "account": "Barpus#3529",
       "character": "SSF_BackToMonke",
       "class": "Spirit Walker",
@@ -2994,7 +3004,7 @@
       "retired": false
     },
     {
-      "rank": 300,
+      "rank": 301,
       "account": "mdlsvensson#0210",
       "character": "SellCarMcGeorge",
       "class": "Martial Artist",
@@ -3004,7 +3014,7 @@
       "retired": false
     },
     {
-      "rank": 301,
+      "rank": 302,
       "account": "Pewzz#3376",
       "character": "Mewzzs_Tamer_Of_Beast",
       "class": "Spirit Walker",
@@ -3014,7 +3024,7 @@
       "retired": false
     },
     {
-      "rank": 302,
+      "rank": 303,
       "account": "Kadence#5275",
       "character": "Maestro_Delphina",
       "class": "Disciple of Varashta",
@@ -3024,7 +3034,7 @@
       "retired": false
     },
     {
-      "rank": 303,
+      "rank": 304,
       "account": "coshine#1989",
       "character": "DominatingSoles",
       "class": "Disciple of Varashta",
@@ -3034,7 +3044,7 @@
       "retired": false
     },
     {
-      "rank": 304,
+      "rank": 305,
       "account": "OpheliaFate#6605",
       "character": "ShittyUnstableMental",
       "class": "Martial Artist",
@@ -3044,7 +3054,7 @@
       "retired": false
     },
     {
-      "rank": 305,
+      "rank": 306,
       "account": "privaatee#3629",
       "character": "monk_Aldur_pvt",
       "class": "Martial Artist",
@@ -3054,7 +3064,7 @@
       "retired": false
     },
     {
-      "rank": 306,
+      "rank": 307,
       "account": "JeblaNator#2065",
       "character": "JeblaNator",
       "class": "Titan",
@@ -3064,22 +3074,12 @@
       "retired": false
     },
     {
-      "rank": 307,
+      "rank": 308,
       "account": "Flint_Lock#1777",
       "character": "Femcell",
       "class": "Spirit Walker",
       "level": 98,
       "experience": 3727014352,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 308,
-      "account": "noobplsnoflame#5082",
-      "character": "ethicalcharactersonly",
-      "class": "Gemling Legionnaire",
-      "level": 98,
-      "experience": 3726633758,
       "dead": false,
       "retired": false
     },
@@ -3105,6 +3105,16 @@
     },
     {
       "rank": 311,
+      "account": "FlyingLootus#5639",
+      "character": "RoA_MonkaS_SSF",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3725954947,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 312,
       "account": "Flamigo#1049",
       "character": "OneLastRideXD",
       "class": "Spirit Walker",
@@ -3114,7 +3124,7 @@
       "retired": false
     },
     {
-      "rank": 312,
+      "rank": 313,
       "account": "sl45#9338",
       "character": "_Solfire_",
       "class": "Spirit Walker",
@@ -3124,7 +3134,7 @@
       "retired": false
     },
     {
-      "rank": 313,
+      "rank": 314,
       "account": "Dovje_Ziguri#7718",
       "character": "ClassicGURG",
       "class": "Deadeye",
@@ -3134,7 +3144,7 @@
       "retired": false
     },
     {
-      "rank": 314,
+      "rank": 315,
       "account": "Steelmage#5874",
       "character": "SteelTotems",
       "class": "Oracle",
@@ -3144,7 +3154,7 @@
       "retired": false
     },
     {
-      "rank": 315,
+      "rank": 316,
       "account": "gorgordone510900#7093",
       "character": "Tanchie",
       "class": "Martial Artist",
@@ -3154,7 +3164,7 @@
       "retired": false
     },
     {
-      "rank": 316,
+      "rank": 317,
       "account": "wuN_twu#5920",
       "character": "wanders_nevercry",
       "class": "Blood Mage",
@@ -3164,22 +3174,12 @@
       "retired": false
     },
     {
-      "rank": 317,
+      "rank": 318,
       "account": "master2978#5498",
       "character": "UBER_OGT",
       "class": "Martial Artist",
       "level": 98,
       "experience": 3723117517,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 318,
-      "account": "FlyingLootus#5639",
-      "character": "RoA_MonkaS_SSF",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3722093645,
       "dead": false,
       "retired": false
     },
@@ -3729,7 +3729,7 @@
       "character": "Karthas",
       "class": "Titan",
       "level": 98,
-      "experience": 3695572527,
+      "experience": 3696335127,
       "dead": false,
       "retired": false
     },
@@ -3845,16 +3845,6 @@
     },
     {
       "rank": 385,
-      "account": "microweive#2178",
-      "character": "DeaTaco",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3691169303,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 386,
       "account": "p\u00ebrks#3686",
       "character": "jebeeccum",
       "class": "Deadeye",
@@ -3864,7 +3854,7 @@
       "retired": false
     },
     {
-      "rank": 387,
+      "rank": 386,
       "account": "NonXz#7405",
       "character": "nonxz_stonefist_ROA",
       "class": "Martial Artist",
@@ -3874,7 +3864,7 @@
       "retired": false
     },
     {
-      "rank": 388,
+      "rank": 387,
       "account": "cha0041#4921",
       "character": "ForkingBobuSama",
       "class": "Shaman",
@@ -3884,7 +3874,7 @@
       "retired": false
     },
     {
-      "rank": 389,
+      "rank": 388,
       "account": "388112#7682",
       "character": "ShitterObellS",
       "class": "Martial Artist",
@@ -3894,7 +3884,7 @@
       "retired": false
     },
     {
-      "rank": 390,
+      "rank": 389,
       "account": "nakimushi#1960",
       "character": "Rauta_titaani",
       "class": "Titan",
@@ -3904,7 +3894,7 @@
       "retired": false
     },
     {
-      "rank": 391,
+      "rank": 390,
       "account": "DocSupaTrupa#1538",
       "character": "MoreQuesting",
       "class": "Oracle",
@@ -3914,7 +3904,7 @@
       "retired": false
     },
     {
-      "rank": 392,
+      "rank": 391,
       "account": "Zerdius#7447",
       "character": "Zerdius_Wanderer",
       "class": "Martial Artist",
@@ -3924,7 +3914,7 @@
       "retired": false
     },
     {
-      "rank": 393,
+      "rank": 392,
       "account": "Psych\u03c3#7288",
       "character": "StickManBoop",
       "class": "Martial Artist",
@@ -3934,7 +3924,7 @@
       "retired": false
     },
     {
-      "rank": 394,
+      "rank": 393,
       "account": "t1mx#1138",
       "character": "SkylaGyalII",
       "class": "Chronomancer",
@@ -3944,7 +3934,7 @@
       "retired": false
     },
     {
-      "rank": 395,
+      "rank": 394,
       "account": "devoray#3859",
       "character": "Twister_HardlyKnowHer",
       "class": "Spirit Walker",
@@ -3954,7 +3944,7 @@
       "retired": false
     },
     {
-      "rank": 396,
+      "rank": 395,
       "account": "veycnh#4649",
       "character": "MunstrAldurssf",
       "class": "Martial Artist",
@@ -3964,7 +3954,7 @@
       "retired": false
     },
     {
-      "rank": 397,
+      "rank": 396,
       "account": "grindninja#4311",
       "character": "Gnidososik",
       "class": "Martial Artist",
@@ -3974,7 +3964,7 @@
       "retired": false
     },
     {
-      "rank": 398,
+      "rank": 397,
       "account": "\ucca0\ub3fc\uc218\uc9c0#1561",
       "character": "\uc82c\ub9c1\ud560\ub798\uc5d0\uc5d0\uc5d0",
       "class": "Gemling Legionnaire",
@@ -3984,7 +3974,7 @@
       "retired": true
     },
     {
-      "rank": 399,
+      "rank": 398,
       "account": "Roppeli123#2180",
       "character": "roppeli_ReworkMaces",
       "class": "Titan",
@@ -3994,7 +3984,7 @@
       "retired": false
     },
     {
-      "rank": 400,
+      "rank": 399,
       "account": "IamQuzar#2494",
       "character": "QuzTotemsMaybe",
       "class": "Oracle",
@@ -4004,7 +3994,7 @@
       "retired": false
     },
     {
-      "rank": 401,
+      "rank": 400,
       "account": "maxspeed301#5657",
       "character": "Karl_the_Hollow",
       "class": "Martial Artist",
@@ -4014,7 +4004,7 @@
       "retired": true
     },
     {
-      "rank": 402,
+      "rank": 401,
       "account": "Martinhq#2356",
       "character": "Bearly_Monking",
       "class": "Martial Artist",
@@ -4024,7 +4014,7 @@
       "retired": false
     },
     {
-      "rank": 403,
+      "rank": 402,
       "account": "Blaze Amk#8957",
       "character": "Blaze_Catician",
       "class": "Tactician",
@@ -4034,7 +4024,7 @@
       "retired": false
     },
     {
-      "rank": 404,
+      "rank": 403,
       "account": "Huncex#1306",
       "character": "Ashenzay",
       "class": "Martial Artist",
@@ -4044,12 +4034,22 @@
       "retired": false
     },
     {
-      "rank": 405,
+      "rank": 404,
       "account": "FaceDeluxe#2461",
       "character": "Little_Jeffy_",
       "class": "Tactician",
       "level": 98,
       "experience": 3683852699,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 405,
+      "account": "microweive#2178",
+      "character": "DeaTaco",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3683848284,
       "dead": false,
       "retired": false
     },
@@ -4175,6 +4175,16 @@
     },
     {
       "rank": 418,
+      "account": "ZzhangaAo1z#7170",
+      "character": "\u4f0d\u4e4b\u6556\u5deb\u72ec\u72fc",
+      "class": "Infernalist",
+      "level": 98,
+      "experience": 3680156613,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 419,
       "account": "GloryOrValhalla#1157",
       "character": "BigEZ_JUICE",
       "class": "Martial Artist",
@@ -4184,7 +4194,7 @@
       "retired": false
     },
     {
-      "rank": 419,
+      "rank": 420,
       "account": "Archvile69#5173",
       "character": "Arch_DualityEnjoyer",
       "class": "Martial Artist",
@@ -4194,7 +4204,7 @@
       "retired": false
     },
     {
-      "rank": 420,
+      "rank": 421,
       "account": "erkunn#0480",
       "character": "Vunnr",
       "class": "Smith of Kitava",
@@ -4204,7 +4214,7 @@
       "retired": true
     },
     {
-      "rank": 421,
+      "rank": 422,
       "account": "2357974150#7043",
       "character": "\u6a59\u5b50\u679c\u51bb",
       "class": "Gemling Legionnaire",
@@ -4214,7 +4224,7 @@
       "retired": false
     },
     {
-      "rank": 422,
+      "rank": 423,
       "account": "Cold#6342",
       "character": "BaldGuy_Monk",
       "class": "Martial Artist",
@@ -4224,7 +4234,7 @@
       "retired": false
     },
     {
-      "rank": 423,
+      "rank": 424,
       "account": "indiekrd#2612",
       "character": "\u041b\u044c\u0432\u0438\u043d\u043d\u0430\u044f_\u0414\u043e\u043b\u044f",
       "class": "Deadeye",
@@ -4234,7 +4244,7 @@
       "retired": false
     },
     {
-      "rank": 424,
+      "rank": 425,
       "account": "w1zard_#2217",
       "character": "Zethhmartial",
       "class": "Martial Artist",
@@ -4242,16 +4252,6 @@
       "experience": 3678078124,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 425,
-      "account": "ZzhangaAo1z#7170",
-      "character": "\u4f0d\u4e4b\u6556\u5deb\u72ec\u72fc",
-      "class": "Infernalist",
-      "level": 98,
-      "experience": 3677748883,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 426,
@@ -4265,6 +4265,16 @@
     },
     {
       "rank": 427,
+      "account": "Veerschlee#4813",
+      "character": "Ferinaah",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3677464143,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 428,
       "account": "NatsuCloud#2074",
       "character": "SpellJunky",
       "class": "Martial Artist",
@@ -4274,22 +4284,12 @@
       "retired": true
     },
     {
-      "rank": 428,
+      "rank": 429,
       "account": "Versuul#4380",
       "character": "WomanBearDeer",
       "class": "Spirit Walker",
       "level": 98,
       "experience": 3676616688,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 429,
-      "account": "Veerschlee#4813",
-      "character": "Ferinaah",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3676191645,
       "dead": false,
       "retired": false
     },
@@ -4599,7 +4599,7 @@
       "character": "\u041a\u043e\u043c\u043f\u0430\u043d\u044c\u0435\u043d\u0448\u0430",
       "class": "Spirit Walker",
       "level": 98,
-      "experience": 3667599468,
+      "experience": 3667599504,
       "dead": false,
       "retired": false
     },
@@ -4815,6 +4815,16 @@
     },
     {
       "rank": 482,
+      "account": "jakmoell#5661",
+      "character": "ValTelur",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3662566817,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 483,
       "account": "PanvA#3212",
       "character": "PanvA_",
       "class": "Martial Artist",
@@ -4824,7 +4834,7 @@
       "retired": true
     },
     {
-      "rank": 483,
+      "rank": 484,
       "account": "Marcgame#4535",
       "character": "schLing_Ling",
       "class": "Martial Artist",
@@ -4834,7 +4844,7 @@
       "retired": true
     },
     {
-      "rank": 484,
+      "rank": 485,
       "account": "Weldo#4303",
       "character": "Harambe_II",
       "class": "Spirit Walker",
@@ -4844,22 +4854,12 @@
       "retired": true
     },
     {
-      "rank": 485,
+      "rank": 486,
       "account": "digrisen#3068",
       "character": "Nerficeshoot",
       "class": "Martial Artist",
       "level": 98,
       "experience": 3662259650,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 486,
-      "account": "jakmoell#5661",
-      "character": "ValTelur",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3662247197,
       "dead": false,
       "retired": false
     },
@@ -5065,6 +5065,16 @@
     },
     {
       "rank": 507,
+      "account": "kong7oy#1029",
+      "character": "beti_la_fea_SSF",
+      "class": "Pathfinder",
+      "level": 98,
+      "experience": 3658816428,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 508,
       "account": "Sakasare99#1260",
       "character": "KrawczokMonkers",
       "class": "Martial Artist",
@@ -5074,7 +5084,7 @@
       "retired": false
     },
     {
-      "rank": 508,
+      "rank": 509,
       "account": "SinthorasPoE#4171",
       "character": "Sinthoras_Twister",
       "class": "Spirit Walker",
@@ -5084,7 +5094,7 @@
       "retired": false
     },
     {
-      "rank": 509,
+      "rank": 510,
       "account": "CuriousExile#5603",
       "character": "CuriousSpirit",
       "class": "Spirit Walker",
@@ -5094,7 +5104,7 @@
       "retired": false
     },
     {
-      "rank": 510,
+      "rank": 511,
       "account": "RoaminAbramovic#7176",
       "character": "Roamin_ROASSF_FOUR",
       "class": "Disciple of Varashta",
@@ -5104,7 +5114,7 @@
       "retired": false
     },
     {
-      "rank": 511,
+      "rank": 512,
       "account": "Rhoto#1903",
       "character": "WhereMatterVanishes",
       "class": "Martial Artist",
@@ -5114,7 +5124,7 @@
       "retired": false
     },
     {
-      "rank": 512,
+      "rank": 513,
       "account": "way2stupid#9491",
       "character": "Sushi_Zon",
       "class": "Amazon",
@@ -5124,7 +5134,7 @@
       "retired": false
     },
     {
-      "rank": 513,
+      "rank": 514,
       "account": "endlessyoutu#0430",
       "character": "poeantiplayer",
       "class": "Martial Artist",
@@ -5134,7 +5144,7 @@
       "retired": false
     },
     {
-      "rank": 514,
+      "rank": 515,
       "account": "kevnbo#4007",
       "character": "KevsDead",
       "class": "Deadeye",
@@ -5144,22 +5154,12 @@
       "retired": false
     },
     {
-      "rank": 515,
+      "rank": 516,
       "account": "Dsfarblarwaggle#7862",
       "character": "waggleTORNADOMANStwo",
       "class": "Gemling Legionnaire",
       "level": 98,
       "experience": 3657772874,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 516,
-      "account": "kong7oy#1029",
-      "character": "beti_la_fea_SSF",
-      "class": "Pathfinder",
-      "level": 98,
-      "experience": 3657710481,
       "dead": false,
       "retired": false
     },
@@ -5185,6 +5185,16 @@
     },
     {
       "rank": 519,
+      "account": "Tion_N003#2349",
+      "character": "lichifica_Tion",
+      "class": "Abyssal Lich",
+      "level": 98,
+      "experience": 3657319524,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 520,
       "account": "Alen#1402",
       "character": "SSFNSS",
       "class": "Disciple of Varashta",
@@ -5194,7 +5204,7 @@
       "retired": false
     },
     {
-      "rank": 520,
+      "rank": 521,
       "account": "NoWMy#7671",
       "character": "Dark_Slayer",
       "class": "Martial Artist",
@@ -5204,7 +5214,7 @@
       "retired": false
     },
     {
-      "rank": 521,
+      "rank": 522,
       "account": "skyrismZ#9020",
       "character": "LightlessOrdained",
       "class": "Gemling Legionnaire",
@@ -5214,7 +5224,7 @@
       "retired": false
     },
     {
-      "rank": 522,
+      "rank": 523,
       "account": "ksij#0053",
       "character": "MetaCuckeryConfirmed",
       "class": "Spirit Walker",
@@ -5224,7 +5234,7 @@
       "retired": true
     },
     {
-      "rank": 523,
+      "rank": 524,
       "account": "Reddington#9039",
       "character": "Blandine",
       "class": "Disciple of Varashta",
@@ -5234,7 +5244,7 @@
       "retired": false
     },
     {
-      "rank": 524,
+      "rank": 525,
       "account": "Hex#6019",
       "character": "HexRuneSmith",
       "class": "Deadeye",
@@ -5244,7 +5254,7 @@
       "retired": false
     },
     {
-      "rank": 525,
+      "rank": 526,
       "account": "iAwesom#4259",
       "character": "ben_boompala",
       "class": "Titan",
@@ -5254,7 +5264,7 @@
       "retired": false
     },
     {
-      "rank": 526,
+      "rank": 527,
       "account": "Amutelet#0084",
       "character": "Amutelet",
       "class": "Deadeye",
@@ -5264,7 +5274,7 @@
       "retired": false
     },
     {
-      "rank": 527,
+      "rank": 528,
       "account": "MrSpaceDuude#7402",
       "character": "time_stamp",
       "class": "Chronomancer",
@@ -5274,7 +5284,7 @@
       "retired": false
     },
     {
-      "rank": 528,
+      "rank": 529,
       "account": "Korilbonk#7581",
       "character": "Korilfist",
       "class": "Martial Artist",
@@ -5284,7 +5294,7 @@
       "retired": false
     },
     {
-      "rank": 529,
+      "rank": 530,
       "account": "BlindSythe#5919",
       "character": "\u0411\u0418\u041b\u0414_\u041d\u0410_\u0421\u0413\u0423\u0421\u0422\u041a\u0410\u0425",
       "class": "Martial Artist",
@@ -5294,7 +5304,7 @@
       "retired": false
     },
     {
-      "rank": 530,
+      "rank": 531,
       "account": "Aalhamas#3470",
       "character": "GundamStark",
       "class": "Disciple of Varashta",
@@ -5304,7 +5314,7 @@
       "retired": false
     },
     {
-      "rank": 531,
+      "rank": 532,
       "account": "Voraces_Devoratrix#5845",
       "character": "Ceverino",
       "class": "Martial Artist",
@@ -5314,7 +5324,7 @@
       "retired": false
     },
     {
-      "rank": 532,
+      "rank": 533,
       "account": "otterrr#1817",
       "character": "ElectricSunFestSurvivor",
       "class": "Disciple of Varashta",
@@ -5324,7 +5334,7 @@
       "retired": false
     },
     {
-      "rank": 533,
+      "rank": 534,
       "account": "Ariebvo#4725",
       "character": "Borusefist",
       "class": "Martial Artist",
@@ -5334,7 +5344,7 @@
       "retired": false
     },
     {
-      "rank": 534,
+      "rank": 535,
       "account": "PremiumViolate#5008",
       "character": "ImLying",
       "class": "Martial Artist",
@@ -5344,7 +5354,7 @@
       "retired": false
     },
     {
-      "rank": 535,
+      "rank": 536,
       "account": "Kruu22#0417",
       "character": "Supply_Chain_attack",
       "class": "Deadeye",
@@ -5354,7 +5364,7 @@
       "retired": true
     },
     {
-      "rank": 536,
+      "rank": 537,
       "account": "yndilos#1853",
       "character": "basicbeech",
       "class": "Spirit Walker",
@@ -5364,7 +5374,7 @@
       "retired": false
     },
     {
-      "rank": 537,
+      "rank": 538,
       "account": "Alen#1402",
       "character": "SSFWSS",
       "class": "Martial Artist",
@@ -5374,7 +5384,7 @@
       "retired": false
     },
     {
-      "rank": 538,
+      "rank": 539,
       "account": "Saburrz#1267",
       "character": "Saburr",
       "class": "Martial Artist",
@@ -5384,22 +5394,12 @@
       "retired": false
     },
     {
-      "rank": 539,
+      "rank": 540,
       "account": "Marcelo Leibniz#8246",
       "character": "Xitada_tornado",
       "class": "Spirit Walker",
       "level": 98,
       "experience": 3654910547,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 540,
-      "account": "Tion_N003#2349",
-      "character": "lichifica_Tion",
-      "class": "Abyssal Lich",
-      "level": 98,
-      "experience": 3654575651,
       "dead": false,
       "retired": false
     },
@@ -6005,16 +6005,6 @@
     },
     {
       "rank": 601,
-      "account": "Tkyellowcrab#0121",
-      "character": "ThowingHandsFirst",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3645962360,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 602,
       "account": "Timbolino#1801",
       "character": "Timbo_DingDing",
       "class": "Martial Artist",
@@ -6024,7 +6014,7 @@
       "retired": false
     },
     {
-      "rank": 603,
+      "rank": 602,
       "account": "MerchantOfTheSanctum#2831",
       "character": "SashaFlyerAldur",
       "class": "Titan",
@@ -6034,7 +6024,7 @@
       "retired": false
     },
     {
-      "rank": 604,
+      "rank": 603,
       "account": "kkmr-exile2569#9362",
       "character": "\u304d\u304d\u3082\u3089\u3076\u308a\u3093\u304c\u30fc",
       "class": "Warbringer",
@@ -6044,7 +6034,7 @@
       "retired": false
     },
     {
-      "rank": 605,
+      "rank": 604,
       "account": "Kuzoqt#0912",
       "character": "Kuzofml",
       "class": "Martial Artist",
@@ -6054,7 +6044,7 @@
       "retired": true
     },
     {
-      "rank": 606,
+      "rank": 605,
       "account": "DoUSeeMe#3260",
       "character": "AsiaRiceFarmer",
       "class": "Martial Artist",
@@ -6064,7 +6054,7 @@
       "retired": false
     },
     {
-      "rank": 607,
+      "rank": 606,
       "account": "theamazinghammer#7381",
       "character": "mattmanaATYOURSERVICE",
       "class": "Oracle",
@@ -6074,7 +6064,7 @@
       "retired": false
     },
     {
-      "rank": 608,
+      "rank": 607,
       "account": "robtherob#7126",
       "character": "robtherobs",
       "class": "Martial Artist",
@@ -6084,7 +6074,7 @@
       "retired": false
     },
     {
-      "rank": 609,
+      "rank": 608,
       "account": "tigrex98#3202",
       "character": "AntiXga",
       "class": "Martial Artist",
@@ -6094,7 +6084,7 @@
       "retired": false
     },
     {
-      "rank": 610,
+      "rank": 609,
       "account": "postyour#4429",
       "character": "PurunSSF",
       "class": "Deadeye",
@@ -6104,7 +6094,7 @@
       "retired": false
     },
     {
-      "rank": 611,
+      "rank": 610,
       "account": "Steigs#6613",
       "character": "Steegys",
       "class": "Spirit Walker",
@@ -6114,7 +6104,7 @@
       "retired": false
     },
     {
-      "rank": 612,
+      "rank": 611,
       "account": "paper0930#7289",
       "character": "PatchworkChimera",
       "class": "Gemling Legionnaire",
@@ -6124,7 +6114,7 @@
       "retired": false
     },
     {
-      "rank": 613,
+      "rank": 612,
       "account": "capitana#4008",
       "character": "gogoboing",
       "class": "Disciple of Varashta",
@@ -6134,7 +6124,7 @@
       "retired": false
     },
     {
-      "rank": 614,
+      "rank": 613,
       "account": "Partyraiser1988#0842",
       "character": "ChaniRunesofaldur",
       "class": "Pathfinder",
@@ -6144,7 +6134,7 @@
       "retired": false
     },
     {
-      "rank": 615,
+      "rank": 614,
       "account": "JeremiahRose#6010",
       "character": "JeremiahRose_B",
       "class": "Lich",
@@ -6154,7 +6144,7 @@
       "retired": false
     },
     {
-      "rank": 616,
+      "rank": 615,
       "account": "Thobari#3154",
       "character": "MongePipoco",
       "class": "Martial Artist",
@@ -6164,7 +6154,7 @@
       "retired": false
     },
     {
-      "rank": 617,
+      "rank": 616,
       "account": "Satkan#4150",
       "character": "Satkan_x",
       "class": "Martial Artist",
@@ -6174,7 +6164,7 @@
       "retired": false
     },
     {
-      "rank": 618,
+      "rank": 617,
       "account": "Kilranin#3496",
       "character": "PandoraeRoATwist",
       "class": "Spirit Walker",
@@ -6184,7 +6174,7 @@
       "retired": false
     },
     {
-      "rank": 619,
+      "rank": 618,
       "account": "Sabotka#3832",
       "character": "Sab_MoreQuake",
       "class": "Titan",
@@ -6194,7 +6184,7 @@
       "retired": false
     },
     {
-      "rank": 620,
+      "rank": 619,
       "account": "Jnjne#1249",
       "character": "VerySadDjinn",
       "class": "Disciple of Varashta",
@@ -6204,7 +6194,7 @@
       "retired": false
     },
     {
-      "rank": 621,
+      "rank": 620,
       "account": "Skyater#9118",
       "character": "WHAT__THE__BELL",
       "class": "Martial Artist",
@@ -6214,7 +6204,7 @@
       "retired": false
     },
     {
-      "rank": 622,
+      "rank": 621,
       "account": "Krils#3281",
       "character": "SlingerofElements",
       "class": "Stormweaver",
@@ -6224,7 +6214,7 @@
       "retired": false
     },
     {
-      "rank": 623,
+      "rank": 622,
       "account": "EpicPureGamer#2974",
       "character": "EpicZooKeeper",
       "class": "Spirit Walker",
@@ -6234,7 +6224,7 @@
       "retired": false
     },
     {
-      "rank": 624,
+      "rank": 623,
       "account": "TsushoGay#7505",
       "character": "\u808f\u4f60\u5988",
       "class": "Martial Artist",
@@ -6244,7 +6234,7 @@
       "retired": false
     },
     {
-      "rank": 625,
+      "rank": 624,
       "account": "dagasis23#7785",
       "character": "Dagasis",
       "class": "Disciple of Varashta",
@@ -6254,7 +6244,7 @@
       "retired": true
     },
     {
-      "rank": 626,
+      "rank": 625,
       "account": "CaptainChippie#6291",
       "character": "ThePlebsWantSwords",
       "class": "Stormweaver",
@@ -6264,7 +6254,7 @@
       "retired": false
     },
     {
-      "rank": 627,
+      "rank": 626,
       "account": "Nayrtius#1773",
       "character": "Bonk____Monk",
       "class": "Martial Artist",
@@ -6274,7 +6264,7 @@
       "retired": false
     },
     {
-      "rank": 628,
+      "rank": 627,
       "account": "Bailog#5918",
       "character": "GenaCidarman",
       "class": "Martial Artist",
@@ -6284,7 +6274,7 @@
       "retired": false
     },
     {
-      "rank": 629,
+      "rank": 628,
       "account": "kekedie#6403",
       "character": "\uace0\ub300\uc758\uadc0\ud658\uc77c\ubc88",
       "class": "Martial Artist",
@@ -6294,7 +6284,7 @@
       "retired": false
     },
     {
-      "rank": 630,
+      "rank": 629,
       "account": "taywlw#3681",
       "character": "firsttimeminioncucker",
       "class": "Disciple of Varashta",
@@ -6304,7 +6294,7 @@
       "retired": false
     },
     {
-      "rank": 631,
+      "rank": 630,
       "account": "Orange1646#5317",
       "character": "OrangeSSFMONKA",
       "class": "Martial Artist",
@@ -6314,7 +6304,7 @@
       "retired": true
     },
     {
-      "rank": 632,
+      "rank": 631,
       "account": "Caranthirx#0201",
       "character": "\u7530\u5c71\u604b\u4eba",
       "class": "Lich",
@@ -6324,7 +6314,7 @@
       "retired": false
     },
     {
-      "rank": 633,
+      "rank": 632,
       "account": "CanoeKidCarlo#5364",
       "character": "Snubby_Runes_SSF",
       "class": "Spirit Walker",
@@ -6334,7 +6324,7 @@
       "retired": false
     },
     {
-      "rank": 634,
+      "rank": 633,
       "account": "Fawkes#8586",
       "character": "Fawkes_Aldur",
       "class": "Martial Artist",
@@ -6344,7 +6334,7 @@
       "retired": false
     },
     {
-      "rank": 635,
+      "rank": 634,
       "account": "khalejra1#0006",
       "character": "SackOfFlour",
       "class": "Martial Artist",
@@ -6354,7 +6344,7 @@
       "retired": false
     },
     {
-      "rank": 636,
+      "rank": 635,
       "account": "MEIDAN#3829",
       "character": "\u6d77\u5e26\u7eff\u8c46\u7ca5",
       "class": "Spirit Walker",
@@ -6364,7 +6354,7 @@
       "retired": false
     },
     {
-      "rank": 637,
+      "rank": 636,
       "account": "Zoso34#0748",
       "character": "yiv_boom",
       "class": "Gemling Legionnaire",
@@ -6374,7 +6364,7 @@
       "retired": false
     },
     {
-      "rank": 638,
+      "rank": 637,
       "account": "Weldo#4303",
       "character": "BallBagMash",
       "class": "Titan",
@@ -6384,7 +6374,7 @@
       "retired": true
     },
     {
-      "rank": 639,
+      "rank": 638,
       "account": "xpedro#0979",
       "character": "MonKomplexo",
       "class": "Martial Artist",
@@ -6394,7 +6384,7 @@
       "retired": false
     },
     {
-      "rank": 640,
+      "rank": 639,
       "account": "chuba19#0534",
       "character": "Chuba_a",
       "class": "Martial Artist",
@@ -6404,7 +6394,7 @@
       "retired": false
     },
     {
-      "rank": 641,
+      "rank": 640,
       "account": "Zhuojia#6710",
       "character": "Lauchii",
       "class": "Lich",
@@ -6414,7 +6404,7 @@
       "retired": false
     },
     {
-      "rank": 642,
+      "rank": 641,
       "account": "pietruch73#7064",
       "character": "Pietruch_bald",
       "class": "Martial Artist",
@@ -6424,7 +6414,7 @@
       "retired": false
     },
     {
-      "rank": 643,
+      "rank": 642,
       "account": "Merknet#0680",
       "character": "MerknetAncientsSorc",
       "class": "Chronomancer",
@@ -6434,7 +6424,7 @@
       "retired": false
     },
     {
-      "rank": 644,
+      "rank": 643,
       "account": "Bainlogan#7688",
       "character": "Wolverine",
       "class": "Deadeye",
@@ -6444,7 +6434,7 @@
       "retired": false
     },
     {
-      "rank": 645,
+      "rank": 644,
       "account": "Tembro#3108",
       "character": "newPChaver",
       "class": "Spirit Walker",
@@ -6454,7 +6444,7 @@
       "retired": false
     },
     {
-      "rank": 646,
+      "rank": 645,
       "account": "smacked2k#7062",
       "character": "smackedsorc",
       "class": "Disciple of Varashta",
@@ -6464,7 +6454,7 @@
       "retired": true
     },
     {
-      "rank": 647,
+      "rank": 646,
       "account": "royelu47#6241",
       "character": "\u982d\u6688\u554a",
       "class": "Spirit Walker",
@@ -6474,7 +6464,7 @@
       "retired": false
     },
     {
-      "rank": 648,
+      "rank": 647,
       "account": "AfRoLEX#4935",
       "character": "afroSCUBA",
       "class": "Spirit Walker",
@@ -6484,7 +6474,7 @@
       "retired": false
     },
     {
-      "rank": 649,
+      "rank": 648,
       "account": "slavf#6245",
       "character": "SLAVF",
       "class": "Gemling Legionnaire",
@@ -6494,7 +6484,7 @@
       "retired": false
     },
     {
-      "rank": 650,
+      "rank": 649,
       "account": "Kunte3D#4246",
       "character": "Ourang",
       "class": "Martial Artist",
@@ -6504,7 +6494,7 @@
       "retired": false
     },
     {
-      "rank": 651,
+      "rank": 650,
       "account": "Imthesun#1265",
       "character": "John_Poetem",
       "class": "Oracle",
@@ -6514,7 +6504,7 @@
       "retired": false
     },
     {
-      "rank": 652,
+      "rank": 651,
       "account": "dream_of_cheese#6332",
       "character": "MonkMolasse",
       "class": "Martial Artist",
@@ -6524,7 +6514,7 @@
       "retired": true
     },
     {
-      "rank": 653,
+      "rank": 652,
       "account": "Reynault#5497",
       "character": "Ankhelia",
       "class": "Blood Mage",
@@ -6534,7 +6524,7 @@
       "retired": false
     },
     {
-      "rank": 654,
+      "rank": 653,
       "account": "Jakelbw#7653",
       "character": "BigRhoaEnjoyer",
       "class": "Deadeye",
@@ -6544,7 +6534,7 @@
       "retired": false
     },
     {
-      "rank": 655,
+      "rank": 654,
       "account": "misaltu#0682",
       "character": "SSfcuclone",
       "class": "Martial Artist",
@@ -6554,7 +6544,7 @@
       "retired": false
     },
     {
-      "rank": 656,
+      "rank": 655,
       "account": "ThyWorm2#0364",
       "character": "ThyWorm",
       "class": "Infernalist",
@@ -6564,7 +6554,7 @@
       "retired": false
     },
     {
-      "rank": 657,
+      "rank": 656,
       "account": "unclehowie420#0139",
       "character": "GemsAndBearsSSF",
       "class": "Gemling Legionnaire",
@@ -6574,7 +6564,7 @@
       "retired": false
     },
     {
-      "rank": 658,
+      "rank": 657,
       "account": "Steelbreaker54#2290",
       "character": "Steelbreaker",
       "class": "Martial Artist",
@@ -6584,7 +6574,7 @@
       "retired": false
     },
     {
-      "rank": 659,
+      "rank": 658,
       "account": "w1zard_#2217",
       "character": "Zethhracle",
       "class": "Oracle",
@@ -6594,7 +6584,7 @@
       "retired": false
     },
     {
-      "rank": 660,
+      "rank": 659,
       "account": "reluctantg#4384",
       "character": "RofA_TSTO",
       "class": "Oracle",
@@ -6604,7 +6594,7 @@
       "retired": false
     },
     {
-      "rank": 661,
+      "rank": 660,
       "account": "Gidgicken#2811",
       "character": "Gidgickeny",
       "class": "Martial Artist",
@@ -6614,7 +6604,7 @@
       "retired": false
     },
     {
-      "rank": 662,
+      "rank": 661,
       "account": "Kivoh#2956",
       "character": "Kivoh_Nikola",
       "class": "Gemling Legionnaire",
@@ -6624,7 +6614,7 @@
       "retired": false
     },
     {
-      "rank": 663,
+      "rank": 662,
       "account": "Sinful#8639",
       "character": "realmSlider",
       "class": "Oracle",
@@ -6634,7 +6624,7 @@
       "retired": false
     },
     {
-      "rank": 664,
+      "rank": 663,
       "account": "Kalsongfantomen#2141",
       "character": "DFOURWATINGROOM",
       "class": "Abyssal Lich",
@@ -6644,7 +6634,7 @@
       "retired": false
     },
     {
-      "rank": 665,
+      "rank": 664,
       "account": "JohanFotbollOlsson#6490",
       "character": "MayaPiraya",
       "class": "Blood Mage",
@@ -6654,7 +6644,7 @@
       "retired": true
     },
     {
-      "rank": 666,
+      "rank": 665,
       "account": "BLaZiNdAzN#5917",
       "character": "FunkyMonkeyMan",
       "class": "Martial Artist",
@@ -6664,7 +6654,7 @@
       "retired": false
     },
     {
-      "rank": 667,
+      "rank": 666,
       "account": "Blakey030#4141",
       "character": "JOHN_HAMM",
       "class": "Spirit Walker",
@@ -6674,7 +6664,7 @@
       "retired": false
     },
     {
-      "rank": 668,
+      "rank": 667,
       "account": "Scpoi#6410",
       "character": "twisting_it",
       "class": "Spirit Walker",
@@ -6684,7 +6674,7 @@
       "retired": false
     },
     {
-      "rank": 669,
+      "rank": 668,
       "account": "KripsoPath#4090",
       "character": "KripsoIcemonke",
       "class": "Martial Artist",
@@ -6694,12 +6684,22 @@
       "retired": false
     },
     {
-      "rank": 670,
+      "rank": 669,
       "account": "YourLastVista#3681",
       "character": "Route_GoonAtFullSpeed",
       "class": "Deadeye",
       "level": 98,
       "experience": 3639816553,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 670,
+      "account": "Tkyellowcrab#0121",
+      "character": "ThowingHandsFirst",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3639771832,
       "dead": false,
       "retired": false
     },
@@ -6795,6 +6795,16 @@
     },
     {
       "rank": 680,
+      "account": "KwaadPlafond#5539",
+      "character": "TimeForMonkeys",
+      "class": "Spirit Walker",
+      "level": 98,
+      "experience": 3639481946,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 681,
       "account": "kixki#7573",
       "character": "Zzir",
       "class": "Martial Artist",
@@ -6804,7 +6814,7 @@
       "retired": false
     },
     {
-      "rank": 681,
+      "rank": 682,
       "account": "Titanblades#1580",
       "character": "Titan_MA",
       "class": "Martial Artist",
@@ -6814,7 +6824,7 @@
       "retired": false
     },
     {
-      "rank": 682,
+      "rank": 683,
       "account": "Poddestroy#4809",
       "character": "Amaltari",
       "class": "Oracle",
@@ -6824,7 +6834,7 @@
       "retired": false
     },
     {
-      "rank": 683,
+      "rank": 684,
       "account": "BlackPhantom93#8741",
       "character": "xXBlackphantomXx",
       "class": "Spirit Walker",
@@ -6834,7 +6844,7 @@
       "retired": false
     },
     {
-      "rank": 684,
+      "rank": 685,
       "account": "nuzzzi#2851",
       "character": "\u6708\u7279\u5514",
       "class": "Martial Artist",
@@ -6844,7 +6854,7 @@
       "retired": false
     },
     {
-      "rank": 685,
+      "rank": 686,
       "account": "liddan#0048",
       "character": "lddnbm",
       "class": "Blood Mage",
@@ -6854,7 +6864,7 @@
       "retired": false
     },
     {
-      "rank": 686,
+      "rank": 687,
       "account": "GingaMalice#6336",
       "character": "SSFALDUR",
       "class": "Deadeye",
@@ -6864,7 +6874,7 @@
       "retired": false
     },
     {
-      "rank": 687,
+      "rank": 688,
       "account": "Lyce07#5890",
       "character": "SSF_minio",
       "class": "Disciple of Varashta",
@@ -6874,7 +6884,7 @@
       "retired": false
     },
     {
-      "rank": 688,
+      "rank": 689,
       "account": "OhShiMiSoDed#0001",
       "character": "BaceFreakingGood",
       "class": "Martial Artist",
@@ -6884,7 +6894,7 @@
       "retired": true
     },
     {
-      "rank": 689,
+      "rank": 690,
       "account": "Broxy#4062",
       "character": "Mrsh_MA",
       "class": "Martial Artist",
@@ -6894,7 +6904,7 @@
       "retired": false
     },
     {
-      "rank": 690,
+      "rank": 691,
       "account": "jaguar55#6561",
       "character": "BaitedByMonke",
       "class": "Spirit Walker",
@@ -6904,7 +6914,7 @@
       "retired": false
     },
     {
-      "rank": 691,
+      "rank": 692,
       "account": "DRealChuck#5987",
       "character": "PingMingLing",
       "class": "Martial Artist",
@@ -6914,7 +6924,7 @@
       "retired": false
     },
     {
-      "rank": 692,
+      "rank": 693,
       "account": "dinget#0663",
       "character": "META_CIRCLE_BUILD",
       "class": "Martial Artist",
@@ -6924,7 +6934,7 @@
       "retired": false
     },
     {
-      "rank": 693,
+      "rank": 694,
       "account": "Finarfins666#5792",
       "character": "AL_SSF_HUNTRESS",
       "class": "Spirit Walker",
@@ -6934,7 +6944,7 @@
       "retired": false
     },
     {
-      "rank": 694,
+      "rank": 695,
       "account": "Errkate#6581",
       "character": "TWISTATE",
       "class": "Spirit Walker",
@@ -6944,7 +6954,7 @@
       "retired": false
     },
     {
-      "rank": 695,
+      "rank": 696,
       "account": "kamilrogoz#3067",
       "character": "Ritdur",
       "class": "Oracle",
@@ -6954,7 +6964,7 @@
       "retired": false
     },
     {
-      "rank": 696,
+      "rank": 697,
       "account": "Obob912#0796",
       "character": "ObobsFubFollower",
       "class": "Deadeye",
@@ -6964,7 +6974,7 @@
       "retired": true
     },
     {
-      "rank": 697,
+      "rank": 698,
       "account": "Czeri#7367",
       "character": "CzeranMonk",
       "class": "Martial Artist",
@@ -6974,7 +6984,7 @@
       "retired": false
     },
     {
-      "rank": 698,
+      "rank": 699,
       "account": "Hipnana#2073",
       "character": "MaritalArsonist",
       "class": "Martial Artist",
@@ -6984,7 +6994,7 @@
       "retired": false
     },
     {
-      "rank": 699,
+      "rank": 700,
       "account": "Keiguai#0086",
       "character": "ToeSnot",
       "class": "Oracle",
@@ -6994,7 +7004,7 @@
       "retired": false
     },
     {
-      "rank": 700,
+      "rank": 701,
       "account": "Naax#3513",
       "character": "SATANIC_SHITTER",
       "class": "Martial Artist",
@@ -7004,7 +7014,7 @@
       "retired": false
     },
     {
-      "rank": 701,
+      "rank": 702,
       "account": "Daxrow#4768",
       "character": "Karden_dxrw",
       "class": "Spirit Walker",
@@ -7014,7 +7024,7 @@
       "retired": false
     },
     {
-      "rank": 702,
+      "rank": 703,
       "account": "Tomalom#2865",
       "character": "BadboyX_i",
       "class": "Abyssal Lich",
@@ -7024,7 +7034,7 @@
       "retired": false
     },
     {
-      "rank": 703,
+      "rank": 704,
       "account": "867160589#4633",
       "character": "\u539f\u542f\u4e91\u529b",
       "class": "Spirit Walker",
@@ -7034,7 +7044,7 @@
       "retired": false
     },
     {
-      "rank": 704,
+      "rank": 705,
       "account": "prtool#5176",
       "character": "Piggolo",
       "class": "Martial Artist",
@@ -7044,7 +7054,7 @@
       "retired": false
     },
     {
-      "rank": 705,
+      "rank": 706,
       "account": "fess#1322",
       "character": "MonkeyzFriend",
       "class": "Spirit Walker",
@@ -7054,7 +7064,7 @@
       "retired": false
     },
     {
-      "rank": 706,
+      "rank": 707,
       "account": "Adanir09#2932",
       "character": "Adanir_Totems",
       "class": "Oracle",
@@ -7064,7 +7074,7 @@
       "retired": false
     },
     {
-      "rank": 707,
+      "rank": 708,
       "account": "ViperHoR#5337",
       "character": "DarkViper_Ice",
       "class": "Deadeye",
@@ -7074,7 +7084,7 @@
       "retired": false
     },
     {
-      "rank": 708,
+      "rank": 709,
       "account": "cyrecs#1352",
       "character": "cyrecs",
       "class": "Lich",
@@ -7084,7 +7094,7 @@
       "retired": false
     },
     {
-      "rank": 709,
+      "rank": 710,
       "account": "Strangerpsy#2665",
       "character": "Stranger",
       "class": "Martial Artist",
@@ -7094,7 +7104,7 @@
       "retired": false
     },
     {
-      "rank": 710,
+      "rank": 711,
       "account": "Brutalis1987#3926",
       "character": "JuanBunchMan",
       "class": "Martial Artist",
@@ -7104,7 +7114,7 @@
       "retired": false
     },
     {
-      "rank": 711,
+      "rank": 712,
       "account": "Niaxqt#7780",
       "character": "Niaxtt",
       "class": "Oracle",
@@ -7114,7 +7124,7 @@
       "retired": true
     },
     {
-      "rank": 712,
+      "rank": 713,
       "account": "kelvinzbws#5141",
       "character": "Knix",
       "class": "Martial Artist",
@@ -7124,7 +7134,7 @@
       "retired": false
     },
     {
-      "rank": 713,
+      "rank": 714,
       "account": "ralle#5231",
       "character": "rallissf",
       "class": "Spirit Walker",
@@ -7134,7 +7144,7 @@
       "retired": false
     },
     {
-      "rank": 714,
+      "rank": 715,
       "account": "Trippics#6277",
       "character": "Trippic_roa",
       "class": "Witchhunter",
@@ -7144,7 +7154,7 @@
       "retired": false
     },
     {
-      "rank": 715,
+      "rank": 716,
       "account": "Tommy_Chucks#3491",
       "character": "Tommy_____Chucks",
       "class": "Spirit Walker",
@@ -7154,7 +7164,7 @@
       "retired": false
     },
     {
-      "rank": 716,
+      "rank": 717,
       "account": "Garydubs314#1987",
       "character": "Rats_Gninrom______Gdubs",
       "class": "Infernalist",
@@ -7164,7 +7174,7 @@
       "retired": false
     },
     {
-      "rank": 717,
+      "rank": 718,
       "account": "bingo1412#4268",
       "character": "freedomfightersgarf",
       "class": "Gemling Legionnaire",
@@ -7174,7 +7184,7 @@
       "retired": false
     },
     {
-      "rank": 718,
+      "rank": 719,
       "account": "_Fate#5451",
       "character": "RuinedByExams",
       "class": "Martial Artist",
@@ -7184,7 +7194,7 @@
       "retired": false
     },
     {
-      "rank": 719,
+      "rank": 720,
       "account": "ajaarrkkss#7041",
       "character": "Nycteridae",
       "class": "Acolyte of Chayula",
@@ -7194,7 +7204,7 @@
       "retired": false
     },
     {
-      "rank": 720,
+      "rank": 721,
       "account": "Aelhaine#2414",
       "character": "Renilash",
       "class": "Martial Artist",
@@ -7204,7 +7214,7 @@
       "retired": false
     },
     {
-      "rank": 721,
+      "rank": 722,
       "account": "GeraltVarEmreis#1298",
       "character": "TrissVarEmreis",
       "class": "Chronomancer",
@@ -7214,7 +7224,7 @@
       "retired": false
     },
     {
-      "rank": 722,
+      "rank": 723,
       "account": "fr0st61te#3016",
       "character": "Ubah_na_gemah",
       "class": "Tactician",
@@ -7224,7 +7234,7 @@
       "retired": false
     },
     {
-      "rank": 723,
+      "rank": 724,
       "account": "Sidebrum#1617",
       "character": "Laelithia",
       "class": "Spirit Walker",
@@ -7234,7 +7244,7 @@
       "retired": false
     },
     {
-      "rank": 724,
+      "rank": 725,
       "account": "ElementFive#3269",
       "character": "WishMaxxerSSF",
       "class": "Disciple of Varashta",
@@ -7244,7 +7254,7 @@
       "retired": false
     },
     {
-      "rank": 725,
+      "rank": 726,
       "account": "Honker#5638",
       "character": "Totemonker",
       "class": "Oracle",
@@ -7254,7 +7264,7 @@
       "retired": false
     },
     {
-      "rank": 726,
+      "rank": 727,
       "account": "Garshak#5784",
       "character": "ShakMMA",
       "class": "Martial Artist",
@@ -7264,7 +7274,7 @@
       "retired": false
     },
     {
-      "rank": 727,
+      "rank": 728,
       "account": "simon2357#5674",
       "character": "AnnoyingOfficeCat",
       "class": "Spirit Walker",
@@ -7274,7 +7284,7 @@
       "retired": false
     },
     {
-      "rank": 728,
+      "rank": 729,
       "account": "SpawnConnery#4351",
       "character": "GenerallySpeaking",
       "class": "Martial Artist",
@@ -7284,7 +7294,7 @@
       "retired": false
     },
     {
-      "rank": 729,
+      "rank": 730,
       "account": "Tizzer40#4163",
       "character": "Tizzer_Ceasefire",
       "class": "Martial Artist",
@@ -7294,7 +7304,7 @@
       "retired": true
     },
     {
-      "rank": 730,
+      "rank": 731,
       "account": "cxxxll#5609",
       "character": "cxxxll",
       "class": "Martial Artist",
@@ -7304,7 +7314,7 @@
       "retired": true
     },
     {
-      "rank": 731,
+      "rank": 732,
       "account": "Bibas974#0777",
       "character": "JoyHCSSF",
       "class": "Stormweaver",
@@ -7314,7 +7324,17 @@
       "retired": false
     },
     {
-      "rank": 732,
+      "rank": 733,
+      "account": "Peahat#1424",
+      "character": "Cuckquean_royalty",
+      "class": "Blood Mage",
+      "level": 98,
+      "experience": 3638193758,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 734,
       "account": "PhKin#1242",
       "character": "Steel_Punching",
       "class": "Martial Artist",
@@ -7324,7 +7344,7 @@
       "retired": false
     },
     {
-      "rank": 733,
+      "rank": 735,
       "account": "ProgParagon#3966",
       "character": "ProgParagon_RoA_I",
       "class": "Smith of Kitava",
@@ -7334,7 +7354,7 @@
       "retired": false
     },
     {
-      "rank": 734,
+      "rank": 736,
       "account": "leygo#5337",
       "character": "ES_beherrschtdasChaos",
       "class": "Gemling Legionnaire",
@@ -7344,7 +7364,7 @@
       "retired": false
     },
     {
-      "rank": 735,
+      "rank": 737,
       "account": "Tommy_Chucks#3491",
       "character": "Tommy____Chucks",
       "class": "Disciple of Varashta",
@@ -7354,7 +7374,7 @@
       "retired": false
     },
     {
-      "rank": 736,
+      "rank": 738,
       "account": "xantilyo#5949",
       "character": "Xantil_clueless",
       "class": "Spirit Walker",
@@ -7364,17 +7384,7 @@
       "retired": false
     },
     {
-      "rank": 737,
-      "account": "Peahat#1424",
-      "character": "Cuckquean_royalty",
-      "class": "Blood Mage",
-      "level": 98,
-      "experience": 3638186694,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 738,
+      "rank": 739,
       "account": "elJay23#0360",
       "character": "SPIRITWALKERSSF",
       "class": "Spirit Walker",
@@ -7384,7 +7394,7 @@
       "retired": false
     },
     {
-      "rank": 739,
+      "rank": 740,
       "account": "Araliz#6946",
       "character": "Araliz_monk",
       "class": "Martial Artist",
@@ -7394,7 +7404,7 @@
       "retired": false
     },
     {
-      "rank": 740,
+      "rank": 741,
       "account": "cataclysmical#1753",
       "character": "Catassandra",
       "class": "Lich",
@@ -7404,7 +7414,7 @@
       "retired": false
     },
     {
-      "rank": 741,
+      "rank": 742,
       "account": "DuncanMac#4483",
       "character": "NetoSpiritMonkey",
       "class": "Spirit Walker",
@@ -7414,7 +7424,7 @@
       "retired": false
     },
     {
-      "rank": 742,
+      "rank": 743,
       "account": "Babytuxx#4486",
       "character": "Babytuxc",
       "class": "Chronomancer",
@@ -7424,7 +7434,7 @@
       "retired": false
     },
     {
-      "rank": 743,
+      "rank": 744,
       "account": "sergii#1641",
       "character": "QuantityorRarity",
       "class": "Pathfinder",
@@ -7434,7 +7444,7 @@
       "retired": false
     },
     {
-      "rank": 744,
+      "rank": 745,
       "account": "Gfnex#2448",
       "character": "FaithIsNotACHOICE",
       "class": "Invoker",
@@ -7444,22 +7454,12 @@
       "retired": false
     },
     {
-      "rank": 745,
+      "rank": 746,
       "account": "teonhame1#7353",
       "character": "Lazer_SFFF",
       "class": "Spirit Walker",
       "level": 97,
       "experience": 3634872897,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 746,
-      "account": "KwaadPlafond#5539",
-      "character": "TimeForMonkeys",
-      "class": "Spirit Walker",
-      "level": 97,
-      "experience": 3631962038,
       "dead": false,
       "retired": false
     },
@@ -7519,7 +7519,7 @@
       "character": "STOPCRASHIGN",
       "class": "Lich",
       "level": 97,
-      "experience": 3627942741,
+      "experience": 3628282071,
       "dead": false,
       "retired": false
     },
@@ -7695,6 +7695,16 @@
     },
     {
       "rank": 770,
+      "account": "6yk4#7718",
+      "character": "MillionDollarBaby",
+      "class": "Warrior",
+      "level": 97,
+      "experience": 3609539019,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 771,
       "account": "DuncanMac#4483",
       "character": "NetoTotem",
       "class": "Shaman",
@@ -7704,7 +7714,7 @@
       "retired": false
     },
     {
-      "rank": 771,
+      "rank": 772,
       "account": "Abas90#6235",
       "character": "Abadudubambam",
       "class": "Shaman",
@@ -7714,7 +7724,7 @@
       "retired": false
     },
     {
-      "rank": 772,
+      "rank": 773,
       "account": "nogwepa#9969",
       "character": "\uc2a4\uc2be\ub178\uad34\ud30c",
       "class": "Oracle",
@@ -7724,7 +7734,7 @@
       "retired": false
     },
     {
-      "rank": 773,
+      "rank": 774,
       "account": "StockkotMitBrot#2343",
       "character": "MarshalArschFist",
       "class": "Martial Artist",
@@ -7734,7 +7744,7 @@
       "retired": false
     },
     {
-      "rank": 774,
+      "rank": 775,
       "account": "Ehxxoo#6997",
       "character": "xX_Nom_Xx_MA",
       "class": "Martial Artist",
@@ -7744,7 +7754,7 @@
       "retired": true
     },
     {
-      "rank": 775,
+      "rank": 776,
       "account": "Nicejacket#7390",
       "character": "left_my_car_at_dealer",
       "class": "Abyssal Lich",
@@ -7754,7 +7764,7 @@
       "retired": false
     },
     {
-      "rank": 776,
+      "rank": 777,
       "account": "moon062#0550",
       "character": "xyphpowpow",
       "class": "Martial Artist",
@@ -7764,7 +7774,7 @@
       "retired": true
     },
     {
-      "rank": 777,
+      "rank": 778,
       "account": "CARNDARAK#3163",
       "character": "cArn_LL",
       "class": "Titan",
@@ -7774,7 +7784,7 @@
       "retired": false
     },
     {
-      "rank": 778,
+      "rank": 779,
       "account": "Queen_Chrysalis#2908",
       "character": "SchizoWithGrenade",
       "class": "Witchhunter",
@@ -7784,7 +7794,7 @@
       "retired": false
     },
     {
-      "rank": 779,
+      "rank": 780,
       "account": "stasisyzm#2861",
       "character": "Fazthedjinn",
       "class": "Disciple of Varashta",
@@ -7794,7 +7804,7 @@
       "retired": false
     },
     {
-      "rank": 780,
+      "rank": 781,
       "account": "Cellr#4727",
       "character": "Cellr",
       "class": "Martial Artist",
@@ -7804,7 +7814,7 @@
       "retired": false
     },
     {
-      "rank": 781,
+      "rank": 782,
       "account": "Kabuto1991#3450",
       "character": "\u897f\u516b\u4e0d\u62c9\u4e01",
       "class": "Disciple of Varashta",
@@ -7814,22 +7824,12 @@
       "retired": false
     },
     {
-      "rank": 782,
+      "rank": 783,
       "account": "dauntaun#1386",
       "character": "waitingforgrimdawn",
       "class": "Martial Artist",
       "level": 97,
       "experience": 3604823301,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 783,
-      "account": "6yk4#7718",
-      "character": "MillionDollarBaby",
-      "class": "Warrior",
-      "level": 97,
-      "experience": 3603869585,
       "dead": false,
       "retired": false
     },
@@ -7905,21 +7905,21 @@
     },
     {
       "rank": 791,
-      "account": "krupsen228#3879",
-      "character": "\u0413\u043e\u0433\u0430\u0421\u0430\u0442\u043e\u0440\u0443",
-      "class": "Martial Artist",
+      "account": "Scovell#3239",
+      "character": "SaintScovell",
+      "class": "Pathfinder",
       "level": 97,
-      "experience": 3599056123,
+      "experience": 3599289742,
       "dead": false,
       "retired": false
     },
     {
       "rank": 792,
-      "account": "Scovell#3239",
-      "character": "SaintScovell",
-      "class": "Pathfinder",
+      "account": "krupsen228#3879",
+      "character": "\u0413\u043e\u0433\u0430\u0421\u0430\u0442\u043e\u0440\u0443",
+      "class": "Martial Artist",
       "level": 97,
-      "experience": 3598570928,
+      "experience": 3599056123,
       "dead": false,
       "retired": false
     },
@@ -8115,6 +8115,16 @@
     },
     {
       "rank": 812,
+      "account": "cuan_A#2039",
+      "character": "Caun_monk",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3588130475,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 813,
       "account": "Milo#8777",
       "character": "miloFRESHSPINNA",
       "class": "Martial Artist",
@@ -8124,7 +8134,7 @@
       "retired": false
     },
     {
-      "rank": 813,
+      "rank": 814,
       "account": "\ud22c\ub354\ubb38#8120",
       "character": "SSF_HunTreesS",
       "class": "Spirit Walker",
@@ -8134,7 +8144,7 @@
       "retired": false
     },
     {
-      "rank": 814,
+      "rank": 815,
       "account": "Imperium305#1349",
       "character": "LiveWireTotems",
       "class": "Oracle",
@@ -8144,7 +8154,7 @@
       "retired": false
     },
     {
-      "rank": 815,
+      "rank": 816,
       "account": "Cyanadic#7282",
       "character": "Jommwick",
       "class": "Titan",
@@ -8154,7 +8164,7 @@
       "retired": false
     },
     {
-      "rank": 816,
+      "rank": 817,
       "account": "Willexan#2754",
       "character": "Willexan_MA",
       "class": "Martial Artist",
@@ -8164,7 +8174,7 @@
       "retired": false
     },
     {
-      "rank": 817,
+      "rank": 818,
       "account": "SabinC3112#9059",
       "character": "ProudMonkeDad",
       "class": "Spirit Walker",
@@ -8174,7 +8184,7 @@
       "retired": false
     },
     {
-      "rank": 818,
+      "rank": 819,
       "account": "Blackm11#4925",
       "character": "Tarelochnica",
       "class": "Spirit Walker",
@@ -8184,7 +8194,7 @@
       "retired": true
     },
     {
-      "rank": 819,
+      "rank": 820,
       "account": "Celerfot#0168",
       "character": "CelPlantRunes",
       "class": "Abyssal Lich",
@@ -8194,7 +8204,7 @@
       "retired": false
     },
     {
-      "rank": 820,
+      "rank": 821,
       "account": "CrisInuyasha#1817",
       "character": "MamaLixo",
       "class": "Witchhunter",
@@ -8204,7 +8214,7 @@
       "retired": true
     },
     {
-      "rank": 821,
+      "rank": 822,
       "account": "kaerailears#4688",
       "character": "Return_to_Oblivion",
       "class": "Disciple of Varashta",
@@ -8214,7 +8224,7 @@
       "retired": false
     },
     {
-      "rank": 822,
+      "rank": 823,
       "account": "Asphyxia#6831",
       "character": "asphyxia_hollowform",
       "class": "Martial Artist",
@@ -8224,7 +8234,7 @@
       "retired": false
     },
     {
-      "rank": 823,
+      "rank": 824,
       "account": "INT_UnBoUnDz#5622",
       "character": "TimmyNoNutsFourPointOHa",
       "class": "Pathfinder",
@@ -8234,22 +8244,12 @@
       "retired": false
     },
     {
-      "rank": 824,
+      "rank": 825,
       "account": "anihvx#6837",
       "character": "Ludensi",
       "class": "Chronomancer",
       "level": 97,
       "experience": 3582007189,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 825,
-      "account": "cuan_A#2039",
-      "character": "Caun_monk",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3581063423,
       "dead": false,
       "retired": false
     },
@@ -8815,6 +8815,16 @@
     },
     {
       "rank": 882,
+      "account": "illumiNate#7588",
+      "character": "NateMonkI",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3556151490,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 883,
       "account": "Dutch3D#4441",
       "character": "ForsenBild",
       "class": "Martial Artist",
@@ -8824,7 +8834,7 @@
       "retired": false
     },
     {
-      "rank": 883,
+      "rank": 884,
       "account": "zborek#0673",
       "character": "DruidSSFAldur",
       "class": "Oracle",
@@ -8834,7 +8844,7 @@
       "retired": false
     },
     {
-      "rank": 884,
+      "rank": 885,
       "account": "ciberexe3#7542",
       "character": "Pia_Artist",
       "class": "Martial Artist",
@@ -8844,7 +8854,7 @@
       "retired": false
     },
     {
-      "rank": 885,
+      "rank": 886,
       "account": "cuckslayer69#4710",
       "character": "gamestillshit",
       "class": "Martial Artist",
@@ -8854,7 +8864,7 @@
       "retired": false
     },
     {
-      "rank": 886,
+      "rank": 887,
       "account": "Enhou#3362",
       "character": "EnhouMONKA",
       "class": "Martial Artist",
@@ -8864,7 +8874,7 @@
       "retired": false
     },
     {
-      "rank": 887,
+      "rank": 888,
       "account": "Glarkroq#5359",
       "character": "cooxzik",
       "class": "Martial Artist",
@@ -8874,7 +8884,7 @@
       "retired": false
     },
     {
-      "rank": 888,
+      "rank": 889,
       "account": "Jackal904#6241",
       "character": "Swords_Arent_Real",
       "class": "Chronomancer",
@@ -8884,7 +8894,7 @@
       "retired": false
     },
     {
-      "rank": 889,
+      "rank": 890,
       "account": "smartadam#1104",
       "character": "Bluey_Wukong",
       "class": "Martial Artist",
@@ -8894,7 +8904,7 @@
       "retired": false
     },
     {
-      "rank": 890,
+      "rank": 891,
       "account": "DouXian#4156",
       "character": "Dou_Steinhande",
       "class": "Martial Artist",
@@ -8904,22 +8914,12 @@
       "retired": false
     },
     {
-      "rank": 891,
+      "rank": 892,
       "account": "garmi#5053",
       "character": "fartial_shartist",
       "class": "Martial Artist",
       "level": 97,
       "experience": 3550807233,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 892,
-      "account": "illumiNate#7588",
-      "character": "NateMonkI",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3550641125,
       "dead": false,
       "retired": false
     },
@@ -8945,6 +8945,16 @@
     },
     {
       "rank": 895,
+      "account": "B0by#3816",
+      "character": "Blodica",
+      "class": "Blood Mage",
+      "level": 97,
+      "experience": 3549685698,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 896,
       "account": "PalmZE#7398",
       "character": "monKEthunder",
       "class": "Martial Artist",
@@ -8954,7 +8964,7 @@
       "retired": false
     },
     {
-      "rank": 896,
+      "rank": 897,
       "account": "netorare3310#4386",
       "character": "netoraremonke",
       "class": "Martial Artist",
@@ -8964,7 +8974,7 @@
       "retired": false
     },
     {
-      "rank": 897,
+      "rank": 898,
       "account": "\uae40\ubc1c\ub77c#4145",
       "character": "\ubc1c\ub77c\uc2a5\uc0ad",
       "class": "Martial Artist",
@@ -8974,7 +8984,7 @@
       "retired": false
     },
     {
-      "rank": 898,
+      "rank": 899,
       "account": "envnz#5691",
       "character": "EnvSSF",
       "class": "Deadeye",
@@ -8984,22 +8994,12 @@
       "retired": false
     },
     {
-      "rank": 899,
+      "rank": 900,
       "account": "okrptonitex#5541",
       "character": "DjinnyJinnjin",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3545855603,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 900,
-      "account": "B0by#3816",
-      "character": "Blodica",
-      "class": "Blood Mage",
-      "level": 97,
-      "experience": 3545805529,
       "dead": false,
       "retired": false
     },
@@ -9635,6 +9635,16 @@
     },
     {
       "rank": 964,
+      "account": "AronirSatinor#2602",
+      "character": "Tammiera",
+      "class": "Spirit Walker",
+      "level": 97,
+      "experience": 3527443732,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 965,
       "account": "oxzer#3468",
       "character": "zayula",
       "class": "Deadeye",
@@ -9644,7 +9654,7 @@
       "retired": false
     },
     {
-      "rank": 965,
+      "rank": 966,
       "account": "Torquey#1705",
       "character": "MeKillEnemy",
       "class": "Martial Artist",
@@ -9654,7 +9664,7 @@
       "retired": false
     },
     {
-      "rank": 966,
+      "rank": 967,
       "account": "Lv_1pocket#7636",
       "character": "\u8fbb\u672c\u826f\u4e09",
       "class": "Martial Artist",
@@ -9664,7 +9674,7 @@
       "retired": false
     },
     {
-      "rank": 967,
+      "rank": 968,
       "account": "Tombss#4632",
       "character": "Bruce_Reeeeeeeee",
       "class": "Martial Artist",
@@ -9674,7 +9684,7 @@
       "retired": true
     },
     {
-      "rank": 968,
+      "rank": 969,
       "account": "Megnodesh#5863",
       "character": "Mangodashu",
       "class": "Witchhunter",
@@ -9684,7 +9694,7 @@
       "retired": false
     },
     {
-      "rank": 969,
+      "rank": 970,
       "account": "KP_Plumbing#4214",
       "character": "Boogermanns",
       "class": "Martial Artist",
@@ -9694,7 +9704,7 @@
       "retired": false
     },
     {
-      "rank": 970,
+      "rank": 971,
       "account": "Amanitaz#4903",
       "character": "Amanitaz_D",
       "class": "Deadeye",
@@ -9704,7 +9714,7 @@
       "retired": true
     },
     {
-      "rank": 971,
+      "rank": 972,
       "account": "scofieldwang#6567",
       "character": "\u65e0\u654c\u9ad8\u538b\u9505\u5927\u738b",
       "class": "Stormweaver",
@@ -9714,7 +9724,7 @@
       "retired": false
     },
     {
-      "rank": 972,
+      "rank": 973,
       "account": "nbleanh02#0823",
       "character": "aloncatchemall",
       "class": "Spirit Walker",
@@ -9724,7 +9734,7 @@
       "retired": false
     },
     {
-      "rank": 973,
+      "rank": 974,
       "account": "NotoriousGWB723#8525",
       "character": "ChillinSSF",
       "class": "Deadeye",
@@ -9734,7 +9744,7 @@
       "retired": false
     },
     {
-      "rank": 974,
+      "rank": 975,
       "account": "top12391#6540",
       "character": "\u70ba\u5565\u6703\u6709\u7375\u9996",
       "class": "Stormweaver",
@@ -9744,7 +9754,7 @@
       "retired": false
     },
     {
-      "rank": 975,
+      "rank": 976,
       "account": "calebhood#5276",
       "character": "calebsadge",
       "class": "Invoker",
@@ -9754,7 +9764,7 @@
       "retired": true
     },
     {
-      "rank": 976,
+      "rank": 977,
       "account": "Serphiat#0943",
       "character": "Barielle_",
       "class": "Abyssal Lich",
@@ -9764,7 +9774,17 @@
       "retired": false
     },
     {
-      "rank": 977,
+      "rank": 978,
+      "account": "MultiMia#2426",
+      "character": "LichMiaSSF",
+      "class": "Abyssal Lich",
+      "level": 97,
+      "experience": 3524497125,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 979,
       "account": "NAncccccc#1700",
       "character": "TotemWalkerune",
       "class": "Gemling Legionnaire",
@@ -9774,7 +9794,7 @@
       "retired": true
     },
     {
-      "rank": 978,
+      "rank": 980,
       "account": "igdju#7432",
       "character": "Mihio_",
       "class": "Disciple of Varashta",
@@ -9784,7 +9804,7 @@
       "retired": false
     },
     {
-      "rank": 979,
+      "rank": 981,
       "account": "RockBlast#1904",
       "character": "Tutem",
       "class": "Oracle",
@@ -9794,7 +9814,7 @@
       "retired": false
     },
     {
-      "rank": 980,
+      "rank": 982,
       "account": "Trixari#2272",
       "character": "Elainlauma",
       "class": "Spirit Walker",
@@ -9804,7 +9824,7 @@
       "retired": false
     },
     {
-      "rank": 981,
+      "rank": 983,
       "account": "Inflamed#0040",
       "character": "Flametwists",
       "class": "Spirit Walker",
@@ -9814,7 +9834,7 @@
       "retired": false
     },
     {
-      "rank": 982,
+      "rank": 984,
       "account": "binlun2010#6814",
       "character": "SSFoundDeez",
       "class": "Martial Artist",
@@ -9824,7 +9844,7 @@
       "retired": false
     },
     {
-      "rank": 983,
+      "rank": 985,
       "account": "Hyperblitzkrieg#6511",
       "character": "MyInward",
       "class": "Spirit Walker",
@@ -9834,7 +9854,7 @@
       "retired": false
     },
     {
-      "rank": 984,
+      "rank": 986,
       "account": "Schmoote#0812",
       "character": "JohnConstantine_SSF",
       "class": "Gemling Legionnaire",
@@ -9844,7 +9864,7 @@
       "retired": false
     },
     {
-      "rank": 985,
+      "rank": 987,
       "account": "Krombitor#7419",
       "character": "Jooner",
       "class": "Lich",
@@ -9854,7 +9874,7 @@
       "retired": true
     },
     {
-      "rank": 986,
+      "rank": 988,
       "account": "pudgysanta#6352",
       "character": "pudgysantaaaa",
       "class": "Spirit Walker",
@@ -9864,7 +9884,7 @@
       "retired": false
     },
     {
-      "rank": 987,
+      "rank": 989,
       "account": "cerroazul#1893",
       "character": "\uac1c\ud587\ube44",
       "class": "Oracle",
@@ -9874,7 +9894,7 @@
       "retired": false
     },
     {
-      "rank": 988,
+      "rank": 990,
       "account": "zzzch#3174",
       "character": "HIGHBALL_WILSON",
       "class": "Martial Artist",
@@ -9884,7 +9904,7 @@
       "retired": false
     },
     {
-      "rank": 989,
+      "rank": 991,
       "account": "esely#7495",
       "character": "Esely_Runes",
       "class": "Deadeye",
@@ -9894,7 +9914,7 @@
       "retired": false
     },
     {
-      "rank": 990,
+      "rank": 992,
       "account": "Adori#0441",
       "character": "Generic_Companions",
       "class": "Spirit Walker",
@@ -9904,7 +9924,7 @@
       "retired": false
     },
     {
-      "rank": 991,
+      "rank": 993,
       "account": "SweetestD#5276",
       "character": "SavageSSFredux",
       "class": "Disciple of Varashta",
@@ -9914,7 +9934,7 @@
       "retired": false
     },
     {
-      "rank": 992,
+      "rank": 994,
       "account": "GiovaniB#5850",
       "character": "SNIPECOLDMARTMONKYEP",
       "class": "Martial Artist",
@@ -9924,7 +9944,7 @@
       "retired": false
     },
     {
-      "rank": 993,
+      "rank": 995,
       "account": "tgtro11#4754",
       "character": "star_aldur",
       "class": "Infernalist",
@@ -9934,7 +9954,7 @@
       "retired": false
     },
     {
-      "rank": 994,
+      "rank": 996,
       "account": "arttu31#7071",
       "character": "MudGeyzer",
       "class": "Stormweaver",
@@ -9944,17 +9964,7 @@
       "retired": false
     },
     {
-      "rank": 995,
-      "account": "MultiMia#2426",
-      "character": "LichMiaSSF",
-      "class": "Abyssal Lich",
-      "level": 97,
-      "experience": 3519703439,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 996,
+      "rank": 997,
       "account": "SouthLP#6566",
       "character": "SLP_RunesAldur",
       "class": "Abyssal Lich",
@@ -9964,7 +9974,7 @@
       "retired": true
     },
     {
-      "rank": 997,
+      "rank": 998,
       "account": "Pruonna#7014",
       "character": "Pruonnana",
       "class": "Spirit Walker",
@@ -9974,7 +9984,7 @@
       "retired": false
     },
     {
-      "rank": 998,
+      "rank": 999,
       "account": "SelfImm#1159",
       "character": "xdxdxdtwist",
       "class": "Spirit Walker",
@@ -9984,22 +9994,12 @@
       "retired": false
     },
     {
-      "rank": 999,
+      "rank": 1000,
       "account": "mk142562#5388",
       "character": "XMDDD",
       "class": "Martial Artist",
       "level": 97,
       "experience": 3517348495,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 1000,
-      "account": "eriqual#4244",
-      "character": "runeidkxdd",
-      "class": "Chronomancer",
-      "level": 97,
-      "experience": 3517069093,
       "dead": false,
       "retired": false
     }
