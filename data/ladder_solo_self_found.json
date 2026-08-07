@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-07T16:44:52.425484+00:00",
+  "fetched_at": "2026-08-07T17:42:58.471976+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3179,7 +3179,7 @@
       "character": "BlastYaa",
       "class": "Invoker",
       "level": 98,
-      "experience": 3723667874,
+      "experience": 3723715724,
       "dead": false,
       "retired": false
     },
@@ -7195,6 +7195,16 @@
     },
     {
       "rank": 720,
+      "account": "Pioro1980#3652",
+      "character": "Pioro_shaolin",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3460082162,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 721,
       "account": "vlmoon#2525",
       "character": "Syntez",
       "class": "Pathfinder",
@@ -7204,7 +7214,7 @@
       "retired": false
     },
     {
-      "rank": 721,
+      "rank": 722,
       "account": "Arcelea#6235",
       "character": "KPopDemonRusher",
       "class": "Titan",
@@ -7214,7 +7224,7 @@
       "retired": false
     },
     {
-      "rank": 722,
+      "rank": 723,
       "account": "dendenmusimusi005#4774",
       "character": "musid",
       "class": "Infernalist",
@@ -7224,7 +7234,7 @@
       "retired": false
     },
     {
-      "rank": 723,
+      "rank": 724,
       "account": "Rematron#2122",
       "character": "VaalRemmy",
       "class": "Titan",
@@ -7234,22 +7244,12 @@
       "retired": false
     },
     {
-      "rank": 724,
+      "rank": 725,
       "account": "bl8ck_con#0953",
       "character": "FotVSSF_Pathfinder",
       "class": "Pathfinder",
       "level": 97,
       "experience": 3458181382,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 725,
-      "account": "Pioro1980#3652",
-      "character": "Pioro_shaolin",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3457989829,
       "dead": false,
       "retired": false
     },
@@ -9945,16 +9945,6 @@
     },
     {
       "rank": 995,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
-      "level": 97,
-      "experience": 3381291930,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 996,
       "account": "\uc2dc\uac04\uc2dc\uac04#3216",
       "character": "\ubb34\ub7ed\ubabd",
       "class": "Invoker",
@@ -9964,7 +9954,7 @@
       "retired": false
     },
     {
-      "rank": 997,
+      "rank": 996,
       "account": "Eharbad#6063",
       "character": "Thyraxis",
       "class": "Smith of Kitava",
@@ -9974,7 +9964,7 @@
       "retired": false
     },
     {
-      "rank": 998,
+      "rank": 997,
       "account": "StarSheriff1511#3675",
       "character": "Sheriff_Slams_Abysses",
       "class": "Titan",
@@ -9984,7 +9974,7 @@
       "retired": false
     },
     {
-      "rank": 999,
+      "rank": 998,
       "account": "Likewize#0965",
       "character": "Zaphazza",
       "class": "Gemling Legionnaire",
@@ -9994,12 +9984,22 @@
       "retired": false
     },
     {
-      "rank": 1000,
+      "rank": 999,
       "account": "DimaKunica#2556",
       "character": "\u0411\u0435\u0437\u0410\u043c\u0431\u0438\u0446\u0438\u0439",
       "class": "Pathfinder",
       "level": 97,
       "experience": 3381076459,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 1000,
+      "account": "Vamyra#0948",
+      "character": "DriftBear",
+      "class": "Smith of Kitava",
+      "level": 97,
+      "experience": 3380708856,
       "dead": false,
       "retired": false
     }
