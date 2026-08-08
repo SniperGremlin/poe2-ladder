@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-08T22:21:23.191635+00:00",
+  "fetched_at": "2026-08-08T23:21:20.408518+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2125,16 +2125,6 @@
     },
     {
       "rank": 213,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3935219571,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 214,
       "account": "Griswald#6528",
       "character": "RAPIDSHOTNUMBERONEFAN__",
       "class": "Tactician",
@@ -2144,7 +2134,7 @@
       "retired": false
     },
     {
-      "rank": 215,
+      "rank": 214,
       "account": "coyd#6278",
       "character": "Bow_AZonn",
       "class": "Deadeye",
@@ -2154,7 +2144,7 @@
       "retired": false
     },
     {
-      "rank": 216,
+      "rank": 215,
       "account": "ryanrtjh#6263",
       "character": "popolwow",
       "class": "Blood Mage",
@@ -2164,7 +2154,7 @@
       "retired": false
     },
     {
-      "rank": 217,
+      "rank": 216,
       "account": "p1xel#2711",
       "character": "pixel_SSF",
       "class": "Disciple of Varashta",
@@ -2174,7 +2164,7 @@
       "retired": false
     },
     {
-      "rank": 218,
+      "rank": 217,
       "account": "Iruga#9164",
       "character": "Iruga_SSF_FOTV",
       "class": "Titan",
@@ -2184,7 +2174,7 @@
       "retired": false
     },
     {
-      "rank": 219,
+      "rank": 218,
       "account": "AmaLame#7538",
       "character": "BaguetteNcheese",
       "class": "Pathfinder",
@@ -2194,7 +2184,7 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 219,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2204,7 +2194,7 @@
       "retired": false
     },
     {
-      "rank": 221,
+      "rank": 220,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
@@ -2214,7 +2204,7 @@
       "retired": false
     },
     {
-      "rank": 222,
+      "rank": 221,
       "account": "zyphxyz#2964",
       "character": "ZyphxTwista",
       "class": "Invoker",
@@ -2224,12 +2214,22 @@
       "retired": false
     },
     {
-      "rank": 223,
+      "rank": 222,
       "account": "Taikanji#9094",
       "character": "Taiikanji",
       "class": "Deadeye",
       "level": 99,
       "experience": 3933195965,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 223,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3933058161,
       "dead": false,
       "retired": false
     },
@@ -3485,6 +3485,16 @@
     },
     {
       "rank": 349,
+      "account": "enigmyth#1149",
+      "character": "Castressf",
+      "class": "Spirit Walker",
+      "level": 98,
+      "experience": 3690716064,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 350,
       "account": "DrakeDrain#1187",
       "character": "Ryanahara",
       "class": "Blood Mage",
@@ -3494,7 +3504,7 @@
       "retired": true
     },
     {
-      "rank": 350,
+      "rank": 351,
       "account": "Kennymasters#0519",
       "character": "Kenny_NotTradeAndy",
       "class": "Deadeye",
@@ -3504,7 +3514,7 @@
       "retired": false
     },
     {
-      "rank": 351,
+      "rank": 352,
       "account": "kwhat420#7416",
       "character": "kwhat_vaal",
       "class": "Pathfinder",
@@ -3512,16 +3522,6 @@
       "experience": 3690093110,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 352,
-      "account": "enigmyth#1149",
-      "character": "Castressf",
-      "class": "Spirit Walker",
-      "level": 98,
-      "experience": 3688961448,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 353,
@@ -7555,6 +7555,16 @@
     },
     {
       "rank": 756,
+      "account": "petecreio#2445",
+      "character": "PeteSorceress",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3448887359,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 757,
       "account": "tombiao119#9952",
       "character": "\u84dd\u8272\u98de\u58f6",
       "class": "Amazon",
@@ -7564,7 +7574,7 @@
       "retired": true
     },
     {
-      "rank": 757,
+      "rank": 758,
       "account": "scy7410#1583",
       "character": "\u771f\u5c0f\u602a",
       "class": "Stormweaver",
@@ -7574,22 +7584,12 @@
       "retired": false
     },
     {
-      "rank": 758,
+      "rank": 759,
       "account": "BimodalInk7#2481",
       "character": "CirKaomcised",
       "class": "Titan",
       "level": 97,
       "experience": 3448598705,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 759,
-      "account": "petecreio#2445",
-      "character": "PeteSorceress",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3448320071,
       "dead": false,
       "retired": false
     },
