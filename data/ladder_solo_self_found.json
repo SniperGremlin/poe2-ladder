@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-08T15:22:11.774549+00:00",
+  "fetched_at": "2026-08-08T16:23:51.050017+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3145,6 +3145,16 @@
     },
     {
       "rank": 315,
+      "account": "BlastYa#4875",
+      "character": "BlastYaa",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3725628852,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 316,
       "account": "levdegen#9242",
       "character": "SSFDoit",
       "class": "Oracle",
@@ -3154,22 +3164,12 @@
       "retired": false
     },
     {
-      "rank": 316,
+      "rank": 317,
       "account": "ololulu#7512",
       "character": "OloGem",
       "class": "Gemling Legionnaire",
       "level": 98,
       "experience": 3724993167,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 317,
-      "account": "BlastYa#4875",
-      "character": "BlastYaa",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3724980995,
       "dead": false,
       "retired": false
     },
@@ -4409,7 +4409,7 @@
       "character": "LarianDuvat",
       "class": "Invoker",
       "level": 98,
-      "experience": 3646189676,
+      "experience": 3646628543,
       "dead": false,
       "retired": false
     },
