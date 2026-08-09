@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-09T22:22:21.504035+00:00",
+  "fetched_at": "2026-08-09T23:24:07.989166+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2035,6 +2035,16 @@
     },
     {
       "rank": 204,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3938393175,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 205,
       "account": "hanskai#3530",
       "character": "Taktikai",
       "class": "Witchhunter",
@@ -2044,7 +2054,7 @@
       "retired": false
     },
     {
-      "rank": 205,
+      "rank": 206,
       "account": "Huk#4529",
       "character": "HukTVSSfbtw",
       "class": "Amazon",
@@ -2052,16 +2062,6 @@
       "experience": 3938236155,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 206,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3937820071,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 207,
@@ -3369,7 +3369,7 @@
       "character": "Castressf",
       "class": "Spirit Walker",
       "level": 98,
-      "experience": 3698729905,
+      "experience": 3698930522,
       "dead": false,
       "retired": false
     },
