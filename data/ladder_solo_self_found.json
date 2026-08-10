@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-09T23:24:07.989166+00:00",
+  "fetched_at": "2026-08-10T01:06:27.995137+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2005,6 +2005,16 @@
     },
     {
       "rank": 201,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3940268031,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 202,
       "account": "Cells69#5813",
       "character": "CoChooms",
       "class": "Blood Mage",
@@ -2014,7 +2024,7 @@
       "retired": true
     },
     {
-      "rank": 202,
+      "rank": 203,
       "account": "Ubu#2784",
       "character": "Ubu_W",
       "class": "Blood Mage",
@@ -2024,22 +2034,12 @@
       "retired": false
     },
     {
-      "rank": 203,
+      "rank": 204,
       "account": "Koopas#5031",
       "character": "KoopasBleed",
       "class": "Blood Mage",
       "level": 99,
       "experience": 3938647808,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 204,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3938393175,
       "dead": false,
       "retired": false
     },
@@ -3369,7 +3369,7 @@
       "character": "Castressf",
       "class": "Spirit Walker",
       "level": 98,
-      "experience": 3698930522,
+      "experience": 3699475423,
       "dead": false,
       "retired": false
     },
