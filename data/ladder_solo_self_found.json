@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-12T20:03:33.712261+00:00",
+  "fetched_at": "2026-08-12T20:40:07.690179+00:00",
   "count": 1000,
   "entries": [
     {
@@ -5665,16 +5665,6 @@
     },
     {
       "rank": 567,
-      "account": "Pioro1980#3652",
-      "character": "Pioro_shaolin",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3569337090,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 568,
       "account": "woodz#1384",
       "character": "\u751f\u6765\u5c31\u7231\u5c04",
       "class": "Deadeye",
@@ -5684,7 +5674,7 @@
       "retired": false
     },
     {
-      "rank": 569,
+      "rank": 568,
       "account": "Noobdooown#3475",
       "character": "BoringEndgameInTrade",
       "class": "Deadeye",
@@ -5694,7 +5684,7 @@
       "retired": true
     },
     {
-      "rank": 570,
+      "rank": 569,
       "account": "Arangnir#4964",
       "character": "Quxzs",
       "class": "Deadeye",
@@ -5704,7 +5694,7 @@
       "retired": false
     },
     {
-      "rank": 571,
+      "rank": 570,
       "account": "Naxraus#3377",
       "character": "Foeda",
       "class": "Blood Mage",
@@ -5714,12 +5704,22 @@
       "retired": false
     },
     {
-      "rank": 572,
+      "rank": 571,
       "account": "MyFry#1514",
       "character": "Schmerzen_stacker",
       "class": "Gemling Legionnaire",
       "level": 97,
       "experience": 3566299167,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 572,
+      "account": "Pioro1980#3652",
+      "character": "Pioro_shaolin",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3563628456,
       "dead": false,
       "retired": false
     },
