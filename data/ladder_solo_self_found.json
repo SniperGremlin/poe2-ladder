@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-18T02:13:04.673120+00:00",
+  "fetched_at": "2026-08-18T04:28:13.221347+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2165,6 +2165,16 @@
     },
     {
       "rank": 217,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3934217764,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 218,
       "account": "Iruga#9164",
       "character": "Iruga_SSF_FOTV",
       "class": "Titan",
@@ -2174,7 +2184,7 @@
       "retired": false
     },
     {
-      "rank": 218,
+      "rank": 219,
       "account": "AmaLame#7538",
       "character": "BaguetteNcheese",
       "class": "Pathfinder",
@@ -2184,7 +2194,7 @@
       "retired": false
     },
     {
-      "rank": 219,
+      "rank": 220,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2194,22 +2204,12 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 221,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
       "level": 99,
       "experience": 3933608317,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 221,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3933464307,
       "dead": false,
       "retired": false
     },
@@ -3195,21 +3195,21 @@
     },
     {
       "rank": 320,
-      "account": "Buztopatar#1274",
-      "character": "BuzMC",
-      "class": "Disciple of Varashta",
+      "account": "MoreJun#4862",
+      "character": "Methylomis",
+      "class": "Ritualist",
       "level": 98,
-      "experience": 3721565065,
+      "experience": 3722283687,
       "dead": false,
       "retired": false
     },
     {
       "rank": 321,
-      "account": "MoreJun#4862",
-      "character": "Methylomis",
-      "class": "Ritualist",
+      "account": "Buztopatar#1274",
+      "character": "BuzMC",
+      "class": "Disciple of Varashta",
       "level": 98,
-      "experience": 3720933410,
+      "experience": 3721565065,
       "dead": false,
       "retired": false
     },
