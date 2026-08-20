@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-20T11:20:29.987310+00:00",
+  "fetched_at": "2026-08-20T12:31:17.336037+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3765,6 +3765,16 @@
     },
     {
       "rank": 377,
+      "account": "Pioro1980#3652",
+      "character": "Pioro_shaolin",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3674807562,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 378,
       "account": "Doubbs#1123",
       "character": "DeadeyeDoubbs",
       "class": "Deadeye",
@@ -3772,16 +3782,6 @@
       "experience": 3674750041,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 378,
-      "account": "Pioro1980#3652",
-      "character": "Pioro_shaolin",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3674727110,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 379,
@@ -9915,6 +9915,16 @@
     },
     {
       "rank": 992,
+      "account": "Otissimo#4233",
+      "character": "Celadius",
+      "class": "Gemling Legionnaire",
+      "level": 97,
+      "experience": 3381589200,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 993,
       "account": "Comieco#2761",
       "character": "Monkydbey",
       "class": "Invoker",
@@ -9924,7 +9934,7 @@
       "retired": false
     },
     {
-      "rank": 993,
+      "rank": 994,
       "account": "iKnifeThings#4035",
       "character": "iKnifeThingss",
       "class": "Smith of Kitava",
@@ -9934,7 +9944,7 @@
       "retired": false
     },
     {
-      "rank": 994,
+      "rank": 995,
       "account": "Nigromante#2632",
       "character": "cantclicktoomuch",
       "class": "Deadeye",
@@ -9944,7 +9954,7 @@
       "retired": false
     },
     {
-      "rank": 995,
+      "rank": 996,
       "account": "ki_a#0974",
       "character": "III_kia_sw_h",
       "class": "Stormweaver",
@@ -9954,7 +9964,7 @@
       "retired": false
     },
     {
-      "rank": 996,
+      "rank": 997,
       "account": "repidemic#3731",
       "character": "Synnaia",
       "class": "Stormweaver",
@@ -9964,7 +9974,7 @@
       "retired": false
     },
     {
-      "rank": 997,
+      "rank": 998,
       "account": "\uc2dc\uac04\uc2dc\uac04#3216",
       "character": "\ubb34\ub7ed\ubabd",
       "class": "Invoker",
@@ -9974,7 +9984,7 @@
       "retired": false
     },
     {
-      "rank": 998,
+      "rank": 999,
       "account": "Eharbad#6063",
       "character": "Thyraxis",
       "class": "Smith of Kitava",
@@ -9984,22 +9994,12 @@
       "retired": false
     },
     {
-      "rank": 999,
+      "rank": 1000,
       "account": "StarSheriff1511#3675",
       "character": "Sheriff_Slams_Abysses",
       "class": "Titan",
       "level": 97,
       "experience": 3381105730,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 1000,
-      "account": "Likewize#0965",
-      "character": "Zaphazza",
-      "class": "Gemling Legionnaire",
-      "level": 97,
-      "experience": 3381092916,
       "dead": false,
       "retired": false
     }
