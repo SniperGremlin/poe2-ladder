@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-22T07:25:58.340094+00:00",
+  "fetched_at": "2026-08-22T08:20:09.889130+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2145,16 +2145,6 @@
     },
     {
       "rank": 215,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3934416215,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 216,
       "account": "ryanrtjh#6263",
       "character": "popolwow",
       "class": "Blood Mage",
@@ -2164,7 +2154,7 @@
       "retired": false
     },
     {
-      "rank": 217,
+      "rank": 216,
       "account": "p1xel#2711",
       "character": "pixel_SSF",
       "class": "Disciple of Varashta",
@@ -2174,7 +2164,7 @@
       "retired": false
     },
     {
-      "rank": 218,
+      "rank": 217,
       "account": "Iruga#9164",
       "character": "Iruga_SSF_FOTV",
       "class": "Titan",
@@ -2184,7 +2174,7 @@
       "retired": false
     },
     {
-      "rank": 219,
+      "rank": 218,
       "account": "AmaLame#7538",
       "character": "BaguetteNcheese",
       "class": "Pathfinder",
@@ -2194,7 +2184,7 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 219,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2204,7 +2194,7 @@
       "retired": false
     },
     {
-      "rank": 221,
+      "rank": 220,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
@@ -2214,12 +2204,22 @@
       "retired": false
     },
     {
-      "rank": 222,
+      "rank": 221,
       "account": "zyphxyz#2964",
       "character": "ZyphxTwista",
       "class": "Invoker",
       "level": 99,
       "experience": 3933451868,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 222,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3933406970,
       "dead": false,
       "retired": false
     },
@@ -3385,6 +3385,16 @@
     },
     {
       "rank": 339,
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3698520855,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 340,
       "account": "dreyma#4001",
       "character": "Bloodnettle",
       "class": "Shaman",
@@ -3394,7 +3404,7 @@
       "retired": false
     },
     {
-      "rank": 340,
+      "rank": 341,
       "account": "Gosulk#0544",
       "character": "ElKikoTambienQuiere",
       "class": "Tactician",
@@ -3404,7 +3414,7 @@
       "retired": false
     },
     {
-      "rank": 341,
+      "rank": 342,
       "account": "Blud2481#0678",
       "character": "ANOTHERSORCINNIT",
       "class": "Stormweaver",
@@ -3414,22 +3424,12 @@
       "retired": false
     },
     {
-      "rank": 342,
+      "rank": 343,
       "account": "Landru5#1386",
       "character": "LandruVaalSSF",
       "class": "Disciple of Varashta",
       "level": 98,
       "experience": 3696838695,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 343,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3696265421,
       "dead": false,
       "retired": false
     },
@@ -9005,21 +9005,21 @@
     },
     {
       "rank": 901,
-      "account": "Cyph#9174",
-      "character": "Cyph_FourthEdictTime",
-      "class": "Invoker",
+      "account": "4granom#5208",
+      "character": "McD_Ranger",
+      "class": "Pathfinder",
       "level": 97,
-      "experience": 3395767662,
+      "experience": 3395994631,
       "dead": false,
       "retired": false
     },
     {
       "rank": 902,
-      "account": "4granom#5208",
-      "character": "McD_Ranger",
-      "class": "Pathfinder",
+      "account": "Cyph#9174",
+      "character": "Cyph_FourthEdictTime",
+      "class": "Invoker",
       "level": 97,
-      "experience": 3395653489,
+      "experience": 3395767662,
       "dead": false,
       "retired": false
     },
@@ -9035,21 +9035,21 @@
     },
     {
       "rank": 904,
-      "account": "Otissimo#4233",
-      "character": "Celadius",
-      "class": "Gemling Legionnaire",
-      "level": 97,
-      "experience": 3395217669,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 905,
       "account": "rrooeeii#4251",
       "character": "Arroei",
       "class": "Pathfinder",
       "level": 97,
       "experience": 3395183220,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 905,
+      "account": "Otissimo#4233",
+      "character": "Celadius",
+      "class": "Gemling Legionnaire",
+      "level": 97,
+      "experience": 3394845476,
       "dead": false,
       "retired": false
     },
