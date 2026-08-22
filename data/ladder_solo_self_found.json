@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-22T21:15:04.691965+00:00",
+  "fetched_at": "2026-08-22T22:14:25.063714+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3135,16 +3135,6 @@
     },
     {
       "rank": 314,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3729599691,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 315,
       "account": "Avengi#6427",
       "character": "ZreddyJustabadplayah",
       "class": "Blood Mage",
@@ -3154,7 +3144,7 @@
       "retired": true
     },
     {
-      "rank": 316,
+      "rank": 315,
       "account": "YamazakiSenpai#0145",
       "character": "Crossbowbowbewowgobwobo",
       "class": "Deadeye",
@@ -3164,7 +3154,7 @@
       "retired": false
     },
     {
-      "rank": 317,
+      "rank": 316,
       "account": "Slanty#4412",
       "character": "BlameFubChoob",
       "class": "Blood Mage",
@@ -3174,7 +3164,7 @@
       "retired": false
     },
     {
-      "rank": 318,
+      "rank": 317,
       "account": "BlastYa#4875",
       "character": "BlastYaa",
       "class": "Invoker",
@@ -3184,7 +3174,7 @@
       "retired": false
     },
     {
-      "rank": 319,
+      "rank": 318,
       "account": "levdegen#9242",
       "character": "SSFDoit",
       "class": "Oracle",
@@ -3194,7 +3184,7 @@
       "retired": false
     },
     {
-      "rank": 320,
+      "rank": 319,
       "account": "ololulu#7512",
       "character": "OloGem",
       "class": "Gemling Legionnaire",
@@ -3204,12 +3194,22 @@
       "retired": false
     },
     {
-      "rank": 321,
+      "rank": 320,
       "account": "CatLikeThief#2728",
       "character": "Insurgent",
       "class": "Deadeye",
       "level": 98,
       "experience": 3723749787,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 321,
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3723158676,
       "dead": false,
       "retired": false
     },
@@ -7865,6 +7865,16 @@
     },
     {
       "rank": 787,
+      "account": "Ayonik#2700",
+      "character": "Vispella",
+      "class": "Deadeye",
+      "level": 97,
+      "experience": 3435219107,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 788,
       "account": "LuciusKaine#0093",
       "character": "TLotDStandoTsukai",
       "class": "Disciple of Varashta",
@@ -7874,22 +7884,12 @@
       "retired": false
     },
     {
-      "rank": 788,
+      "rank": 789,
       "account": "habibgradinarul#2858",
       "character": "minus_zero_",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3434282973,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 789,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
-      "level": 97,
-      "experience": 3433440294,
       "dead": false,
       "retired": false
     },
