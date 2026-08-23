@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-22T23:13:42.397564+00:00",
+  "fetched_at": "2026-08-23T00:49:40.311135+00:00",
   "count": 1000,
   "entries": [
     {
@@ -6505,16 +6505,6 @@
     },
     {
       "rank": 651,
-      "account": "petecreio#2445",
-      "character": "PeteSorceress",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3498651611,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 652,
       "account": "Dairy#5336",
       "character": "FatBoer",
       "class": "Titan",
@@ -6524,7 +6514,7 @@
       "retired": false
     },
     {
-      "rank": 653,
+      "rank": 652,
       "account": "Reynold545#2039",
       "character": "ReynoldsWrap",
       "class": "Invoker",
@@ -6534,7 +6524,7 @@
       "retired": false
     },
     {
-      "rank": 654,
+      "rank": 653,
       "account": "MURPHYx13x#7930",
       "character": "Old_School_Flavour_Tank",
       "class": "Warbringer",
@@ -6544,12 +6534,22 @@
       "retired": false
     },
     {
-      "rank": 655,
+      "rank": 654,
       "account": "offsample#0763",
       "character": "KjHXWrTDYT",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3492579275,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 655,
+      "account": "petecreio#2445",
+      "character": "PeteSorceress",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3492332326,
       "dead": false,
       "retired": false
     },
