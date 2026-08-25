@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-25T09:28:01.956009+00:00",
+  "fetched_at": "2026-08-25T10:24:05.074465+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2185,6 +2185,16 @@
     },
     {
       "rank": 219,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3933810276,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 220,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2194,7 +2204,7 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 221,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
@@ -2204,7 +2214,7 @@
       "retired": false
     },
     {
-      "rank": 221,
+      "rank": 222,
       "account": "zyphxyz#2964",
       "character": "ZyphxTwista",
       "class": "Invoker",
@@ -2214,22 +2224,12 @@
       "retired": false
     },
     {
-      "rank": 222,
+      "rank": 223,
       "account": "Taikanji#9094",
       "character": "Taiikanji",
       "class": "Deadeye",
       "level": 99,
       "experience": 3933195965,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 223,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3933100748,
       "dead": false,
       "retired": false
     },
@@ -7065,16 +7065,6 @@
     },
     {
       "rank": 707,
-      "account": "Otissimo#4233",
-      "character": "Celadius",
-      "class": "Gemling Legionnaire",
-      "level": 97,
-      "experience": 3466999770,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 708,
       "account": "ubernrd#7899",
       "character": "hjashjdhjasdjhaplants",
       "class": "Disciple of Varashta",
@@ -7084,7 +7074,7 @@
       "retired": false
     },
     {
-      "rank": 709,
+      "rank": 708,
       "account": "Ghaanus#5983",
       "character": "GhaanLD",
       "class": "Abyssal Lich",
@@ -7094,7 +7084,7 @@
       "retired": false
     },
     {
-      "rank": 710,
+      "rank": 709,
       "account": "sydtko#1525",
       "character": "ImNotSureAboutThisGame",
       "class": "Deadeye",
@@ -7104,7 +7094,7 @@
       "retired": false
     },
     {
-      "rank": 711,
+      "rank": 710,
       "account": "osunaarashi#3258",
       "character": "StreetsOfRage",
       "class": "Tactician",
@@ -7114,7 +7104,7 @@
       "retired": false
     },
     {
-      "rank": 712,
+      "rank": 711,
       "account": "fpsthirty#6961",
       "character": "sZeroWitchFive",
       "class": "Infernalist",
@@ -7124,7 +7114,7 @@
       "retired": false
     },
     {
-      "rank": 713,
+      "rank": 712,
       "account": "trashchomper#5934",
       "character": "tonpixBricklayer",
       "class": "Titan",
@@ -7134,12 +7124,22 @@
       "retired": true
     },
     {
-      "rank": 714,
+      "rank": 713,
       "account": "lordducc#0129",
       "character": "BOLONSTRO_FotV",
       "class": "Titan",
       "level": 97,
       "experience": 3465034728,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 714,
+      "account": "Otissimo#4233",
+      "character": "Celadius",
+      "class": "Gemling Legionnaire",
+      "level": 97,
+      "experience": 3464687703,
       "dead": false,
       "retired": false
     },
@@ -7165,6 +7165,16 @@
     },
     {
       "rank": 717,
+      "account": "Ayonik#2700",
+      "character": "Vispella",
+      "class": "Deadeye",
+      "level": 97,
+      "experience": 3463705320,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 718,
       "account": "Onisaki#2984",
       "character": "BrandonIngram",
       "class": "Invoker",
@@ -7174,7 +7184,7 @@
       "retired": false
     },
     {
-      "rank": 718,
+      "rank": 719,
       "account": "ThePathOfExileTM#2833",
       "character": "FotVaal_Huntress",
       "class": "Ritualist",
@@ -7184,7 +7194,7 @@
       "retired": false
     },
     {
-      "rank": 719,
+      "rank": 720,
       "account": "ffs2021#2752",
       "character": "EA_FurryFlurry",
       "class": "Gemling Legionnaire",
@@ -7194,7 +7204,7 @@
       "retired": false
     },
     {
-      "rank": 720,
+      "rank": 721,
       "account": "phazeplays#4855",
       "character": "Phaze_LMAO",
       "class": "Infernalist",
@@ -7204,7 +7214,7 @@
       "retired": true
     },
     {
-      "rank": 721,
+      "rank": 722,
       "account": "Ravenlocks#1783",
       "character": "ROTA_SSF_RANGER",
       "class": "Deadeye",
@@ -7214,7 +7224,7 @@
       "retired": false
     },
     {
-      "rank": 722,
+      "rank": 723,
       "account": "tamatti14#0780",
       "character": "tamatti_",
       "class": "Amazon",
@@ -7222,16 +7232,6 @@
       "experience": 3460346810,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 723,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
-      "level": 97,
-      "experience": 3459931105,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 724,
