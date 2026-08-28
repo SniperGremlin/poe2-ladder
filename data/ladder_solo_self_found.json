@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-27T23:25:42.408012+00:00",
+  "fetched_at": "2026-08-28T07:18:21.128918+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2219,7 +2219,7 @@
       "character": "Gagootza",
       "class": "Invoker",
       "level": 99,
-      "experience": 3933334190,
+      "experience": 3933282530,
       "dead": false,
       "retired": false
     },
@@ -2839,7 +2839,7 @@
       "character": "Methylomis",
       "class": "Ritualist",
       "level": 98,
-      "experience": 3778824304,
+      "experience": 3782526908,
       "dead": false,
       "retired": false
     },
@@ -6555,16 +6555,6 @@
     },
     {
       "rank": 656,
-      "account": "petecreio#2445",
-      "character": "PeteSorceress",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3494032727,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 657,
       "account": "offsample#0763",
       "character": "KjHXWrTDYT",
       "class": "Disciple of Varashta",
@@ -6574,7 +6564,7 @@
       "retired": false
     },
     {
-      "rank": 658,
+      "rank": 657,
       "account": "HwaniNarae#7668",
       "character": "DeepBlue_Amazon_Single",
       "class": "Amazon",
@@ -6584,7 +6574,7 @@
       "retired": true
     },
     {
-      "rank": 659,
+      "rank": 658,
       "account": "willowbeth#7337",
       "character": "ChaoticWeirdSister",
       "class": "Lich",
@@ -6594,7 +6584,7 @@
       "retired": false
     },
     {
-      "rank": 660,
+      "rank": 659,
       "account": "13804049697#4491",
       "character": "\u5c0f\u54e5\u7ee7\u7eed\u6d6a",
       "class": "Ritualist",
@@ -6604,7 +6594,7 @@
       "retired": true
     },
     {
-      "rank": 661,
+      "rank": 660,
       "account": "k1ogg#7970",
       "character": "KloggBloodmage",
       "class": "Blood Mage",
@@ -6614,12 +6604,22 @@
       "retired": false
     },
     {
-      "rank": 662,
+      "rank": 661,
       "account": "HTony88#0353",
       "character": "TNul",
       "class": "Gemling Legionnaire",
       "level": 97,
       "experience": 3489054498,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 662,
+      "account": "petecreio#2445",
+      "character": "PeteSorceress",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3486213143,
       "dead": false,
       "retired": false
     },
