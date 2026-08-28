@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-08-28T08:10:51.304891+00:00",
+  "fetched_at": "2026-08-28T20:33:20.608263+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3095,16 +3095,6 @@
     },
     {
       "rank": 310,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
-      "level": 98,
-      "experience": 3739493342,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 311,
       "account": "YamazakiSenpai#0145",
       "character": "Crossbowbowbowbowvowbw",
       "class": "Deadeye",
@@ -3112,6 +3102,16 @@
       "experience": 3739073463,
       "dead": false,
       "retired": true
+    },
+    {
+      "rank": 311,
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
+      "level": 98,
+      "experience": 3736060219,
+      "dead": false,
+      "retired": false
     },
     {
       "rank": 312,
@@ -3725,21 +3725,21 @@
     },
     {
       "rank": 373,
-      "account": "azuz22#0654",
-      "character": "BearWasABust",
-      "class": "Pathfinder",
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
       "level": 98,
-      "experience": 3679469653,
+      "experience": 3680783514,
       "dead": false,
       "retired": false
     },
     {
       "rank": 374,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
+      "account": "azuz22#0654",
+      "character": "BearWasABust",
+      "class": "Pathfinder",
       "level": 98,
-      "experience": 3679325152,
+      "experience": 3679469653,
       "dead": false,
       "retired": false
     },
@@ -4135,6 +4135,16 @@
     },
     {
       "rank": 414,
+      "account": "GRAFIT228#3655",
+      "character": "RisaQ",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3655531025,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 415,
       "account": "Sinergized#4583",
       "character": "Sins_SSF_BTW",
       "class": "Deadeye",
@@ -4144,7 +4154,7 @@
       "retired": true
     },
     {
-      "rank": 415,
+      "rank": 416,
       "account": "virsta#7156",
       "character": "virstassf",
       "class": "Infernalist",
@@ -4154,7 +4164,7 @@
       "retired": false
     },
     {
-      "rank": 416,
+      "rank": 417,
       "account": "spale94#5897",
       "character": "spalekugla",
       "class": "Stormweaver",
@@ -4164,7 +4174,7 @@
       "retired": false
     },
     {
-      "rank": 417,
+      "rank": 418,
       "account": "Otissimo#4233",
       "character": "UrticaFerox",
       "class": "Titan",
@@ -4174,22 +4184,12 @@
       "retired": false
     },
     {
-      "rank": 418,
+      "rank": 419,
       "account": "HoneyPretzel#7092",
       "character": "Call_of_the_Pretzels",
       "class": "Spirit Walker",
       "level": 98,
       "experience": 3653099084,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 419,
-      "account": "GRAFIT228#3655",
-      "character": "RisaQ",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3652534029,
       "dead": false,
       "retired": false
     },
@@ -5399,7 +5399,7 @@
       "character": "SSFHoldW",
       "class": "Pathfinder",
       "level": 97,
-      "experience": 3611087140,
+      "experience": 3611244268,
       "dead": false,
       "retired": false
     },
@@ -5915,6 +5915,16 @@
     },
     {
       "rank": 592,
+      "account": "Ayonik#2700",
+      "character": "Vispella",
+      "class": "Deadeye",
+      "level": 97,
+      "experience": 3541019431,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 593,
       "account": "azuz22#0654",
       "character": "REEEROOOLLSHIDGAME",
       "class": "Abyssal Lich",
@@ -5924,7 +5934,7 @@
       "retired": false
     },
     {
-      "rank": 593,
+      "rank": 594,
       "account": "thanatchakromsang#5769",
       "character": "ssftk_stackerMAYBE",
       "class": "Gemling Legionnaire",
@@ -5934,7 +5944,7 @@
       "retired": false
     },
     {
-      "rank": 594,
+      "rank": 595,
       "account": "Rumineely#4685",
       "character": "Rumi_pausefasternerd",
       "class": "Blood Mage",
@@ -5944,7 +5954,7 @@
       "retired": true
     },
     {
-      "rank": 595,
+      "rank": 596,
       "account": "Kokobeast#9866",
       "character": "Kokohoe",
       "class": "Titan",
@@ -5954,7 +5964,7 @@
       "retired": false
     },
     {
-      "rank": 596,
+      "rank": 597,
       "account": "Triggatoni#0112",
       "character": "TimmySchockierer",
       "class": "Blood Mage",
@@ -5964,22 +5974,12 @@
       "retired": false
     },
     {
-      "rank": 597,
+      "rank": 598,
       "account": "rytnek#1072",
       "character": "Rytnek_skipcampaignpls",
       "class": "Pathfinder",
       "level": 97,
       "experience": 3534723750,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 598,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
-      "level": 97,
-      "experience": 3534458783,
       "dead": false,
       "retired": false
     },
