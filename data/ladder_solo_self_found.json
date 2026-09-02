@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-02T05:18:42.179224+00:00",
+  "fetched_at": "2026-09-02T10:17:17.694754+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2005,6 +2005,16 @@
     },
     {
       "rank": 201,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3940183611,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 202,
       "account": "Cells69#5813",
       "character": "CoChooms",
       "class": "Blood Mage",
@@ -2014,7 +2024,7 @@
       "retired": true
     },
     {
-      "rank": 202,
+      "rank": 203,
       "account": "Ubu#2784",
       "character": "Ubu_W",
       "class": "Blood Mage",
@@ -2024,7 +2034,7 @@
       "retired": false
     },
     {
-      "rank": 203,
+      "rank": 204,
       "account": "Koopas#5031",
       "character": "KoopasBleed",
       "class": "Blood Mage",
@@ -2034,7 +2044,7 @@
       "retired": false
     },
     {
-      "rank": 204,
+      "rank": 205,
       "account": "hanskai#3530",
       "character": "Taktikai",
       "class": "Witchhunter",
@@ -2044,7 +2054,7 @@
       "retired": false
     },
     {
-      "rank": 205,
+      "rank": 206,
       "account": "Huk#4529",
       "character": "HukTVSSfbtw",
       "class": "Amazon",
@@ -2054,7 +2064,7 @@
       "retired": true
     },
     {
-      "rank": 206,
+      "rank": 207,
       "account": "Koopas#5031",
       "character": "KoopasInvoker",
       "class": "Invoker",
@@ -2064,22 +2074,12 @@
       "retired": false
     },
     {
-      "rank": 207,
+      "rank": 208,
       "account": "Arirmind#4333",
       "character": "SSF_Alpha",
       "class": "Martial Artist",
       "level": 99,
       "experience": 3937760738,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 208,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3936771828,
       "dead": false,
       "retired": false
     },
@@ -5955,16 +5955,6 @@
     },
     {
       "rank": 596,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
-      "level": 97,
-      "experience": 3536288454,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 597,
       "account": "Kokobeast#9866",
       "character": "Kokohoe",
       "class": "Titan",
@@ -5974,7 +5964,7 @@
       "retired": false
     },
     {
-      "rank": 598,
+      "rank": 597,
       "account": "Triggatoni#0112",
       "character": "TimmySchockierer",
       "class": "Blood Mage",
@@ -5984,7 +5974,7 @@
       "retired": false
     },
     {
-      "rank": 599,
+      "rank": 598,
       "account": "rytnek#1072",
       "character": "Rytnek_skipcampaignpls",
       "class": "Pathfinder",
@@ -5994,7 +5984,7 @@
       "retired": false
     },
     {
-      "rank": 600,
+      "rank": 599,
       "account": "vestolevs#5239",
       "character": "TPETA_CMbPT",
       "class": "Deadeye",
@@ -6004,7 +5994,7 @@
       "retired": false
     },
     {
-      "rank": 601,
+      "rank": 600,
       "account": "Icebabe#1852",
       "character": "QTbicht",
       "class": "Lich",
@@ -6014,7 +6004,7 @@
       "retired": false
     },
     {
-      "rank": 602,
+      "rank": 601,
       "account": "Mystik738#4187",
       "character": "Marregwyne",
       "class": "Infernalist",
@@ -6024,12 +6014,22 @@
       "retired": false
     },
     {
-      "rank": 603,
+      "rank": 602,
       "account": "Ninku90#5011",
       "character": "NinqPillarMan",
       "class": "Gemling Legionnaire",
       "level": 97,
       "experience": 3532965997,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 603,
+      "account": "Ayonik#2700",
+      "character": "Vispella",
+      "class": "Deadeye",
+      "level": 97,
+      "experience": 3531920724,
       "dead": false,
       "retired": false
     },
@@ -8705,6 +8705,16 @@
     },
     {
       "rank": 871,
+      "account": "Avernerand#1756",
+      "character": "Avryos",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3406403624,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 872,
       "account": "6yk4#7718",
       "character": "\u0411\u0443\u043a\u0430\u041d\u041e",
       "class": "Stormweaver",
@@ -8714,7 +8724,7 @@
       "retired": false
     },
     {
-      "rank": 872,
+      "rank": 873,
       "account": "vbvan#1798",
       "character": "Van_SSF_Witch",
       "class": "Infernalist",
@@ -8724,7 +8734,7 @@
       "retired": false
     },
     {
-      "rank": 873,
+      "rank": 874,
       "account": "Yurre#3512",
       "character": "Ongure_Frida",
       "class": "Deadeye",
@@ -8734,7 +8744,7 @@
       "retired": false
     },
     {
-      "rank": 874,
+      "rank": 875,
       "account": "rileyc#3101",
       "character": "RILEYSHIELDMANASSHEAD",
       "class": "Titan",
@@ -8744,22 +8754,12 @@
       "retired": false
     },
     {
-      "rank": 875,
+      "rank": 876,
       "account": "IZE#4457",
       "character": "IZE_GemlingSSF",
       "class": "Gemling Legionnaire",
       "level": 97,
       "experience": 3405627921,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 876,
-      "account": "Avernerand#1756",
-      "character": "Avryos",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3405503440,
       "dead": false,
       "retired": false
     },
