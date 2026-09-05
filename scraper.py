@@ -14,16 +14,16 @@ from playwright.sync_api import sync_playwright
 DATA_DIR = Path(__file__).parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-# Seasonal leagues first (current season: Runes of Aldur / Return of the Ancients 0.5.0), then permanent
+# Seasonal leagues first (current season: Forbidden Rites 0.6.0), then permanent
 LEAGUES = {
-    "HC SSF Runes of Aldur": "https://pathofexile2.com/ladder/HC%20SSF%20Runes%20of%20Aldur",
-    "HC Runes of Aldur":     "https://pathofexile2.com/ladder/HC%20Runes%20of%20Aldur",
-    "SSF Runes of Aldur":    "https://pathofexile2.com/ladder/SSF%20Runes%20of%20Aldur",
-    "Runes of Aldur":        "https://pathofexile2.com/ladder/Runes%20of%20Aldur",
-    "Hardcore SSF":          "https://pathofexile2.com/ladder/Hardcore%20SSF",
-    "Hardcore":              "https://pathofexile2.com/ladder/Hardcore",
-    "Solo Self-Found":       "https://pathofexile2.com/ladder/Solo%20Self-Found",
-    "Standard":              "https://pathofexile2.com/ladder/Standard",
+    "HC SSF Forbidden Rites": "https://pathofexile2.com/ladder/HC%20SSF%20Forbidden%20Rites",
+    "HC Forbidden Rites":     "https://pathofexile2.com/ladder/HC%20Forbidden%20Rites",
+    "SSF Forbidden Rites":    "https://pathofexile2.com/ladder/SSF%20Forbidden%20Rites",
+    "Forbidden Rites":        "https://pathofexile2.com/ladder/Forbidden%20Rites",
+    "Hardcore SSF":           "https://pathofexile2.com/ladder/Hardcore%20SSF",
+    "Hardcore":               "https://pathofexile2.com/ladder/Hardcore",
+    "Solo Self-Found":        "https://pathofexile2.com/ladder/Solo%20Self-Found",
+    "Standard":               "https://pathofexile2.com/ladder/Standard",
 }
 
 

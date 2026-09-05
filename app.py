@@ -14,7 +14,8 @@ STATIC_DIR = Path(__file__).parent / "static"
 
 app = Flask(__name__, static_folder=str(STATIC_DIR))
 
-VALID_LEAGUES = {"Standard", "Hardcore", "Solo Self-Found", "Hardcore SSF"}
+VALID_LEAGUES = {"Standard", "Hardcore", "Solo Self-Found", "Hardcore SSF",
+                 "Forbidden Rites", "SSF Forbidden Rites", "HC Forbidden Rites", "HC SSF Forbidden Rites"}
 VALID_ASCENDANCIES = {
     "Titan", "Warbringer", "Smith of Kitava",
     "Deadeye", "Pathfinder",
