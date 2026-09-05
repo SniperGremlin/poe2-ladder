@@ -426,7 +426,7 @@ async function init() {
   if (leagueList.length) selectLeague(leagueList[0].id);
 
   // Auto-refresh data every hour to match GitHub Actions scrape schedule
-  setInterval(autoRefresh, 60 * 60 * 1000);
+  setInterval(autoRefresh, 30 * 60 * 1000);
 }
 
 function renderTabs() {
