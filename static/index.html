@@ -420,7 +420,7 @@ async function init() {
     })
     .catch(() => {}); // silently fail if API is down
 
-  const res = await fetch('data/leagues.json');
+  const res = await fetch('data/leagues.json?t=' + Date.now());
   leagueList = await res.json();
   renderTabs();
   if (leagueList.length) selectLeague(leagueList[0].id);
@@ -447,7 +447,7 @@ async function selectLeague(id) {
   activeClasses.clear();
   document.getElementById('fetchedAt').textContent = 'Loading…';
 
-  const res = await fetch(`data/ladder_${id}.json`);
+  const res = await fetch(`data/ladder_${id}.json?t=` + Date.now());
   if (!res.ok) {
     document.getElementById('content').innerHTML =
       '<div class="no-data"><h2>No data</h2><p>Run: <code>python scraper.py</code></p></div>';
