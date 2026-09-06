@@ -226,7 +226,8 @@
 
 <nav class="site-nav">
   <div class="inner">
-    <a class="nav-link active" href="/">Ladder</a>
+    <a class="nav-link active" id="navLadder" href="#" onclick="showView('ladder')">Ladder</a>
+    <a class="nav-link" id="navStats" href="#" onclick="showView('stats')">Stats</a>
     <a class="nav-link" href="/survey">Survey</a>
     <a class="nav-link" href="/results">Results</a>
   </div>
@@ -288,6 +289,23 @@
 
 <div id="content">
   <div class="no-data"><h2>Loading…</h2></div>
+</div>
+
+<div id="statsView" hidden>
+  <div class="inner" style="padding:24px 0">
+    <table id="statsTable" style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead>
+        <tr style="color:var(--text-dim);text-align:left;border-bottom:1px solid var(--border)">
+          <th style="padding:8px 12px">Ascendancy</th>
+          <th style="padding:8px 12px;text-align:center">Top Level</th>
+          <th style="padding:8px 12px;text-align:center">Min for Top 20</th>
+          <th style="padding:8px 12px;text-align:center"># in Ladder</th>
+          <th style="padding:8px 12px;text-align:center">Alive</th>
+        </tr>
+      </thead>
+      <tbody id="statsBody"></tbody>
+    </table>
+  </div>
 </div>
 
 <script>
@@ -400,6 +418,58 @@ let sortDir = 1;
 let activeClasses = new Set();
 let activeStatuses = new Set(['alive', 'dead', 'retired']);
 let leagueList = [];
+
+// ── stats view ────────────────────────────────────────────────────────────────
+
+let currentView = 'ladder';
+
+function showView(view) {
+  currentView = view;
+  document.getElementById('navLadder').classList.toggle('active', view === 'ladder');
+  document.getElementById('navStats').classList.toggle('active', view === 'stats');
+
+  ['content', 'chartSection', 'statsBar'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.hidden = view !== 'ladder';
+  });
+  document.querySelectorAll('.class-filter-section').forEach(el => el.hidden = view !== 'ladder');
+  document.getElementById('statsView').hidden = view !== 'stats';
+
+  if (view === 'stats') buildStatsTable();
+}
+
+function buildStatsTable() {
+  if (!allData.length) return;
+  const byClass = {};
+  for (const e of allData) {
+    const cls = e.class || 'Unknown';
+    if (!byClass[cls]) byClass[cls] = [];
+    byClass[cls].push(e);
+  }
+  const rows = [];
+  for (const [cls, entries] of Object.entries(byClass)) {
+    const levels = entries.map(e => e.level).sort((a, b) => b - a);
+    const topLevel = levels[0];
+    const min20 = levels.length >= 20 ? levels[19] : null;
+    const alive = entries.filter(e => !e.dead && !e.retired).length;
+    rows.push({ cls, topLevel, min20, count: entries.length, alive });
+  }
+  rows.sort((a, b) => a.topLevel - b.topLevel || a.count - b.count);
+
+  const tbody = document.getElementById('statsBody');
+  tbody.innerHTML = rows.map(r => `
+    <tr style="border-bottom:1px solid var(--border)">
+      <td style="padding:8px 12px;display:flex;align-items:center;gap:8px">
+        ${CLASS_ICONS[r.cls] ? `<img src="${CLASS_ICONS[r.cls]}" style="width:20px;height:20px;border-radius:50%;object-fit:cover">` : ''}
+        ${r.cls}
+      </td>
+      <td style="padding:8px 12px;text-align:center;color:var(--gold)">${r.topLevel}</td>
+      <td style="padding:8px 12px;text-align:center">${r.min20 !== null ? r.min20 : '&lt; ' + r.count + ' players'}</td>
+      <td style="padding:8px 12px;text-align:center">${r.count}</td>
+      <td style="padding:8px 12px;text-align:center;color:#4caf50">${r.alive}</td>
+    </tr>
+  `).join('');
+}
 
 // ── auto-refresh (removed manual scrape button) ────────────────────────────────
 
