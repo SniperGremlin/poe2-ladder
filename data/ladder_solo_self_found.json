@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-09T23:24:45.281501+00:00",
+  "fetched_at": "2026-09-10T01:15:07.214398+00:00",
   "count": 1000,
   "entries": [
     {
@@ -4785,6 +4785,16 @@
     },
     {
       "rank": 479,
+      "account": "Etherite_#5131",
+      "character": "Ceistyl",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3639819689,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 480,
       "account": "morphling888111#2753",
       "character": "\u6eff\u6708\u5973\u738b\u857e\u5a1c\u62c9",
       "class": "Disciple of Varashta",
@@ -4794,7 +4804,7 @@
       "retired": false
     },
     {
-      "rank": 480,
+      "rank": 481,
       "account": "sebeke#5512",
       "character": "BallongSTRSTACK",
       "class": "Stormweaver",
@@ -4804,7 +4814,7 @@
       "retired": true
     },
     {
-      "rank": 481,
+      "rank": 482,
       "account": "Jandrek#3035",
       "character": "Tentakular",
       "class": "Gemling Legionnaire",
@@ -4814,7 +4824,7 @@
       "retired": false
     },
     {
-      "rank": 482,
+      "rank": 483,
       "account": "MoreJun#4862",
       "character": "Aeonastra",
       "class": "Chronomancer",
@@ -4824,7 +4834,7 @@
       "retired": false
     },
     {
-      "rank": 483,
+      "rank": 484,
       "account": "valkucio#3602",
       "character": "NeckShots",
       "class": "Deadeye",
@@ -4834,7 +4844,7 @@
       "retired": true
     },
     {
-      "rank": 484,
+      "rank": 485,
       "account": "Baskenater#7467",
       "character": "RolleNATERderZWEITE",
       "class": "Titan",
@@ -4844,7 +4854,7 @@
       "retired": false
     },
     {
-      "rank": 485,
+      "rank": 486,
       "account": "KopitopsPoe#6162",
       "character": "\u041e\u0440\u043a\u041f\u0443\u043b\u044f\u043b\u0430",
       "class": "Deadeye",
@@ -4854,7 +4864,7 @@
       "retired": true
     },
     {
-      "rank": 486,
+      "rank": 487,
       "account": "avneretrazaraza#6558",
       "character": "OhPointThree",
       "class": "Titan",
@@ -4864,22 +4874,12 @@
       "retired": false
     },
     {
-      "rank": 487,
+      "rank": 488,
       "account": "M07E#1392",
       "character": "green_orb_guy",
       "class": "Deadeye",
       "level": 98,
       "experience": 3639116030,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 488,
-      "account": "Etherite_#5131",
-      "character": "Ceistyl",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3639112859,
       "dead": false,
       "retired": false
     },
@@ -4985,16 +4985,6 @@
     },
     {
       "rank": 499,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3638583504,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 500,
       "account": "sacramouss#5808",
       "character": "SacraKilledByTooltip",
       "class": "Deadeye",
@@ -5004,12 +4994,22 @@
       "retired": false
     },
     {
-      "rank": 501,
+      "rank": 500,
       "account": "KhaiLam#1669",
       "character": "Shaman_Khai",
       "class": "Shaman",
       "level": 98,
       "experience": 3638480117,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 501,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3638461101,
       "dead": false,
       "retired": false
     },
