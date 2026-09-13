@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-13T01:15:26.883653+00:00",
+  "fetched_at": "2026-09-13T06:26:10.749668+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1365,21 +1365,21 @@
     },
     {
       "rank": 137,
-      "account": "honghanhua#1153",
-      "character": "Alpang",
-      "class": "Deadeye",
-      "level": 99,
-      "experience": 4089068814,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 138,
       "account": "mezz876#7260",
       "character": "MezzSparkySSF",
       "class": "Stormweaver",
       "level": 99,
       "experience": 4083432195,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 138,
+      "account": "honghanhua#1153",
+      "character": "Alpang",
+      "class": "Deadeye",
+      "level": 99,
+      "experience": 4078540020,
       "dead": false,
       "retired": false
     },
@@ -4455,6 +4455,16 @@
     },
     {
       "rank": 446,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3645232509,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 447,
       "account": "showlai111#5140",
       "character": "\u5b54\u4e59\u4e59\u4e59",
       "class": "Amazon",
@@ -4464,7 +4474,7 @@
       "retired": false
     },
     {
-      "rank": 447,
+      "rank": 448,
       "account": "StuzzyWalker#4417",
       "character": "SparklyMage",
       "class": "Blood Mage",
@@ -4474,7 +4484,7 @@
       "retired": false
     },
     {
-      "rank": 448,
+      "rank": 449,
       "account": "ZoRoXo#7767",
       "character": "casualsorcthefirst",
       "class": "Stormweaver",
@@ -4484,7 +4494,7 @@
       "retired": false
     },
     {
-      "rank": 449,
+      "rank": 450,
       "account": "dime#6906",
       "character": "HeVuN",
       "class": "Blood Mage",
@@ -4494,7 +4504,7 @@
       "retired": false
     },
     {
-      "rank": 450,
+      "rank": 451,
       "account": "PckN#0851",
       "character": "FaustSorcs",
       "class": "Chronomancer",
@@ -4504,7 +4514,7 @@
       "retired": false
     },
     {
-      "rank": 451,
+      "rank": 452,
       "account": "moudronos#0520",
       "character": "Cicimuri",
       "class": "Titan",
@@ -4514,7 +4524,7 @@
       "retired": false
     },
     {
-      "rank": 452,
+      "rank": 453,
       "account": "Tunus#3464",
       "character": "Tunus_Vaal",
       "class": "Blood Mage",
@@ -4524,22 +4534,12 @@
       "retired": false
     },
     {
-      "rank": 453,
+      "rank": 454,
       "account": "yasuo#3940",
       "character": "SelfMfBow",
       "class": "Deadeye",
       "level": 98,
       "experience": 3643518575,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 454,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3642988211,
       "dead": false,
       "retired": false
     },
@@ -4665,6 +4665,16 @@
     },
     {
       "rank": 467,
+      "account": "Etherite_#5131",
+      "character": "Ceistyl",
+      "class": "Deadeye",
+      "level": 98,
+      "experience": 3641485374,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 468,
       "account": "goodoldmalk#2755",
       "character": "MalkFlickerStrikeSSF",
       "class": "Invoker",
@@ -4674,7 +4684,7 @@
       "retired": false
     },
     {
-      "rank": 468,
+      "rank": 469,
       "account": "Cold#6342",
       "character": "BaldGuy_PathFinder",
       "class": "Pathfinder",
@@ -4684,7 +4694,7 @@
       "retired": true
     },
     {
-      "rank": 469,
+      "rank": 470,
       "account": "MaximusErectus#6195",
       "character": "MaxiErectSSFTOTV",
       "class": "Stormweaver",
@@ -4694,7 +4704,7 @@
       "retired": false
     },
     {
-      "rank": 470,
+      "rank": 471,
       "account": "Heartsie#1522",
       "character": "Remm_Stalker",
       "class": "Pathfinder",
@@ -4704,7 +4714,7 @@
       "retired": false
     },
     {
-      "rank": 471,
+      "rank": 472,
       "account": "AeneasN#6677",
       "character": "SSFOverallWitch",
       "class": "Lich",
@@ -4714,7 +4724,7 @@
       "retired": false
     },
     {
-      "rank": 472,
+      "rank": 473,
       "account": "hanslurchi#7625",
       "character": "HansMortarCannon",
       "class": "Warbringer",
@@ -4724,22 +4734,12 @@
       "retired": false
     },
     {
-      "rank": 473,
+      "rank": 474,
       "account": "Navicate#9633",
       "character": "SSF_Maraker",
       "class": "Witchhunter",
       "level": 98,
       "experience": 3640372776,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 474,
-      "account": "Etherite_#5131",
-      "character": "Ceistyl",
-      "class": "Deadeye",
-      "level": 98,
-      "experience": 3640343766,
       "dead": false,
       "retired": false
     },
