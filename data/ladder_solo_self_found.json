@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-13T19:06:51.801036+00:00",
+  "fetched_at": "2026-09-13T21:32:14.069541+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2775,21 +2775,21 @@
     },
     {
       "rank": 278,
-      "account": "Nif#8933",
-      "character": "\u30f4\u30a1\u30a4\u30d1\u30fc\u30ca\u30d7\u30a2\u30c4\u30a3\u672c\u7269",
-      "class": "Deadeye",
+      "account": "TheMindless#3836",
+      "character": "LarianDuvat",
+      "class": "Invoker",
       "level": 98,
-      "experience": 3789039231,
+      "experience": 3790310099,
       "dead": false,
       "retired": false
     },
     {
       "rank": 279,
-      "account": "TheMindless#3836",
-      "character": "LarianDuvat",
-      "class": "Invoker",
+      "account": "Nif#8933",
+      "character": "\u30f4\u30a1\u30a4\u30d1\u30fc\u30ca\u30d7\u30a2\u30c4\u30a3\u672c\u7269",
+      "class": "Deadeye",
       "level": 98,
-      "experience": 3788542077,
+      "experience": 3789039231,
       "dead": false,
       "retired": false
     },
@@ -3025,6 +3025,16 @@
     },
     {
       "rank": 303,
+      "account": "NOGARUKA#6409",
+      "character": "PeshkomWalker",
+      "class": "Spirit Walker",
+      "level": 98,
+      "experience": 3747645388,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 304,
       "account": "Gfnex#2448",
       "character": "RemoveMeditate",
       "class": "Invoker",
@@ -3034,7 +3044,7 @@
       "retired": false
     },
     {
-      "rank": 304,
+      "rank": 305,
       "account": "jphenegan#5416",
       "character": "PloppelPots",
       "class": "Smith of Kitava",
@@ -3044,7 +3054,7 @@
       "retired": true
     },
     {
-      "rank": 305,
+      "rank": 306,
       "account": "Zaffadaris#6509",
       "character": "Pierzilla",
       "class": "Deadeye",
@@ -3054,7 +3064,7 @@
       "retired": false
     },
     {
-      "rank": 306,
+      "rank": 307,
       "account": "ramgthunder#8201",
       "character": "\ud0c0\ud638\uc544\uc9c4\uc9dc\uc8fc\uba39\uc73c\ub85c\ubcf4\uc0b4\ud3b4\uc8fc\uace0\uc2f6\ub124_\uba54\uac00\ub098\uc775\uc218",
       "class": "Lich",
@@ -3064,22 +3074,12 @@
       "retired": false
     },
     {
-      "rank": 307,
+      "rank": 308,
       "account": "Ulial#2573",
       "character": "Drud_UIial",
       "class": "Oracle",
       "level": 98,
       "experience": 3743340361,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 308,
-      "account": "NOGARUKA#6409",
-      "character": "PeshkomWalker",
-      "class": "Spirit Walker",
-      "level": 98,
-      "experience": 3742443291,
       "dead": false,
       "retired": false
     },
@@ -3585,6 +3585,16 @@
     },
     {
       "rank": 359,
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3687811549,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 360,
       "account": "vancoder#9307",
       "character": "VancoderBloodmage",
       "class": "Blood Mage",
@@ -3594,7 +3604,7 @@
       "retired": false
     },
     {
-      "rank": 360,
+      "rank": 361,
       "account": "Ariharu#5004",
       "character": "Arihaaru",
       "class": "Oracle",
@@ -3604,22 +3614,12 @@
       "retired": false
     },
     {
-      "rank": 361,
+      "rank": 362,
       "account": "Exodka#9205",
       "character": "ExodkaSSF",
       "class": "Pathfinder",
       "level": 98,
       "experience": 3686748450,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 362,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3686655331,
       "dead": false,
       "retired": false
     },
@@ -4445,21 +4445,21 @@
     },
     {
       "rank": 445,
-      "account": "kong7oy#1029",
-      "character": "LaChata_SSF",
-      "class": "Deadeye",
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
       "level": 98,
-      "experience": 3645664614,
+      "experience": 3645745578,
       "dead": false,
       "retired": false
     },
     {
       "rank": 446,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
+      "account": "kong7oy#1029",
+      "character": "LaChata_SSF",
+      "class": "Deadeye",
       "level": 98,
-      "experience": 3645232509,
+      "experience": 3645664614,
       "dead": false,
       "retired": false
     },
@@ -4495,6 +4495,16 @@
     },
     {
       "rank": 450,
+      "account": "GRAFIT228#3655",
+      "character": "RisaQ",
+      "class": "Pathfinder",
+      "level": 98,
+      "experience": 3644802465,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 451,
       "account": "dime#6906",
       "character": "HeVuN",
       "class": "Blood Mage",
@@ -4504,7 +4514,7 @@
       "retired": false
     },
     {
-      "rank": 451,
+      "rank": 452,
       "account": "PckN#0851",
       "character": "FaustSorcs",
       "class": "Chronomancer",
@@ -4514,7 +4524,7 @@
       "retired": false
     },
     {
-      "rank": 452,
+      "rank": 453,
       "account": "moudronos#0520",
       "character": "Cicimuri",
       "class": "Titan",
@@ -4524,7 +4534,7 @@
       "retired": false
     },
     {
-      "rank": 453,
+      "rank": 454,
       "account": "Tunus#3464",
       "character": "Tunus_Vaal",
       "class": "Blood Mage",
@@ -4534,22 +4544,12 @@
       "retired": false
     },
     {
-      "rank": 454,
+      "rank": 455,
       "account": "yasuo#3940",
       "character": "SelfMfBow",
       "class": "Deadeye",
       "level": 98,
       "experience": 3643518575,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 455,
-      "account": "GRAFIT228#3655",
-      "character": "RisaQ",
-      "class": "Pathfinder",
-      "level": 98,
-      "experience": 3643240089,
       "dead": false,
       "retired": false
     },
@@ -5385,21 +5385,21 @@
     },
     {
       "rank": 539,
-      "account": "Lasershark6#1319",
-      "character": "Sixth_Gate",
-      "class": "Lich",
+      "account": "Ayonik#2700",
+      "character": "Vispella",
+      "class": "Deadeye",
       "level": 97,
-      "experience": 3621647445,
+      "experience": 3623283043,
       "dead": false,
       "retired": false
     },
     {
       "rank": 540,
-      "account": "Ayonik#2700",
-      "character": "Vispella",
-      "class": "Deadeye",
+      "account": "Lasershark6#1319",
+      "character": "Sixth_Gate",
+      "class": "Lich",
       "level": 97,
-      "experience": 3617807897,
+      "experience": 3621647445,
       "dead": false,
       "retired": false
     },
