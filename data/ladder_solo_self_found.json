@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-20T23:43:29.995199+00:00",
+  "fetched_at": "2026-09-21T02:18:53.730974+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2515,6 +2515,16 @@
     },
     {
       "rank": 252,
+      "account": "MoreJun#4862",
+      "character": "Methylomis",
+      "class": "Ritualist",
+      "level": 98,
+      "experience": 3872457846,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 253,
       "account": "Dakart#2039",
       "character": "EskimoDaisy",
       "class": "Blood Mage",
@@ -2524,22 +2534,12 @@
       "retired": false
     },
     {
-      "rank": 253,
+      "rank": 254,
       "account": "42maus#2761",
       "character": "SixthTimesACharm",
       "class": "Disciple of Varashta",
       "level": 98,
       "experience": 3869757825,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 254,
-      "account": "MoreJun#4862",
-      "character": "Methylomis",
-      "class": "Ritualist",
-      "level": 98,
-      "experience": 3867166245,
       "dead": false,
       "retired": false
     },
@@ -8401,7 +8401,7 @@
       "level": 97,
       "experience": 3416212228,
       "dead": false,
-      "retired": false
+      "retired": true
     },
     {
       "rank": 841,
