@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-09-26T05:14:22.080361+00:00",
+  "fetched_at": "2026-09-26T10:01:15.725486+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1625,6 +1625,16 @@
     },
     {
       "rank": 163,
+      "account": "nigh1mare#5999",
+      "character": "\u6211\u8bf4\u53e4\u7075\u738b\u671d\u4e86\u4f60\u5c14\u9f99\u561b",
+      "class": "Gemling Legionnaire",
+      "level": 99,
+      "experience": 3998335334,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 164,
       "account": "temcore#5842",
       "character": "tem_is",
       "class": "Pathfinder",
@@ -1634,7 +1644,7 @@
       "retired": false
     },
     {
-      "rank": 164,
+      "rank": 165,
       "account": "zp1980#7433",
       "character": "\u602a\u53d4\u53d4\u7231\u73a9\u6d41\u653e\u4e8c",
       "class": "Invoker",
@@ -1644,22 +1654,12 @@
       "retired": true
     },
     {
-      "rank": 165,
+      "rank": 166,
       "account": "Yamabusi_#1876",
       "character": "YamaCoC",
       "class": "Blood Mage",
       "level": 99,
       "experience": 3990168525,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 166,
-      "account": "nigh1mare#5999",
-      "character": "\u6211\u8bf4\u53e4\u7075\u738b\u671d\u4e86\u4f60\u5c14\u9f99\u561b",
-      "class": "Gemling Legionnaire",
-      "level": 99,
-      "experience": 3987484478,
       "dead": false,
       "retired": false
     },
@@ -3235,6 +3235,16 @@
     },
     {
       "rank": 324,
+      "account": "Pioro1980#3652",
+      "character": "Pioro_shaolin",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3721745865,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 325,
       "account": "Buztopatar#1274",
       "character": "BuzMC",
       "class": "Disciple of Varashta",
@@ -3244,7 +3254,7 @@
       "retired": false
     },
     {
-      "rank": 325,
+      "rank": 326,
       "account": "Alice07#6460",
       "character": "MalisZE",
       "class": "Blood Mage",
@@ -3254,22 +3264,12 @@
       "retired": false
     },
     {
-      "rank": 326,
+      "rank": 327,
       "account": "Patrick20000#9274",
       "character": "\u767c\u9054\u4e86",
       "class": "Blood Mage",
       "level": 98,
       "experience": 3718465342,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 327,
-      "account": "Pioro1980#3652",
-      "character": "Pioro_shaolin",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3718049965,
       "dead": false,
       "retired": false
     },
@@ -7885,16 +7885,6 @@
     },
     {
       "rank": 789,
-      "account": "fly_mal#7051",
-      "character": "Yyyay",
-      "class": "Lich",
-      "level": 97,
-      "experience": 3437283655,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 790,
       "account": "\uac1c\ub3d9#8938",
       "character": "\uac13\uac9c\uc778\ub370\uc6b4\uc601\uc744\uac1c\ubabb\ud568",
       "class": "Oracle",
@@ -7904,7 +7894,7 @@
       "retired": false
     },
     {
-      "rank": 791,
+      "rank": 790,
       "account": "Penguneer#7646",
       "character": "PenguneerCynthia",
       "class": "Infernalist",
@@ -7914,7 +7904,7 @@
       "retired": true
     },
     {
-      "rank": 792,
+      "rank": 791,
       "account": "burba23#4228",
       "character": "PALADINLOGIN",
       "class": "Titan",
@@ -7924,7 +7914,7 @@
       "retired": false
     },
     {
-      "rank": 793,
+      "rank": 792,
       "account": "LuciusKaine#0093",
       "character": "TLotDStandoTsukai",
       "class": "Disciple of Varashta",
@@ -7934,12 +7924,22 @@
       "retired": false
     },
     {
-      "rank": 794,
+      "rank": 793,
       "account": "habibgradinarul#2858",
       "character": "minus_zero_",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3434282973,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 794,
+      "account": "fly_mal#7051",
+      "character": "Yyyay",
+      "class": "Lich",
+      "level": 97,
+      "experience": 3433673290,
       "dead": false,
       "retired": false
     },
