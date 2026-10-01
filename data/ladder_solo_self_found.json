@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-10-01T19:13:08.959453+00:00",
+  "fetched_at": "2026-10-01T23:18:29.782592+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2379,7 +2379,7 @@
       "character": "PeshkomWalker",
       "class": "Spirit Walker",
       "level": 98,
-      "experience": 3918438229,
+      "experience": 3923436149,
       "dead": false,
       "retired": false
     },
@@ -3395,6 +3395,16 @@
     },
     {
       "rank": 340,
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3700959592,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 341,
       "account": "Mushi_Oyasumi#9130",
       "character": "Mushi_The_Tourist",
       "class": "Deadeye",
@@ -3404,22 +3414,12 @@
       "retired": false
     },
     {
-      "rank": 341,
+      "rank": 342,
       "account": "MrScrubbles#2928",
       "character": "Mr_Scrubbles",
       "class": "Gemling Legionnaire",
       "level": 98,
       "experience": 3699953193,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 342,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3699794800,
       "dead": false,
       "retired": false
     },
@@ -5005,16 +5005,6 @@
     },
     {
       "rank": 501,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3638782168,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 502,
       "account": "Rikki4Life#5426",
       "character": "\u0422\u0449\u0435\u0442\u043d\u0430\u044f",
       "class": "Blood Mage",
@@ -5024,7 +5014,7 @@
       "retired": false
     },
     {
-      "rank": 503,
+      "rank": 502,
       "account": "pepukang#0090",
       "character": "Isogem",
       "class": "Gemling Legionnaire",
@@ -5034,7 +5024,7 @@
       "retired": false
     },
     {
-      "rank": 504,
+      "rank": 503,
       "account": "Mukhaliniof#0881",
       "character": "WolfOfPersia",
       "class": "Oracle",
@@ -5044,7 +5034,7 @@
       "retired": false
     },
     {
-      "rank": 505,
+      "rank": 504,
       "account": "sacramouss#5808",
       "character": "SacraKilledByTooltip",
       "class": "Deadeye",
@@ -5054,7 +5044,7 @@
       "retired": false
     },
     {
-      "rank": 506,
+      "rank": 505,
       "account": "KhaiLam#1669",
       "character": "Shaman_Khai",
       "class": "Shaman",
@@ -5064,7 +5054,7 @@
       "retired": false
     },
     {
-      "rank": 507,
+      "rank": 506,
       "account": "Solusia#2063",
       "character": "CavBonk",
       "class": "Gemling Legionnaire",
@@ -5074,12 +5064,22 @@
       "retired": false
     },
     {
-      "rank": 508,
+      "rank": 507,
       "account": "MaxdamagePoE#7194",
       "character": "PhenPewPew",
       "class": "Witchhunter",
       "level": 98,
       "experience": 3638397465,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 508,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3638392505,
       "dead": false,
       "retired": false
     },
