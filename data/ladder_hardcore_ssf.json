@@ -1,6 +1,6 @@
 {
   "league": "Hardcore SSF",
-  "fetched_at": "2026-10-02T08:45:24.757524+00:00",
+  "fetched_at": "2026-10-02T15:12:27.765442+00:00",
   "count": 1000,
   "entries": [
     {
@@ -9985,22 +9985,22 @@
     },
     {
       "rank": 999,
+      "account": "Paha0891#0278",
+      "character": "HCSSFPahaSorc",
+      "class": "Chronomancer",
+      "level": 95,
+      "experience": 2895242324,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 1000,
       "account": "Neiita#0510",
       "character": "Neyyzzzzzz",
       "class": "Invoker",
       "level": 95,
       "experience": 2894096396,
       "dead": true,
-      "retired": false
-    },
-    {
-      "rank": 1000,
-      "account": "gogoteamyasu#6779",
-      "character": "YasuBM",
-      "class": "Blood Mage",
-      "level": 95,
-      "experience": 2893694726,
-      "dead": false,
       "retired": false
     }
   ]
