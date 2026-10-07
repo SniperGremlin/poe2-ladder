@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-10-07T17:11:29.305223+00:00",
+  "fetched_at": "2026-10-07T22:08:10.166783+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2695,6 +2695,16 @@
     },
     {
       "rank": 270,
+      "account": "Pioro1980#3652",
+      "character": "Pioro_shaolin",
+      "class": "Martial Artist",
+      "level": 98,
+      "experience": 3810866049,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 271,
       "account": "BrunoABM#1936",
       "character": "SSFtillRMTfix",
       "class": "Deadeye",
@@ -2704,7 +2714,7 @@
       "retired": true
     },
     {
-      "rank": 271,
+      "rank": 272,
       "account": "Messiahnara#1719",
       "character": "WWIINamesnotAllowed",
       "class": "Shaman",
@@ -2714,22 +2724,12 @@
       "retired": false
     },
     {
-      "rank": 272,
+      "rank": 273,
       "account": "Zeki#7115",
       "character": "Zeki_Stormweaver",
       "class": "Stormweaver",
       "level": 98,
       "experience": 3809305772,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 273,
-      "account": "Pioro1980#3652",
-      "character": "Pioro_shaolin",
-      "class": "Martial Artist",
-      "level": 98,
-      "experience": 3808650205,
       "dead": false,
       "retired": false
     },
@@ -3359,7 +3359,7 @@
       "character": "AspectOfAnabolism",
       "class": "Titan",
       "level": 98,
-      "experience": 3704515227,
+      "experience": 3705622435,
       "dead": false,
       "retired": false
     },
@@ -4725,21 +4725,21 @@
     },
     {
       "rank": 473,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3640580406,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 474,
       "account": "AeneasN#6677",
       "character": "SSFOverallWitch",
       "class": "Lich",
       "level": 98,
       "experience": 3640531415,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 474,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3640527153,
       "dead": false,
       "retired": false
     },
