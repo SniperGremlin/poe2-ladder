@@ -1,6 +1,6 @@
 {
   "league": "Hardcore SSF",
-  "fetched_at": "2026-10-28T15:38:15.802066+00:00",
+  "fetched_at": "2026-10-28T20:42:24.388716+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1535,22 +1535,22 @@
     },
     {
       "rank": 154,
+      "account": "Paha0891#0278",
+      "character": "HCSSFPaha",
+      "class": "Chronomancer",
+      "level": 98,
+      "experience": 3806209590,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 155,
       "account": "meavilon#9553",
       "character": "Leavilon",
       "class": "Blood Mage",
       "level": 98,
       "experience": 3806111281,
       "dead": true,
-      "retired": false
-    },
-    {
-      "rank": 155,
-      "account": "Paha0891#0278",
-      "character": "HCSSFPaha",
-      "class": "Disciple of Varashta",
-      "level": 98,
-      "experience": 3801683574,
-      "dead": false,
       "retired": false
     },
     {
@@ -5195,6 +5195,16 @@
     },
     {
       "rank": 520,
+      "account": "protectordetector#8069",
+      "character": "ProtctrDetctr",
+      "class": "Abyssal Lich",
+      "level": 96,
+      "experience": 3253795357,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 521,
       "account": "1y2e3s#5702",
       "character": "chaosplantsarebalanced",
       "class": "Pathfinder",
@@ -5204,7 +5214,7 @@
       "retired": false
     },
     {
-      "rank": 521,
+      "rank": 522,
       "account": "Bhodda#4889",
       "character": "CrackedUpAnts",
       "class": "Infernalist",
@@ -5214,7 +5224,7 @@
       "retired": false
     },
     {
-      "rank": 522,
+      "rank": 523,
       "account": "Brockadox#2589",
       "character": "ChaoticCorrespondence",
       "class": "Lich",
@@ -5224,22 +5234,12 @@
       "retired": true
     },
     {
-      "rank": 523,
+      "rank": 524,
       "account": "fooowah12#1852",
       "character": "wubwubmthrfckr",
       "class": "Blood Mage",
       "level": 96,
       "experience": 3250953105,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 524,
-      "account": "protectordetector#8069",
-      "character": "ProtctrDetctr",
-      "class": "Abyssal Lich",
-      "level": 96,
-      "experience": 3250896725,
       "dead": false,
       "retired": false
     },
