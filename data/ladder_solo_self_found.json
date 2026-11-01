@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-10-31T23:53:00.378103+00:00",
+  "fetched_at": "2026-11-01T03:11:17.025182+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3625,6 +3625,16 @@
     },
     {
       "rank": 363,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3686587962,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 364,
       "account": "Hexagon_Sun#4938",
       "character": "thisisunBEARableSSF",
       "class": "Witchhunter",
@@ -3634,7 +3644,7 @@
       "retired": false
     },
     {
-      "rank": 364,
+      "rank": 365,
       "account": "Mouflos#4057",
       "character": "TruePlinker",
       "class": "Oracle",
@@ -3644,7 +3654,7 @@
       "retired": false
     },
     {
-      "rank": 365,
+      "rank": 366,
       "account": "hokhpat#0482",
       "character": "Drowsyhawk",
       "class": "Deadeye",
@@ -3654,7 +3664,7 @@
       "retired": false
     },
     {
-      "rank": 366,
+      "rank": 367,
       "account": "nutszebra#1637",
       "character": "nutszebra_fov_go",
       "class": "Shaman",
@@ -3664,7 +3674,7 @@
       "retired": false
     },
     {
-      "rank": 367,
+      "rank": 368,
       "account": "O_andarilho#2629",
       "character": "LeeLambisame",
       "class": "Titan",
@@ -3674,7 +3684,7 @@
       "retired": false
     },
     {
-      "rank": 368,
+      "rank": 369,
       "account": "Entlol#0298",
       "character": "Bomberent",
       "class": "Witchhunter",
@@ -3684,7 +3694,7 @@
       "retired": false
     },
     {
-      "rank": 369,
+      "rank": 370,
       "account": "Astarsan#4925",
       "character": "ChaoticSpririt",
       "class": "Lich",
@@ -3694,7 +3704,7 @@
       "retired": false
     },
     {
-      "rank": 370,
+      "rank": 371,
       "account": "Friedo#9304",
       "character": "MoschtiBongo",
       "class": "Invoker",
@@ -3704,22 +3714,12 @@
       "retired": true
     },
     {
-      "rank": 371,
+      "rank": 372,
       "account": "thyttempest#0663",
       "character": "ArchitectRunner",
       "class": "Deadeye",
       "level": 98,
       "experience": 3683658320,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 372,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3682871736,
       "dead": false,
       "retired": false
     },
@@ -7935,16 +7935,6 @@
     },
     {
       "rank": 794,
-      "account": "KellyWertz#6123",
-      "character": "Life_Leeched",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3438341051,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 795,
       "account": "CaptressTina#7893",
       "character": "Dehlun_SSF",
       "class": "Pathfinder",
@@ -7954,7 +7944,7 @@
       "retired": false
     },
     {
-      "rank": 796,
+      "rank": 795,
       "account": "DxstG#7444",
       "character": "Dxstgem",
       "class": "Gemling Legionnaire",
@@ -7964,7 +7954,7 @@
       "retired": true
     },
     {
-      "rank": 797,
+      "rank": 796,
       "account": "\uac1c\ub3d9#8938",
       "character": "\uac13\uac9c\uc778\ub370\uc6b4\uc601\uc744\uac1c\ubabb\ud568",
       "class": "Oracle",
@@ -7974,7 +7964,7 @@
       "retired": false
     },
     {
-      "rank": 798,
+      "rank": 797,
       "account": "Penguneer#7646",
       "character": "PenguneerCynthia",
       "class": "Infernalist",
@@ -7982,6 +7972,16 @@
       "experience": 3436795312,
       "dead": false,
       "retired": true
+    },
+    {
+      "rank": 798,
+      "account": "KellyWertz#6123",
+      "character": "Life_Leeched",
+      "class": "Martial Artist",
+      "level": 97,
+      "experience": 3436701512,
+      "dead": false,
+      "retired": false
     },
     {
       "rank": 799,
