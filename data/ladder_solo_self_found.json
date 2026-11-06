@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-06T17:37:42.777552+00:00",
+  "fetched_at": "2026-11-06T22:32:11.463884+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2235,21 +2235,21 @@
     },
     {
       "rank": 224,
-      "account": "zyphxyz#2964",
-      "character": "ZyphxTwista",
-      "class": "Invoker",
+      "account": "MoreJun#4862",
+      "character": "Methylomis",
+      "class": "Ritualist",
       "level": 99,
-      "experience": 3933451868,
+      "experience": 3933541441,
       "dead": false,
       "retired": false
     },
     {
       "rank": 225,
-      "account": "MoreJun#4862",
-      "character": "Methylomis",
-      "class": "Ritualist",
+      "account": "zyphxyz#2964",
+      "character": "ZyphxTwista",
+      "class": "Invoker",
       "level": 99,
-      "experience": 3933303289,
+      "experience": 3933451868,
       "dead": false,
       "retired": false
     },
@@ -3115,6 +3115,16 @@
     },
     {
       "rank": 312,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3740443391,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 313,
       "account": "bhykep12345#7346",
       "character": "Octavia_bh",
       "class": "Lich",
@@ -3124,7 +3134,7 @@
       "retired": false
     },
     {
-      "rank": 313,
+      "rank": 314,
       "account": "Otissimo#4233",
       "character": "Jeari",
       "class": "Abyssal Lich",
@@ -3134,7 +3144,7 @@
       "retired": false
     },
     {
-      "rank": 314,
+      "rank": 315,
       "account": "YamazakiSenpai#0145",
       "character": "Crossbowbowbowbowvowbw",
       "class": "Deadeye",
@@ -3142,16 +3152,6 @@
       "experience": 3739073463,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 315,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3738204478,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 316,
@@ -3189,7 +3189,7 @@
       "character": "AspectOfAnabolism",
       "class": "Titan",
       "level": 98,
-      "experience": 3728088358,
+      "experience": 3728644268,
       "dead": false,
       "retired": false
     },
@@ -6285,16 +6285,6 @@
     },
     {
       "rank": 629,
-      "account": "KellyWertz#6123",
-      "character": "Life_Leeched",
-      "class": "Martial Artist",
-      "level": 97,
-      "experience": 3516222080,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 630,
       "account": "ossings#1767",
       "character": "ossi_dedayyy",
       "class": "Deadeye",
@@ -6304,7 +6294,7 @@
       "retired": false
     },
     {
-      "rank": 631,
+      "rank": 630,
       "account": "cmurray16#1756",
       "character": "StinkybearFate",
       "class": "Titan",
@@ -6314,7 +6304,7 @@
       "retired": false
     },
     {
-      "rank": 632,
+      "rank": 631,
       "account": "Abisnth#3036",
       "character": "ireSSFLichii",
       "class": "Lich",
@@ -6324,7 +6314,7 @@
       "retired": false
     },
     {
-      "rank": 633,
+      "rank": 632,
       "account": "DjStevieV#4239",
       "character": "Gemtleman",
       "class": "Gemling Legionnaire",
@@ -6334,7 +6324,7 @@
       "retired": false
     },
     {
-      "rank": 634,
+      "rank": 633,
       "account": "HaibaraDCTP#0023",
       "character": "PractiseNoStash",
       "class": "Lich",
@@ -6344,7 +6334,7 @@
       "retired": false
     },
     {
-      "rank": 635,
+      "rank": 634,
       "account": "Fleinsopp#0668",
       "character": "Awyfutnuyn",
       "class": "Smith of Kitava",
@@ -6354,7 +6344,7 @@
       "retired": false
     },
     {
-      "rank": 636,
+      "rank": 635,
       "account": "smsam123#1741",
       "character": "hioszroefqpkprbjkopfbds",
       "class": "Amazon",
@@ -6364,7 +6354,7 @@
       "retired": false
     },
     {
-      "rank": 637,
+      "rank": 636,
       "account": "Elohim#4844",
       "character": "Elohandro_HCSSF",
       "class": "Invoker",
@@ -6374,7 +6364,7 @@
       "retired": true
     },
     {
-      "rank": 638,
+      "rank": 637,
       "account": "Jingren#7459",
       "character": "SilverFist_Jin",
       "class": "Titan",
@@ -6384,7 +6374,7 @@
       "retired": false
     },
     {
-      "rank": 639,
+      "rank": 638,
       "account": "UtsusemiNi#3795",
       "character": "Utsa",
       "class": "Lich",
@@ -6394,7 +6384,7 @@
       "retired": false
     },
     {
-      "rank": 640,
+      "rank": 639,
       "account": "zorndike#6671",
       "character": "VaalWitchFace",
       "class": "Blood Mage",
@@ -6404,12 +6394,22 @@
       "retired": false
     },
     {
-      "rank": 641,
+      "rank": 640,
       "account": "D3_Vegvisir#7863",
       "character": "\u51f8_\u4e00\u76bf\u4e00_\u51f8",
       "class": "Amazon",
       "level": 97,
       "experience": 3510858173,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 641,
+      "account": "Avernerand#1756",
+      "character": "Avryos",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3510605115,
       "dead": false,
       "retired": false
     },
@@ -6495,16 +6495,6 @@
     },
     {
       "rank": 650,
-      "account": "Avernerand#1756",
-      "character": "Avryos",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3505761236,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 651,
       "account": "gbreaker36#0277",
       "character": "JustinPepper",
       "class": "Gemling Legionnaire",
@@ -6514,7 +6504,7 @@
       "retired": false
     },
     {
-      "rank": 652,
+      "rank": 651,
       "account": "ychizzz#5659",
       "character": "CN_yinian_SSF",
       "class": "Gemling Legionnaire",
@@ -6524,7 +6514,7 @@
       "retired": true
     },
     {
-      "rank": 653,
+      "rank": 652,
       "account": "jenna0107#5449",
       "character": "jemossec",
       "class": "Amazon",
@@ -6534,7 +6524,7 @@
       "retired": false
     },
     {
-      "rank": 654,
+      "rank": 653,
       "account": "jakeimus92#3724",
       "character": "beffybuffboii",
       "class": "Warbringer",
@@ -6544,7 +6534,7 @@
       "retired": false
     },
     {
-      "rank": 655,
+      "rank": 654,
       "account": "Belzebuber#3637",
       "character": "_Baron_VonRuhaufest",
       "class": "Lich",
@@ -6554,7 +6544,7 @@
       "retired": false
     },
     {
-      "rank": 656,
+      "rank": 655,
       "account": "JUKEHO#4359",
       "character": "VaallKnowledge",
       "class": "Witchhunter",
@@ -6564,7 +6554,7 @@
       "retired": true
     },
     {
-      "rank": 657,
+      "rank": 656,
       "account": "Damerae#2626",
       "character": "WoodyYeeehaw",
       "class": "Deadeye",
@@ -6574,7 +6564,7 @@
       "retired": true
     },
     {
-      "rank": 658,
+      "rank": 657,
       "account": "AllahEatsKids#4406",
       "character": "DruIsNotFurry",
       "class": "Oracle",
@@ -6584,22 +6574,32 @@
       "retired": false
     },
     {
-      "rank": 659,
-      "account": "Tinji#4010",
-      "character": "Shfeek_Baba",
-      "class": "Witchhunter",
+      "rank": 658,
+      "account": "KellyWertz#6123",
+      "character": "Life_Leeched",
+      "class": "Martial Artist",
       "level": 97,
-      "experience": 3499070517,
+      "experience": 3500524603,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 659,
+      "account": "bugor70poe2#2829",
+      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
+      "class": "Pathfinder",
+      "level": 97,
+      "experience": 3500077962,
       "dead": false,
       "retired": false
     },
     {
       "rank": 660,
-      "account": "bugor70poe2#2829",
-      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
-      "class": "Pathfinder",
+      "account": "Tinji#4010",
+      "character": "Shfeek_Baba",
+      "class": "Witchhunter",
       "level": 97,
-      "experience": 3498510308,
+      "experience": 3499070517,
       "dead": false,
       "retired": false
     },
@@ -8549,7 +8549,7 @@
       "character": "Julask",
       "class": "Titan",
       "level": 97,
-      "experience": 3413800800,
+      "experience": 3414651801,
       "dead": false,
       "retired": false
     },
