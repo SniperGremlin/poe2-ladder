@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-06T22:32:11.463884+00:00",
+  "fetched_at": "2026-11-07T02:28:34.522475+00:00",
   "count": 1000,
   "entries": [
     {
@@ -3055,6 +3055,16 @@
     },
     {
       "rank": 306,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3748316988,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 307,
       "account": "Gfnex#2448",
       "character": "RemoveMeditate",
       "class": "Invoker",
@@ -3064,7 +3074,7 @@
       "retired": false
     },
     {
-      "rank": 307,
+      "rank": 308,
       "account": "jphenegan#5416",
       "character": "PloppelPots",
       "class": "Smith of Kitava",
@@ -3074,7 +3084,7 @@
       "retired": true
     },
     {
-      "rank": 308,
+      "rank": 309,
       "account": "Zaffadaris#6509",
       "character": "Pierzilla",
       "class": "Deadeye",
@@ -3084,7 +3094,7 @@
       "retired": false
     },
     {
-      "rank": 309,
+      "rank": 310,
       "account": "ramgthunder#8201",
       "character": "\ud0c0\ud638\uc544\uc9c4\uc9dc\uc8fc\uba39\uc73c\ub85c\ubcf4\uc0b4\ud3b4\uc8fc\uace0\uc2f6\ub124_\uba54\uac00\ub098\uc775\uc218",
       "class": "Lich",
@@ -3094,7 +3104,7 @@
       "retired": false
     },
     {
-      "rank": 310,
+      "rank": 311,
       "account": "Ulial#2573",
       "character": "Drud_UIial",
       "class": "Oracle",
@@ -3104,22 +3114,12 @@
       "retired": false
     },
     {
-      "rank": 311,
+      "rank": 312,
       "account": "Skulltula114#5611",
       "character": "Skulltula",
       "class": "Abyssal Lich",
       "level": 98,
       "experience": 3741585192,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 312,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3740443391,
       "dead": false,
       "retired": false
     },
@@ -9395,21 +9395,21 @@
     },
     {
       "rank": 940,
-      "account": "etch666#6381",
-      "character": "Skyceid",
-      "class": "Invoker",
+      "account": "Fab_Fate#5883",
+      "character": "FabseFateTitanBear",
+      "class": "Titan",
       "level": 97,
-      "experience": 3390330083,
+      "experience": 3390538390,
       "dead": false,
       "retired": false
     },
     {
       "rank": 941,
-      "account": "Fab_Fate#5883",
-      "character": "FabseFateTitanBear",
-      "class": "Titan",
+      "account": "etch666#6381",
+      "character": "Skyceid",
+      "class": "Invoker",
       "level": 97,
-      "experience": 3390233580,
+      "experience": 3390330083,
       "dead": false,
       "retired": false
     },
