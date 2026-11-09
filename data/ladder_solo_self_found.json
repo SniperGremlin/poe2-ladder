@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-09T06:58:00.988879+00:00",
+  "fetched_at": "2026-11-09T17:05:31.229973+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2805,21 +2805,21 @@
     },
     {
       "rank": 281,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3791346527,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 282,
       "account": "Nif#8933",
       "character": "\u30f4\u30a1\u30a4\u30d1\u30fc\u30ca\u30d7\u30a2\u30c4\u30a3\u672c\u7269",
       "class": "Deadeye",
       "level": 98,
       "experience": 3789039231,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 282,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3788311471,
       "dead": false,
       "retired": false
     },
@@ -3149,7 +3149,7 @@
       "character": "AspectOfAnabolism",
       "class": "Titan",
       "level": 98,
-      "experience": 3735877700,
+      "experience": 3737317018,
       "dead": false,
       "retired": false
     },
@@ -3689,7 +3689,7 @@
       "character": "ChaoticSpririt",
       "class": "Lich",
       "level": 98,
-      "experience": 3684069317,
+      "experience": 3684256559,
       "dead": false,
       "retired": false
     },
@@ -6545,6 +6545,16 @@
     },
     {
       "rank": 655,
+      "account": "Avernerand#1756",
+      "character": "Avryos",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3500443621,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 656,
       "account": "bugor70poe2#2829",
       "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
       "class": "Pathfinder",
@@ -6554,7 +6564,7 @@
       "retired": false
     },
     {
-      "rank": 656,
+      "rank": 657,
       "account": "fly_mal#7051",
       "character": "Yyyay",
       "class": "Lich",
@@ -6564,7 +6574,7 @@
       "retired": false
     },
     {
-      "rank": 657,
+      "rank": 658,
       "account": "Tinji#4010",
       "character": "Shfeek_Baba",
       "class": "Witchhunter",
@@ -6574,22 +6584,12 @@
       "retired": false
     },
     {
-      "rank": 658,
+      "rank": 659,
       "account": "Dairy#5336",
       "character": "FatBoer",
       "class": "Titan",
       "level": 97,
       "experience": 3498392393,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 659,
-      "account": "Avernerand#1756",
-      "character": "Avryos",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3495753050,
       "dead": false,
       "retired": false
     },
@@ -7835,16 +7835,6 @@
     },
     {
       "rank": 784,
-      "account": "steampoe#4566",
-      "character": "Julask",
-      "class": "Titan",
-      "level": 97,
-      "experience": 3442779452,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 785,
       "account": "refiew998#1581",
       "character": "TSTrash",
       "class": "Infernalist",
@@ -7854,7 +7844,7 @@
       "retired": false
     },
     {
-      "rank": 786,
+      "rank": 785,
       "account": "Arccueid#1259",
       "character": "FotVArccueid",
       "class": "Stormweaver",
@@ -7864,7 +7854,7 @@
       "retired": true
     },
     {
-      "rank": 787,
+      "rank": 786,
       "account": "Tapatio69#5444",
       "character": "Tapatio_SSFII",
       "class": "Stormweaver",
@@ -7874,7 +7864,7 @@
       "retired": false
     },
     {
-      "rank": 788,
+      "rank": 787,
       "account": "Alpakaka#4421",
       "character": "Arcquianna",
       "class": "Stormweaver",
@@ -7884,12 +7874,22 @@
       "retired": false
     },
     {
-      "rank": 789,
+      "rank": 788,
       "account": "btres#5569",
       "character": "\u7368\u72fc\u4e4b\u5922\u56de\u6697\u9ed1\u53c1",
       "class": "Invoker",
       "level": 97,
       "experience": 3440428152,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 789,
+      "account": "steampoe#4566",
+      "character": "Julask",
+      "class": "Titan",
+      "level": 97,
+      "experience": 3439517124,
       "dead": false,
       "retired": false
     },
@@ -9975,6 +9975,16 @@
     },
     {
       "rank": 998,
+      "account": "Harlock1969#4134",
+      "character": "Ramanah",
+      "class": "Infernalist",
+      "level": 97,
+      "experience": 3382531936,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 999,
       "account": "crawr#4335",
       "character": "jusdepomme",
       "class": "Stormweaver",
@@ -9984,22 +9994,12 @@
       "retired": false
     },
     {
-      "rank": 999,
+      "rank": 1000,
       "account": "fccarminati#2800",
       "character": "jardineiroSSFz",
       "class": "Disciple of Varashta",
       "level": 97,
       "experience": 3382304088,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 1000,
-      "account": "Nimatra#2720",
-      "character": "NimaSSFLich",
-      "class": "Lich",
-      "level": 97,
-      "experience": 3382282001,
       "dead": false,
       "retired": false
     }
