@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-13T01:17:56.807675+00:00",
+  "fetched_at": "2026-11-13T08:19:00.429427+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2185,6 +2185,16 @@
     },
     {
       "rank": 219,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3933997004,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 220,
       "account": "Iruga#9164",
       "character": "Iruga_SSF_FOTV",
       "class": "Titan",
@@ -2194,7 +2204,7 @@
       "retired": false
     },
     {
-      "rank": 220,
+      "rank": 221,
       "account": "AmaLame#7538",
       "character": "BaguetteNcheese",
       "class": "Pathfinder",
@@ -2204,7 +2214,7 @@
       "retired": false
     },
     {
-      "rank": 221,
+      "rank": 222,
       "account": "Karlo#7944",
       "character": "Palbrudzia",
       "class": "Blood Mage",
@@ -2214,22 +2224,12 @@
       "retired": false
     },
     {
-      "rank": 222,
+      "rank": 223,
       "account": "ComplexDependencies#6244",
       "character": "ArthurDavid",
       "class": "Titan",
       "level": 99,
       "experience": 3933608317,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 223,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3933596258,
       "dead": false,
       "retired": false
     },
@@ -2635,21 +2635,21 @@
     },
     {
       "rank": 264,
-      "account": "Kraeuterlimo#1797",
-      "character": "KraeuterVaalRanger",
-      "class": "Pathfinder",
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
       "level": 98,
-      "experience": 3833669527,
+      "experience": 3838281420,
       "dead": false,
       "retired": false
     },
     {
       "rank": 265,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
+      "account": "Kraeuterlimo#1797",
+      "character": "KraeuterVaalRanger",
+      "class": "Pathfinder",
       "level": 98,
-      "experience": 3829267106,
+      "experience": 3833669527,
       "dead": false,
       "retired": false
     },
