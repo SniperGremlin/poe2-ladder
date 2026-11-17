@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-17T00:35:53.415520+00:00",
+  "fetched_at": "2026-11-17T08:41:40.982055+00:00",
   "count": 1000,
   "entries": [
     {
@@ -5885,16 +5885,6 @@
     },
     {
       "rank": 589,
-      "account": "steampoe#4566",
-      "character": "Julask",
-      "class": "Titan",
-      "level": 97,
-      "experience": 3548845308,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 590,
       "account": "dopasen#1695",
       "character": "Dopasen_HCSSF",
       "class": "Pathfinder",
@@ -5904,7 +5894,7 @@
       "retired": true
     },
     {
-      "rank": 591,
+      "rank": 590,
       "account": "tomitron#5971",
       "character": "tmtrns",
       "class": "Invoker",
@@ -5914,7 +5904,7 @@
       "retired": true
     },
     {
-      "rank": 592,
+      "rank": 591,
       "account": "ehlumi#4635",
       "character": "ehlumiplant",
       "class": "Disciple of Varashta",
@@ -5924,7 +5914,7 @@
       "retired": false
     },
     {
-      "rank": 593,
+      "rank": 592,
       "account": "woodman_guitar#4236",
       "character": "Daryl_Lester",
       "class": "Warbringer",
@@ -5934,7 +5924,7 @@
       "retired": false
     },
     {
-      "rank": 594,
+      "rank": 593,
       "account": "ToiletTurtle#5302",
       "character": "ttTrampoline",
       "class": "Stormweaver",
@@ -5944,7 +5934,7 @@
       "retired": false
     },
     {
-      "rank": 595,
+      "rank": 594,
       "account": "Otissimo#4233",
       "character": "Celadius",
       "class": "Gemling Legionnaire",
@@ -5954,7 +5944,7 @@
       "retired": false
     },
     {
-      "rank": 596,
+      "rank": 595,
       "account": "azuz22#0654",
       "character": "REEEROOOLLSHIDGAME",
       "class": "Abyssal Lich",
@@ -5964,7 +5954,7 @@
       "retired": false
     },
     {
-      "rank": 597,
+      "rank": 596,
       "account": "thanatchakromsang#5769",
       "character": "ssftk_stackerMAYBE",
       "class": "Gemling Legionnaire",
@@ -5974,7 +5964,7 @@
       "retired": false
     },
     {
-      "rank": 598,
+      "rank": 597,
       "account": "Rumineely#4685",
       "character": "Rumi_pausefasternerd",
       "class": "Blood Mage",
@@ -5984,12 +5974,22 @@
       "retired": true
     },
     {
-      "rank": 599,
+      "rank": 598,
       "account": "Kokobeast#9866",
       "character": "Kokohoe",
       "class": "Titan",
       "level": 97,
       "experience": 3536185192,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 599,
+      "account": "steampoe#4566",
+      "character": "Julask",
+      "class": "Titan",
+      "level": 97,
+      "experience": 3535944452,
       "dead": false,
       "retired": false
     },
@@ -9449,7 +9449,7 @@
       "character": "Ramanah",
       "class": "Infernalist",
       "level": 97,
-      "experience": 3389154796,
+      "experience": 3389316138,
       "dead": false,
       "retired": false
     },
