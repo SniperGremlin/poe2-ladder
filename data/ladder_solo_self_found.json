@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-19T21:56:48.881861+00:00",
+  "fetched_at": "2026-11-20T02:47:05.549179+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1915,6 +1915,16 @@
     },
     {
       "rank": 192,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 99,
+      "experience": 3945058151,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 193,
       "account": "Arirmind#4333",
       "character": "SSF_Alpha",
       "class": "Martial Artist",
@@ -1924,7 +1934,7 @@
       "retired": false
     },
     {
-      "rank": 193,
+      "rank": 194,
       "account": "Evil Guardianz#8402",
       "character": "SsfPoisonDegenerate",
       "class": "Pathfinder",
@@ -1934,7 +1944,7 @@
       "retired": false
     },
     {
-      "rank": 194,
+      "rank": 195,
       "account": "lifeo#3650",
       "character": "frostywolf",
       "class": "Shaman",
@@ -1944,7 +1954,7 @@
       "retired": false
     },
     {
-      "rank": 195,
+      "rank": 196,
       "account": "Alopex81#5818",
       "character": "AlopexIncinerate",
       "class": "Pathfinder",
@@ -1954,7 +1964,7 @@
       "retired": false
     },
     {
-      "rank": 196,
+      "rank": 197,
       "account": "jonildo#8803",
       "character": "jonilldo",
       "class": "Oracle",
@@ -1964,7 +1974,7 @@
       "retired": false
     },
     {
-      "rank": 197,
+      "rank": 198,
       "account": "Pomi83#6082",
       "character": "Pomiter",
       "class": "Witchhunter",
@@ -1974,22 +1984,12 @@
       "retired": false
     },
     {
-      "rank": 198,
+      "rank": 199,
       "account": "pkrffxiv999#5746",
       "character": "SayoShigure",
       "class": "Stormweaver",
       "level": 99,
       "experience": 3943173324,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 199,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 99,
-      "experience": 3942906542,
       "dead": false,
       "retired": false
     },
@@ -3045,6 +3045,16 @@
     },
     {
       "rank": 305,
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3750740236,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 306,
       "account": "stRdmoks#5030",
       "character": "AllerGssf",
       "class": "Titan",
@@ -3052,16 +3062,6 @@
       "experience": 3750233334,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 306,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3749855405,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 307,
@@ -3739,7 +3739,7 @@
       "character": "ChaoticSpririt",
       "class": "Lich",
       "level": 98,
-      "experience": 3679667887,
+      "experience": 3681182927,
       "dead": false,
       "retired": false
     },
