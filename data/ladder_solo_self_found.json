@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-20T10:44:21.164185+00:00",
+  "fetched_at": "2026-11-20T18:55:38.913007+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1895,6 +1895,16 @@
     },
     {
       "rank": 190,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 99,
+      "experience": 3946196119,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 191,
       "account": "FroGGer#4772",
       "character": "SoeurDeLion",
       "class": "Ritualist",
@@ -1904,22 +1914,12 @@
       "retired": false
     },
     {
-      "rank": 191,
+      "rank": 192,
       "account": "Pioro1980#3652",
       "character": "Pioro_shaolin",
       "class": "Martial Artist",
       "level": 99,
       "experience": 3945616904,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 192,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 99,
-      "experience": 3945058151,
       "dead": false,
       "retired": false
     },
@@ -3049,7 +3049,7 @@
       "character": "AspectOfAnabolism",
       "class": "Titan",
       "level": 98,
-      "experience": 3750740236,
+      "experience": 3751425153,
       "dead": false,
       "retired": false
     },
@@ -5485,6 +5485,16 @@
     },
     {
       "rank": 549,
+      "account": "bugor70poe2#2829",
+      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
+      "class": "Pathfinder",
+      "level": 97,
+      "experience": 3601172175,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 550,
       "account": "Murometc#4655",
       "character": "MF_RichWitch",
       "class": "Infernalist",
@@ -5494,7 +5504,7 @@
       "retired": false
     },
     {
-      "rank": 550,
+      "rank": 551,
       "account": "Erlyderly#0730",
       "character": "BrainDimple",
       "class": "Deadeye",
@@ -5504,7 +5514,7 @@
       "retired": false
     },
     {
-      "rank": 551,
+      "rank": 552,
       "account": "Spacedu5t#3512",
       "character": "Thalexis",
       "class": "Amazon",
@@ -5514,7 +5524,7 @@
       "retired": false
     },
     {
-      "rank": 552,
+      "rank": 553,
       "account": "ramgthunder#8201",
       "character": "SuperSexyFood_Nice",
       "class": "Abyssal Lich",
@@ -5524,7 +5534,7 @@
       "retired": false
     },
     {
-      "rank": 553,
+      "rank": 554,
       "account": "Mushi_Oyasumi#9130",
       "character": "Mushi_Vaal_Fate",
       "class": "Amazon",
@@ -5534,7 +5544,7 @@
       "retired": false
     },
     {
-      "rank": 554,
+      "rank": 555,
       "account": "Sensor#2214",
       "character": "\u0411\u0410\u041d\u041a\u0410_\u041c\u0410\u041d\u041a\u0418",
       "class": "Stormweaver",
@@ -5544,7 +5554,7 @@
       "retired": true
     },
     {
-      "rank": 555,
+      "rank": 556,
       "account": "creeekz#0085",
       "character": "Hypolicious",
       "class": "Blood Mage",
@@ -5554,7 +5564,7 @@
       "retired": false
     },
     {
-      "rank": 556,
+      "rank": 557,
       "account": "Mavers#4681",
       "character": "Mavorz",
       "class": "Gemling Legionnaire",
@@ -5564,7 +5574,7 @@
       "retired": false
     },
     {
-      "rank": 557,
+      "rank": 558,
       "account": "Hobbi1337#4960",
       "character": "HobbiJavaDeadeye",
       "class": "Deadeye",
@@ -5574,7 +5584,17 @@
       "retired": false
     },
     {
-      "rank": 558,
+      "rank": 559,
+      "account": "steampoe#4566",
+      "character": "Julask",
+      "class": "Titan",
+      "level": 97,
+      "experience": 3585259599,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 560,
       "account": "isfoo#6523",
       "character": "isChrono",
       "class": "Chronomancer",
@@ -5584,7 +5604,7 @@
       "retired": true
     },
     {
-      "rank": 559,
+      "rank": 561,
       "account": "SabinC3112#9059",
       "character": "BlobuliniPotatini",
       "class": "Titan",
@@ -5594,7 +5614,7 @@
       "retired": false
     },
     {
-      "rank": 560,
+      "rank": 562,
       "account": "Googuix#5284",
       "character": "Nowayz_SSF",
       "class": "Ritualist",
@@ -5604,7 +5624,7 @@
       "retired": false
     },
     {
-      "rank": 561,
+      "rank": 563,
       "account": "krokam132#2410",
       "character": "KrokamSSF",
       "class": "Deadeye",
@@ -5612,26 +5632,6 @@
       "experience": 3580014018,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 562,
-      "account": "steampoe#4566",
-      "character": "Julask",
-      "class": "Titan",
-      "level": 97,
-      "experience": 3579891833,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 563,
-      "account": "bugor70poe2#2829",
-      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
-      "class": "Pathfinder",
-      "level": 97,
-      "experience": 3578741008,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 564,
