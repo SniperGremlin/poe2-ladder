@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-25T20:50:46.800858+00:00",
+  "fetched_at": "2026-11-26T03:18:38.848484+00:00",
   "count": 1000,
   "entries": [
     {
@@ -2095,6 +2095,16 @@
     },
     {
       "rank": 210,
+      "account": "vmrob#4382",
+      "character": "Gagootza",
+      "class": "Invoker",
+      "level": 99,
+      "experience": 3936615304,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 211,
       "account": "\uc5c4\uccad\uc2f8\uc774\ucf54#1450",
       "character": "\ud574\uc900\uc774\ud638\uae30",
       "class": "Oracle",
@@ -2104,7 +2114,7 @@
       "retired": false
     },
     {
-      "rank": 211,
+      "rank": 212,
       "account": "Spacekid91#2790",
       "character": "OilMeUpCometEnjoyer",
       "class": "Oracle",
@@ -2114,7 +2124,7 @@
       "retired": false
     },
     {
-      "rank": 212,
+      "rank": 213,
       "account": "cutonhuphich#0754",
       "character": "Gr__by",
       "class": "Pathfinder",
@@ -2124,22 +2134,12 @@
       "retired": true
     },
     {
-      "rank": 213,
+      "rank": 214,
       "account": "Hobbi1337#4960",
       "character": "HobbiArchmage",
       "class": "Stormweaver",
       "level": 99,
       "experience": 3936223185,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 214,
-      "account": "vmrob#4382",
-      "character": "Gagootza",
-      "class": "Invoker",
-      "level": 99,
-      "experience": 3936003286,
       "dead": false,
       "retired": false
     },
@@ -3275,6 +3275,16 @@
     },
     {
       "rank": 328,
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3716564392,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 329,
       "account": "Doroco#4021",
       "character": "Shion_Sumeragi",
       "class": "Blood Mage",
@@ -3284,22 +3294,12 @@
       "retired": false
     },
     {
-      "rank": 329,
+      "rank": 330,
       "account": "Partyraiser1988#0842",
       "character": "SionaFateofTheVaal",
       "class": "Pathfinder",
       "level": 98,
       "experience": 3713687708,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 330,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3713400898,
       "dead": false,
       "retired": false
     },
@@ -4405,6 +4405,16 @@
     },
     {
       "rank": 441,
+      "account": "petecreio#2445",
+      "character": "PeteSorceress",
+      "class": "Stormweaver",
+      "level": 98,
+      "experience": 3647343770,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 442,
       "account": "Smashr#7421",
       "character": "SmashrSprintfails",
       "class": "Deadeye",
@@ -4414,7 +4424,7 @@
       "retired": false
     },
     {
-      "rank": 442,
+      "rank": 443,
       "account": "XarkinDeeps#5763",
       "character": "XainikDips",
       "class": "Titan",
@@ -4424,7 +4434,7 @@
       "retired": false
     },
     {
-      "rank": 443,
+      "rank": 444,
       "account": "LukaszKesicki#0515",
       "character": "KesikTheMariner",
       "class": "Witchhunter",
@@ -4434,22 +4444,12 @@
       "retired": false
     },
     {
-      "rank": 444,
+      "rank": 445,
       "account": "MultiMia#2426",
       "character": "BloodmageMia",
       "class": "Blood Mage",
       "level": 98,
       "experience": 3647098408,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 445,
-      "account": "petecreio#2445",
-      "character": "PeteSorceress",
-      "class": "Stormweaver",
-      "level": 98,
-      "experience": 3646374611,
       "dead": false,
       "retired": false
     },
@@ -5625,6 +5625,16 @@
     },
     {
       "rank": 563,
+      "account": "Avernerand#1756",
+      "character": "Avryos",
+      "class": "Stormweaver",
+      "level": 97,
+      "experience": 3581282108,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 564,
       "account": "krokam132#2410",
       "character": "KrokamSSF",
       "class": "Deadeye",
@@ -5632,16 +5642,6 @@
       "experience": 3580014018,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 564,
-      "account": "Avernerand#1756",
-      "character": "Avryos",
-      "class": "Stormweaver",
-      "level": 97,
-      "experience": 3579913514,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 565,
