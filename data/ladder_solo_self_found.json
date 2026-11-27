@@ -1,6 +1,6 @@
 {
   "league": "Solo Self-Found",
-  "fetched_at": "2026-11-26T22:04:40.849404+00:00",
+  "fetched_at": "2026-11-27T04:22:38.526037+00:00",
   "count": 1000,
   "entries": [
     {
@@ -1775,16 +1775,6 @@
     },
     {
       "rank": 178,
-      "account": "DrgHyphn#2974",
-      "character": "HyphnD",
-      "class": "Stormweaver",
-      "level": 99,
-      "experience": 3960461861,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 179,
       "account": "dankosauce#9397",
       "character": "GreenySenior",
       "class": "Pathfinder",
@@ -1794,12 +1784,22 @@
       "retired": false
     },
     {
-      "rank": 180,
+      "rank": 179,
       "account": "omniunit#2715",
       "character": "OmniUnitGemling",
       "class": "Gemling Legionnaire",
       "level": 99,
       "experience": 3954252025,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 180,
+      "account": "DrgHyphn#2974",
+      "character": "HyphnD",
+      "class": "Stormweaver",
+      "level": 99,
+      "experience": 3953857396,
       "dead": false,
       "retired": false
     },
@@ -2199,7 +2199,7 @@
       "character": "Gagootza",
       "class": "Invoker",
       "level": 99,
-      "experience": 3934080668,
+      "experience": 3934135657,
       "dead": false,
       "retired": false
     },
@@ -3545,6 +3545,16 @@
     },
     {
       "rank": 355,
+      "account": "Graveless#5783",
+      "character": "AspectOfAnabolism",
+      "class": "Titan",
+      "level": 98,
+      "experience": 3690273826,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 356,
       "account": "Kennymasters#0519",
       "character": "Kenny_NotTradeAndy",
       "class": "Deadeye",
@@ -3554,7 +3564,7 @@
       "retired": false
     },
     {
-      "rank": 356,
+      "rank": 357,
       "account": "kwhat420#7416",
       "character": "kwhat_vaal",
       "class": "Pathfinder",
@@ -3562,16 +3572,6 @@
       "experience": 3690093110,
       "dead": false,
       "retired": true
-    },
-    {
-      "rank": 357,
-      "account": "Graveless#5783",
-      "character": "AspectOfAnabolism",
-      "class": "Titan",
-      "level": 98,
-      "experience": 3689143643,
-      "dead": false,
-      "retired": false
     },
     {
       "rank": 358,
@@ -3815,16 +3815,6 @@
     },
     {
       "rank": 382,
-      "account": "bugor70poe2#2829",
-      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
-      "class": "Pathfinder",
-      "level": 98,
-      "experience": 3674283678,
-      "dead": false,
-      "retired": false
-    },
-    {
-      "rank": 383,
       "account": "Aphox#4478",
       "character": "AphoxImmerDieSelbeBuild",
       "class": "Deadeye",
@@ -3834,7 +3824,7 @@
       "retired": false
     },
     {
-      "rank": 384,
+      "rank": 383,
       "account": "BlakeyB#0675",
       "character": "BBSSF",
       "class": "Deadeye",
@@ -3844,7 +3834,7 @@
       "retired": false
     },
     {
-      "rank": 385,
+      "rank": 384,
       "account": "dani1234666#6371",
       "character": "LittleRedgender",
       "class": "Deadeye",
@@ -3854,7 +3844,7 @@
       "retired": false
     },
     {
-      "rank": 386,
+      "rank": 385,
       "account": "BrettLee#6388",
       "character": "HighreRoller",
       "class": "Deadeye",
@@ -3864,7 +3854,7 @@
       "retired": false
     },
     {
-      "rank": 387,
+      "rank": 386,
       "account": "AlCapacino#1399",
       "character": "MotnkaS",
       "class": "Invoker",
@@ -3874,7 +3864,7 @@
       "retired": false
     },
     {
-      "rank": 388,
+      "rank": 387,
       "account": "\ube59\ub85c\ub85c#7618",
       "character": "\ud63c\uc790\uc11c\ub3c4\ubaa8\uce74\ud574\ud53c",
       "class": "Blood Mage",
@@ -3884,7 +3874,7 @@
       "retired": false
     },
     {
-      "rank": 389,
+      "rank": 388,
       "account": "okamoto89#3530",
       "character": "SSFFFUN",
       "class": "Pathfinder",
@@ -3894,12 +3884,22 @@
       "retired": false
     },
     {
-      "rank": 390,
+      "rank": 389,
       "account": "SYA09#6673",
       "character": "SYA_WARRIORBUFFEDxD",
       "class": "Titan",
       "level": 98,
       "experience": 3669032332,
+      "dead": false,
+      "retired": false
+    },
+    {
+      "rank": 390,
+      "account": "bugor70poe2#2829",
+      "character": "\u041c\u0438\u043b\u043b\u0438\u043e\u043d\u0435\u0440\u0448\u0430",
+      "class": "Pathfinder",
+      "level": 98,
+      "experience": 3667064841,
       "dead": false,
       "retired": false
     },
